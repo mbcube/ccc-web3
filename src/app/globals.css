@@ -31,3 +31,49 @@ body {
     text-wrap: balance;
   }
 }
+
+
+/* 
+.tweet-class :global(.react-tweet-theme) {
+  --tweet-body-font-size: 1rem;
+  padding:100rem
+} */
+
+.tweet-class .react-tweet-theme {
+    --tweet-bg-color: black;
+    --tweet-bg-color-hover: #0d0d0d;
+    
+  }
+
+  @keyframes drawGrid {
+    from {
+      stroke-dasharray: 0, 200;
+      stroke-dashoffset: 0;
+    }
+    to {
+      stroke-dasharray: 200, 0;
+      stroke-dashoffset: 100;
+    }
+  }
+  
+  .animated-grid {
+    animation: drawLine .8s linear 1;
+  }
+  
+  @keyframes drawLine {
+    from {
+      visibility: visible;
+      stroke-dasharray: 0, 100%;
+      stroke-dashoffset: 0;
+    }
+    to {
+      visibility: visible;
+      stroke-dasharray: 100%, 0;
+      stroke-dashoffset: 0;
+    }
+  }
+  
+  .animated-line {
+    visibility: hidden;
+    animation: drawLine 6s linear forwards;
+  }

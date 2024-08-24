@@ -20,7 +20,7 @@ export default function AnimatedLogo() {
         <div className="w-full h-2/3 flex items-center justify-center">
           <div className="relative w-[14rem] h-[7rem] sm:w-[16rem] sm:h-[8rem] md:w-[20rem] md:h-[10rem] lg:w-[26rem] lg:h-[13rem] xl:w-[30rem] xl:h-[15rem]">
             <svg
-              className="absolute h-full w-full m-[.1rem] stroke-tulip-300/90"
+              className="absolute h-full w-full lg:ml-[0.3rem] lg:mt-[0.2rem] m-[.1rem] stroke-tulip-300/90"
               viewBox="0 0 1382 713"
               width="1382"
               height="713"

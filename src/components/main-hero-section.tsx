@@ -1,5 +1,6 @@
 "use client";
 
+import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
 export default function MainHeroSection({ header, side, logo, children }: any) {
@@ -107,9 +108,12 @@ export default function MainHeroSection({ header, side, logo, children }: any) {
         />
       </svg>
 
-      <div
+      <motion.div
+        initial={{ scale: 0.8, y: 150, x: 0 }}
+        animate={{ scale: 1.1, y: 0, x: 50 }}
+        transition={{ duration: 8, repeat: Infinity, repeatType: "reverse" }}
         aria-hidden="true"
-        className="absolute left-[calc(50%-4rem)] top-10 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-18rem)] lg:left-48 lg:top-[calc(50%-30rem)] xl:left-[calc(50%-24rem)]"
+        className="absolute left-[calc(50%-24rem)] top-0 lg:top-20 -z-10 transform-gpu blur-3xl sm:left-[calc(50%-30rem)] lg:left-[calc(50%-40rem)]"
       >
         <div
           style={{
@@ -118,7 +122,7 @@ export default function MainHeroSection({ header, side, logo, children }: any) {
           }}
           className="aspect-[1108/632] w-[69.25rem] bg-gradient-to-r from-tulip-100 to-tulip-600 opacity-20"
         />
-      </div>
+      </motion.div>
       <div>
         <div className="min-h-screen flex items-center justify-center">
           {logo}

@@ -124,9 +124,7 @@ export default function MainHeroSection({ header, side, logo, children }: any) {
         />
       </motion.div>
       <div>
-        <div className="min-h-screen flex items-center justify-center">
-          {logo}
-        </div>
+        {logo}
         <div>{children}</div>
       </div>
     </div>

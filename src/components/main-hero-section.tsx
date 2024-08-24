@@ -1,16 +1,52 @@
-import { Tweet, TweetResponse } from "@/models/tweet";
-import { ChevronRightIcon } from "@heroicons/react/20/solid";
-import { Suspense } from "react";
+"use client";
 
-export default async function MainHeroSection({
-  header,
-  side,
-  logo,
-  children,
-}: any) {
+import { useEffect, useState } from "react";
+
+export default function MainHeroSection({ header, side, logo, children }: any) {
+  const [patterArray, setPatternArray] = useState<number[]>([]);
+  const [divisionSize, setDivisionSize] = useState(0);
+
+  useEffect(() => {
+    if (!window) return;
+    setDivisionSize(getDivisionSize(6));
+    setPatternArray(getPatternArray());
+  }, []);
+
   function getRandomNumber() {
     const randomNumber = Math.random() * (2 - 0.5) + 0.5;
-    return parseFloat(randomNumber.toFixed(2));
+    return Math.floor(randomNumber * 1000);
+  }
+
+  function getDelayedAnimationObject() {
+    const delay = getRandomNumber();
+    const duration = 4000 - delay;
+
+    console.log(delay, duration, delay + duration);
+
+    return {
+      animationDelay: `${delay}ms`,
+      animationDuration: `${duration}ms`,
+    };
+  }
+
+  function getDivisionSize(factor: number = 1) {
+    if (window?.matchMedia("(min-width: 1024px)").matches) {
+      return 250 * factor;
+    } else if (window?.matchMedia("(min-width: 640px)").matches) {
+      return 150 * factor;
+    } else {
+      return 100 * factor;
+    }
+  }
+
+  function getPatternArray() {
+    const division = getDivisionSize();
+    const patternArray = [];
+    for (let i = 1; i <= 6; i++) {
+      patternArray.push(division * i);
+    }
+
+    return patternArray;
   }
 
   return (
@@ -27,10 +63,10 @@ export default async function MainHeroSection({
             y={-1}
             id="vertical-line-patterns"
             width="100%"
-            height={1200}
+            height={divisionSize}
             patternUnits="userSpaceOnUse"
           >
-            {[200, 400, 600, 800, 1000, 1200].map((offset, index) => (
+            {patterArray.map((offset, index) => (
               <line
                 key={`horizontal-line-${index}`}
                 x1="0"
@@ -38,7 +74,7 @@ export default async function MainHeroSection({
                 x2="100%"
                 y2={offset}
                 className="animated-line stroke-tulip-300/40"
-                style={{ animationDelay: `${getRandomNumber()}s` }}
+                style={getDelayedAnimationObject()}
               />
             ))}
           </pattern>
@@ -46,11 +82,11 @@ export default async function MainHeroSection({
             x={0}
             y={-1}
             id="horizontal-line-patterns"
-            width={1200}
+            width={divisionSize}
             height="100%"
             patternUnits="userSpaceOnUse"
           >
-            {[200, 400, 600, 800, 1000, 1200].map((offset, index) => (
+            {patterArray.map((offset, index) => (
               <line
                 key={`vertical-line-${index}`}
                 x1={offset}
@@ -58,7 +94,7 @@ export default async function MainHeroSection({
                 x2={offset}
                 y2="100%"
                 className="animated-line stroke-tulip-300/40"
-                style={{ animationDelay: `${getRandomNumber()}s` }}
+                style={getDelayedAnimationObject()}
               />
             ))}
           </pattern>

@@ -45,7 +45,7 @@ body {
     
   }
 
-  @keyframes drawGrid {
+  /* @keyframes drawGrid {
     from {
       stroke-dasharray: 0, 200;
       stroke-dashoffset: 0;
@@ -58,7 +58,7 @@ body {
   
   .animated-grid {
     animation: drawLine .8s linear 1;
-  }
+  } */
   
   @keyframes drawLine {
     from {
@@ -75,7 +75,9 @@ body {
   
   .animated-line {
     visibility: hidden;
-    animation: drawLine 4s linear forwards;
+    animation-name: drawLine;
+    animation-fill-mode: forwards;
+    animation-timing-function: linear;
   }
 
 

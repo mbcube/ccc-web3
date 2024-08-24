@@ -18,7 +18,7 @@ export function Icons() {
   }, []);
 
   return (
-    <div className="absolute h-screen">
+    <div className="absolute h-screen hidden sm:block">
       <div className="h-full flex flex-col justify-center gap-10 mx-4">
         {showAnimation && (
           <div className="absolute w-52 rotate-90 -ml-16 z-0">

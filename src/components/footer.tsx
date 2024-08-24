@@ -6,7 +6,7 @@ import AnimatedIcon from "@/lib/animated-icon";
 import { FadeIn } from "@/lib/faderIn";
 import { motion } from "framer-motion";
 
-export default async function Footer() {
+export default function Footer() {
   const navigation = [
     {
       name: "Discord",

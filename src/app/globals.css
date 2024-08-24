@@ -75,5 +75,28 @@ body {
   
   .animated-line {
     visibility: hidden;
-    animation: drawLine 6s linear forwards;
+    animation: drawLine 4s linear forwards;
+  }
+
+
+
+  @keyframes draw {
+    from {
+      visibility: visible;
+      stroke-dasharray: 0, 100%;
+      stroke-dashoffset: 0;
+      opacity: 1
+    }
+    to {
+      visibility: hidden;
+      stroke-dasharray: 100%, 0;
+      stroke-dashoffset: 0;
+      opacity:0
+    }
+  }
+
+  .logo-paths {
+    stroke-dasharray: 1000;
+    stroke-dashoffset: 1000;
+    animation: draw 2s linear forwards;
   }

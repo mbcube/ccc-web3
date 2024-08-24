@@ -3,6 +3,7 @@
 import { CalendlyIcon } from "@/icons/calendar";
 import { DiscordIcon } from "@/icons/discord";
 import { XIcon } from "@/icons/x";
+import AnimatedIcon from "@/lib/animated-icon";
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useEffect, useState } from "react";
@@ -15,18 +16,6 @@ export function Icons() {
       setShowAnimation(true);
     }, 100);
   }, []);
-
-  const animated = (delay: number): any => ({
-    y: 0,
-    opacity: 1,
-    transition: {
-      duration: 0.5,
-      type: "spring",
-      damping: 25,
-      stiffness: 500,
-      delay,
-    },
-  });
 
   return (
     <div className="absolute h-screen">
@@ -45,33 +34,15 @@ export function Icons() {
 
         {showAnimation && (
           <>
-            <motion.div
-              className="z-10"
-              initial={{ y: -80, opacity: 0 }}
-              animate={animated(0.3)}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
+            <AnimatedIcon>
               <DiscordIcon className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:h-12 lg:w-12 fill-tulip-400 " />
-            </motion.div>
-            <motion.div
-              className="z-10"
-              initial={{ y: -80, opacity: 0 }}
-              animate={animated(0.15)}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
+            </AnimatedIcon>
+            <AnimatedIcon>
               <CalendlyIcon className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:h-12 lg:w-12 fill-tulip-400" />
-            </motion.div>
-            <motion.div
-              className="z-10"
-              initial={{ y: -80, opacity: 0 }}
-              animate={animated(0)}
-              whileHover={{ scale: 1.1 }}
-              whileTap={{ scale: 0.9 }}
-            >
+            </AnimatedIcon>
+            <AnimatedIcon>
               <XIcon className="w-6 h-6 sm:w-8 sm:h-8 md:w-10 md:h-10 lg:h-12 lg:w-12 fill-tulip-400" />
-            </motion.div>
+            </AnimatedIcon>
           </>
         )}
       </div>

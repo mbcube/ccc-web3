@@ -14,12 +14,12 @@ export default async function MainHeroSection({
   }
 
   return (
-    <div className="relative isolate overflow-hidden bg-zinc-900">
+    <div className="relative isolate overflow-hidden bg-black">
       {header}
       {side}
       <svg
         aria-hidden="true"
-        className="absolute inset-0 -z-10 h-full w-full stroke-tulip-400/30 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
+        className="absolute inset-0 -z-10 h-full w-full [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
       >
         <defs>
           <pattern
@@ -37,7 +37,7 @@ export default async function MainHeroSection({
                 y1={offset}
                 x2="100%"
                 y2={offset}
-                className="animated-line stroke-tulip-300"
+                className="animated-line stroke-tulip-300/40"
                 style={{ animationDelay: `${getRandomNumber()}s` }}
               />
             ))}
@@ -57,7 +57,7 @@ export default async function MainHeroSection({
                 y1="0"
                 x2={offset}
                 y2="100%"
-                className="animated-line stroke-tulip-300"
+                className="animated-line stroke-tulip-300/40"
                 style={{ animationDelay: `${getRandomNumber()}s` }}
               />
             ))}
@@ -70,37 +70,6 @@ export default async function MainHeroSection({
           fill="url(#horizontal-line-patterns)"
         />
       </svg>
-
-      {/* <svg
-        aria-hidden="true"
-        className="absolute inset-0 -z-10 h-full w-full stroke-tulip-400/30 [mask-image:radial-gradient(100%_100%_at_top_right,white,transparent)]"
-      >
-        <defs>
-          <pattern
-            x="50%"
-            y={-1}
-            id="983e3e4c-de6d-4c3f-8d64-b9761d1534cc"
-            width={200}
-            height={200}
-            patternUnits="userSpaceOnUse"
-            className="animated-pattern"
-          >
-            <path d="M.5 200V.5H200" fill="none" />
-          </pattern>
-        </defs>
-        <svg x="50%" y={-1} className="overflow-visible fill-zinc-900">
-          <path
-            d="M-200 0h201v201h-201Z M600 0h201v201h-201Z M-400 600h201v201h-201Z M200 800h201v201h-201Z"
-            strokeWidth={0}
-          />
-        </svg>
-        <rect
-          fill="url(#983e3e4c-de6d-4c3f-8d64-b9761d1534cc)"
-          width="100%"
-          height="100%"
-          strokeWidth={0}
-        />
-      </svg> */}
 
       <div
         aria-hidden="true"

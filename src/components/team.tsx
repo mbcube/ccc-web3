@@ -109,10 +109,10 @@ export default function Team() {
                       src={person.imageUrl}
                       className="mx-auto h-24 w-24 rounded-full"
                     />
-                    <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white-900">
+                    <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">
                       {person.name}
                     </h3>
-                    <p className="text-sm leading-6 text-tulip-600">
+                    <p className="text-sm leading-6 text-tulip-400">
                       {person.role}
                     </p>
                   </li>

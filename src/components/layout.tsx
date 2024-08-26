@@ -3,7 +3,13 @@
 import { motion } from "framer-motion";
 import { useEffect, useState } from "react";
 
-export default function MainHeroSection({ header, side, logo, children }: any) {
+export default function Layout({
+  header,
+  side,
+  logo,
+  affiliations,
+  children,
+}: any) {
   const [patterArray, setPatternArray] = useState<number[]>([]);
   const [divisionSize, setDivisionSize] = useState(0);
 
@@ -124,7 +130,7 @@ export default function MainHeroSection({ header, side, logo, children }: any) {
         />
       </motion.div>
       <div>
-        {logo}
+        <div className="relative">{logo}</div>
         <div>{children}</div>
       </div>
     </div>

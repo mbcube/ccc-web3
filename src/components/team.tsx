@@ -1,6 +1,7 @@
 "use client";
 
 import { FadeIn, FadeInStagger } from "@/lib/faderIn";
+import Image from "next/image";
 
 export default function Team() {
   const people = [
@@ -109,9 +110,12 @@ export default function Team() {
               {people.map((person) => (
                 <FadeIn key={person.name}>
                   <li>
-                    <img
+                    <Image
+                      priority
                       alt=""
                       src={person.imageUrl}
+                      width={300}
+                      height={300}
                       className="mx-auto h-24 w-24 rounded-full"
                     />
                     <h3 className="mt-6 text-base font-semibold leading-7 tracking-tight text-white">

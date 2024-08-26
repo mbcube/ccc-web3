@@ -56,7 +56,7 @@ export default function Affiliations() {
               transition={transition}
               className={className}
             >
-              <Image alt={alt} src={src} width={158} height={48} />
+              <Image priority alt={alt} src={src} width={158} height={48} />
             </motion.div>
           ))}
         </div>
@@ -69,7 +69,7 @@ export default function Affiliations() {
               transition={transition}
               className={className}
             >
-              <Image alt={alt} src={src} width={158} height={48} />
+              <Image priority alt={alt} src={src} width={158} height={48} />
             </motion.div>
           ))}
         </div>

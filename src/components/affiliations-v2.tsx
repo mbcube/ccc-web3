@@ -42,6 +42,7 @@ export default function Affiliations() {
           {[...images].map(({ src, alt }, index) => (
             <FadeIn key={"slider-image-" + index}>
               <Image
+                priority
                 className="max-h-12 flex w-full object-contain"
                 alt={alt}
                 src={src}

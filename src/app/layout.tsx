@@ -19,7 +19,7 @@ export const metadata: Metadata = {
       {
         width: 655,
         height: 336,
-        url: "/img/ccc-logo.png",
+        url: "/img/logo.jpg",
       },
     ],
   },

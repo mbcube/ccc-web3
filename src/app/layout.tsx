@@ -13,13 +13,13 @@ export const metadata: Metadata = {
     title: "Content Creator Circle",
     description:
       "Behind CCC, is a team of 100+ seasoned and experienced content creators who can leverage their reach and exposure to deliver your message.",
-    url: "https://ccc-web3.com",
+    url: process.env.PATH,
     siteName: "Content Creator Circle",
     images: [
       {
         width: 655,
         height: 336,
-        url: "/img/logo.jpg",
+        url: `${process.env.PATH}/img/logo.jpg`,
       },
     ],
   },

@@ -12,15 +12,42 @@ export default function Team() {
       imageUrl:
         "https://pbs.twimg.com/profile_images/1823927764723924992/RETJ0jN8_400x400.jpg",
       link: "https://x.com/n1ssue",
-      description: `Project Manager at Ankh Labs, a top crypto & WEB3 marketing agency. KOL/Content Marketing Lead at CCC WEB3. Team Member at Creators Nexus. Founder of RoyalAlphaLab, a community for Alpha, networking, and growth.`,
+      description: (
+        <dl className="text-start">
+          <dd>
+            Project Manager, Ankh Labs Leading Crypto & Web3 Marketing Agency
+          </dd>
+          <dd className="mt-3">
+            KOL/Content Marketing Lead, CCC Web3 top content creation marketing
+          </dd>
+          <dd className="mt-3">
+            Group Founder, RoyalAlphaLab Community for Alpha, Networking &
+            Growth
+          </dd>
+        </dl>
+      ),
     },
+
     {
       name: "Can 24",
       role: "Manager",
       imageUrl:
         "https://pbs.twimg.com/profile_images/1803051109759488000/6Fl6OxK5_400x400.jpg",
       link: "https://x.com/0xCan24",
-      description: `Project Manager at Ankh Labs, a top crypto & WEB3 marketing agency. KOL/Content Marketing Lead at CCC WEB3. Team Member at Creators Nexus. Founder of RoyalAlphaLab, a community for Alpha, networking, and growth.`,
+      description: (
+        <dl className="text-start">
+          <dd>
+            KOL/Content Marketing Manager, CCC Web3 top content creation
+            marketing brand
+          </dd>
+          <dd className="mt-3">
+            CO-Founder, Whale3 a huge community for alpha, networking & growth
+          </dd>
+          <dd className="mt-3">
+            Experienced Collab Management a network that can reach anywhere.
+          </dd>
+        </dl>
+      ),
     },
     {
       name: "Polkaguy",
@@ -28,7 +55,22 @@ export default function Team() {
       imageUrl:
         "https://pbs.twimg.com/profile_images/1743727062995914752/Xj8-U8Jm_400x400.png",
       link: "https://x.com/polkaguy",
-      description: `Project Manager at Ankh Labs, a top crypto & WEB3 marketing agency. KOL/Content Marketing Lead at CCC WEB3. Team Member at Creators Nexus. Founder of RoyalAlphaLab, a community for Alpha, networking, and growth.`,
+      description: (
+        <dl className="text-start">
+          <dd>
+            KOL/Content Marketing Manager, CCC Web3 top content creation
+            marketing brand
+          </dd>
+          <dd className="mt-3">
+            Founder, Alpha Syndicate a huge community for alpha, networking &
+            growth
+          </dd>
+          <dd className="mt-3">
+            Researcher, analyst, Investor with more than four years of crypto
+            experience.
+          </dd>
+        </dl>
+      ),
     },
     {
       name: "kvs.eth",
@@ -36,7 +78,22 @@ export default function Team() {
       imageUrl:
         "https://pbs.twimg.com/profile_images/1826940529663197184/3oerdAH4_400x400.jpg",
       link: "https://x.com/kvs_eth",
-      description: `Project Manager at Ankh Labs, a top crypto & WEB3 marketing agency. KOL/Content Marketing Lead at CCC WEB3. Team Member at Creators Nexus. Founder of RoyalAlphaLab, a community for Alpha, networking, and growth.`,
+      description: (
+        <dl className="text-start">
+          <dd>
+            10 years of experience in crypto, 5 years in the NFT space. Discord
+            admin.
+          </dd>
+          <dd className="mt-3">
+            Founder, Alpha Syndicate a huge community for alpha, networking &
+            growth
+          </dd>
+          <dd className="mt-3">
+            KOL/Content Marketing Manager, CCC Web3 top content creation
+            marketing brand
+          </dd>
+        </dl>
+      ),
     },
     {
       name: "Hoogie",
@@ -44,7 +101,22 @@ export default function Team() {
       imageUrl:
         "https://pbs.twimg.com/profile_images/1760265875125624832/8uA7DQOm_400x400.jpg",
       link: "https://x.com/H0ogie",
-      description: `Project Manager at Ankh Labs, a top crypto & WEB3 marketing agency. KOL/Content Marketing Lead at CCC WEB3. Team Member at Creators Nexus. Founder of RoyalAlphaLab, a community for Alpha, networking, and growth.`,
+      description: (
+        <dl className="text-start">
+          <dd>
+            15 years of experience in IT, managing projects, products,
+            portfolios and organizations
+          </dd>
+          <dd className="mt-3">
+            6 years of Web3 activities including KOL marketing, collaboration
+            and managing Discord communities.
+          </dd>
+          <dd className="mt-3">
+            CCC WEB3 Top Content Creation Marketing Brand, Creators NExus, Mana
+            Labs
+          </dd>
+        </dl>
+      ),
     },
     // {
     //   name: "Stefan Savevski",

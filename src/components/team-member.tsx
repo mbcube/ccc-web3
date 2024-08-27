@@ -3,6 +3,7 @@ import { motion } from "framer-motion";
 import Image from "next/image";
 import Link from "next/link";
 import { use, useEffect, useState } from "react";
+import TextAnimation from "./animated-text";
 
 type TeamMember = {
   index: number;
@@ -10,7 +11,7 @@ type TeamMember = {
   imageUrl: string;
   role: string;
   link: string;
-  description: string;
+  description: any;
 };
 
 export default function TeamMember({
@@ -93,11 +94,11 @@ export default function TeamMember({
 
       {flipped && (
         <motion.div
-          initial={{ opacity: 0, rotateY: 180 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.5 }}
+          initial={{ opacity: 0, x: -10, rotateY: 180 }}
+          animate={{ opacity: 1, x: 0 }}
+          transition={{ duration: 0.5, delay: 0.25 }}
         >
-          <p className="text-base leading-7 text-white">{description}</p>
+          <div className="text-sm leading-7 text-white">{description}</div>
         </motion.div>
       )}
 

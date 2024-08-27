@@ -15,7 +15,7 @@ export default function AnimatedLogo() {
   }, []);
 
   return (
-    <motion.div className="flex flex-col items-center justify-center w-screen h-[calc(100vh-3rem)] md:h-screen">
+    <div className="flex flex-col items-center justify-center w-screen h-[calc(100vh-3rem)] md:h-screen">
       <div className="w-full">
         <div className="w-full flex items-center justify-center">
           <div className="relative w-[14rem] h-[7rem] sm:w-[16rem] sm:h-[8rem] md:w-[20rem] md:h-[10rem] lg:w-[26rem] lg:h-[13rem] xl:w-[30rem] xl:h-[15rem]">
@@ -107,7 +107,7 @@ export default function AnimatedLogo() {
                     animate={{ opacity: 1, x: 0 }}
                     transition={{ duration: 0.3, delay: 0.25 }}
                   >
-                    CIRCLES
+                    CIRCLE
                   </motion.span>
                 </>
               )}
@@ -126,32 +126,6 @@ export default function AnimatedLogo() {
           )}
         </div>
       </div>
-
-      {/* <h1
-        className={`${FONT_MAJOR_MONO.className} font-bold text-tulip-400 text-6xl`}
-      >
-        content creator circles
-      </h1>
-
-      <h1
-        className={`${FONT_MAJOR_MONO.className} font-bold text-gray-100 text-4xl`}
-      >
-        where creativity meets the blockchain
-      </h1>
-
-      <h1
-        className={`${FONT_MAJOR_MONO.className} font-semibold text-gray-100 text-4xl`}
-      >
-        WHERE CREATIVITY MEETS THE blockchain
-      </h1> */}
-      {/* <h1
-        className={`${FONT_ROGAN.className} font-semibold text-gray-100 text-4xl`}
-      >
-        WHERE CREATIVITY MEETS THE blockchain
-      </h1> */}
-      {/* <h1 className={`text-gray-100 text-4xl`}>
-        WHERE CREATIVITY MEETS THE blockchain
-      </h1> */}
-    </motion.div>
+    </div>
   );
 }

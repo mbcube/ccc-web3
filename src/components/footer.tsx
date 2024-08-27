@@ -58,7 +58,7 @@ export default function Footer() {
         </div>
         <motion.div className="mt-8 md:order-1 md:mt-0">
           <p className="text-center text-md leading-5 text-white ">
-            &copy; Content Creator Circles, Inc. All rights reserved.
+            &copy; Content Creator Circle, Inc. All rights reserved.
           </p>
         </motion.div>
       </div>

@@ -1,4 +1,15 @@
+import { motion } from "framer-motion";
+
 export default function LogoPaths() {
+  const logo = {
+    hidden: {
+      pathLength: 0,
+    },
+    visible: {
+      pathLength: 1,
+    },
+  };
+
   return (
     <svg
       version="1.1"
@@ -7,11 +18,12 @@ export default function LogoPaths() {
       y="0px"
       width="100%"
       viewBox="0 0 2048 2048"
-      enable-background="new 0 0 2048 2048"
     >
-      <path
-        className="logo-paths"
-        fill="#000000"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
+        fill="none"
         opacity="1.000000"
         stroke="none"
         d="
@@ -932,8 +944,10 @@ export default function LogoPaths() {
         C1684.525269,786.505798 1684.489868,786.496033 1684.525269,786.505798 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -1023,8 +1037,10 @@ export default function LogoPaths() {
         C841.737366,809.162659 841.910400,809.195740 842.083374,809.228760 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -1098,8 +1114,10 @@ export default function LogoPaths() {
         C538.584961,1209.270874 538.281433,1209.178345 537.930481,1209.241089 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -1205,8 +1223,10 @@ export default function LogoPaths() {
         C1171.290527,832.094299 1170.750122,832.563049 1169.713867,833.381714 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -1277,8 +1297,10 @@ export default function LogoPaths() {
         C1643.879028,800.788391 1642.845093,802.882507 1641.811279,804.976624 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -1340,8 +1362,10 @@ export default function LogoPaths() {
         C1227.885132,813.924744 1230.388672,811.367493 1232.892334,808.810303 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -1472,8 +1496,10 @@ export default function LogoPaths() {
         C1615.993896,711.164917 1616.316528,710.575623 1616.291138,709.549438 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -1549,8 +1575,10 @@ export default function LogoPaths() {
         C1092.264526,1218.079346 1089.701416,1220.585083 1087.138306,1223.090698 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -1754,8 +1782,10 @@ export default function LogoPaths() {
         C1253.511963,730.821899 1253.383301,730.842407 1253.254272,731.158264 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -1790,8 +1820,10 @@ export default function LogoPaths() {
         C847.632568,1204.117676 848.687439,1204.111206 849.475647,1204.351440 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -1813,8 +1845,10 @@ export default function LogoPaths() {
         C1320.582153,797.064697 1317.792603,797.700562 1315.007935,798.021362 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -1887,8 +1921,10 @@ export default function LogoPaths() {
         C1312.688232,1206.198486 1313.598633,1207.622681 1314.509033,1209.046997 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -1985,8 +2021,10 @@ export default function LogoPaths() {
         C1258.482910,866.509949 1258.466431,866.467163 1258.482910,866.509949 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -2036,8 +2074,10 @@ export default function LogoPaths() {
         C1223.915527,818.138855 1223.392700,819.025940 1222.869873,819.913086 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -2079,8 +2119,10 @@ export default function LogoPaths() {
         C1635.159790,813.228394 1637.101807,811.605774 1638.933472,809.881592 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -2115,8 +2157,10 @@ export default function LogoPaths() {
         C1321.949219,1075.999756 1324.976685,1076.011597 1328.004272,1076.023315 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -2178,8 +2222,10 @@ export default function LogoPaths() {
         C1569.199219,1047.281006 1569.022583,1047.584595 1568.845825,1047.888062 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -2253,8 +2299,10 @@ export default function LogoPaths() {
         C918.624390,800.679932 919.382019,799.382019 920.264221,798.207764 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -2274,8 +2322,10 @@ export default function LogoPaths() {
         C1454.309814,1373.757202 1475.404907,1373.757202 1497.000244,1373.757568 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -2312,8 +2362,10 @@ export default function LogoPaths() {
         C533.090454,810.096680 535.483398,803.118835 541.096008,798.343628 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -2332,8 +2384,10 @@ export default function LogoPaths() {
         C1626.417725,1211.576416 1633.728027,1211.347534 1641.038696,1211.213623 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -2407,8 +2461,10 @@ export default function LogoPaths() {
         C1647.233032,741.001770 1646.843262,742.168884 1646.812500,742.965820 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -2433,8 +2489,10 @@ export default function LogoPaths() {
         C1418.263916,799.286072 1404.219727,799.414612 1389.729004,799.533447 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -2508,8 +2566,10 @@ export default function LogoPaths() {
         C1330.243774,1075.942139 1329.493408,1075.906006 1328.373657,1075.946533 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -2596,8 +2656,10 @@ export default function LogoPaths() {
         C778.698914,1262.298950 779.349487,1262.148071 780.000000,1261.997192 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -2640,8 +2702,10 @@ export default function LogoPaths() {
         C536.128479,799.920898 538.449829,799.206665 540.731506,798.226929 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -2661,8 +2725,10 @@ export default function LogoPaths() {
         C1233.246338,796.429077 1234.981201,796.860474 1236.898682,797.495605 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -2694,8 +2760,10 @@ export default function LogoPaths() {
         C589.963684,796.793701 585.938293,796.745728 581.912842,796.697876 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -2753,8 +2821,10 @@ export default function LogoPaths() {
         C376.718903,1127.911865 376.870361,1122.467529 377.021851,1117.023071 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -2772,8 +2842,10 @@ export default function LogoPaths() {
         C376.013367,1112.813354 376.143494,1123.456177 376.218140,1134.098877 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -2817,8 +2889,10 @@ export default function LogoPaths() {
         C958.341980,1130.251221 953.046448,1127.570068 948.995483,1121.004395 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -2836,8 +2910,10 @@ export default function LogoPaths() {
         C1646.831421,1210.930664 1644.376099,1210.955566 1641.483398,1211.138672 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -2872,8 +2948,10 @@ export default function LogoPaths() {
         C900.069580,1283.773193 906.104126,1283.764404 912.138611,1283.755615 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -2914,8 +2992,10 @@ export default function LogoPaths() {
         C977.735840,1282.109009 977.738037,1282.834839 978.496338,1283.880493 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -2992,8 +3072,10 @@ export default function LogoPaths() {
         C1206.429443,722.847046 1208.761719,718.893555 1202.637207,719.852234 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -3011,8 +3093,10 @@ export default function LogoPaths() {
         C1238.130127,1209.703003 1240.123535,1208.429688 1242.120239,1207.743774 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -3044,8 +3128,10 @@ export default function LogoPaths() {
         C830.000183,1212.727173 830.006897,1212.922241 830.013550,1213.117310 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -3076,8 +3162,10 @@ export default function LogoPaths() {
         C846.271912,1199.422852 847.682373,1201.617920 849.284241,1204.082275 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -3116,8 +3204,10 @@ export default function LogoPaths() {
         C1203.326660,738.336487 1203.205444,740.108826 1203.084106,741.881104 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -3131,8 +3221,10 @@ export default function LogoPaths() {
         C601.774719,667.332703 601.341003,666.309448 600.907227,665.286194 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -3202,8 +3294,10 @@ export default function LogoPaths() {
         C768.751099,1287.464966 768.382751,1288.740845 768.014526,1290.016724 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -3222,8 +3316,10 @@ export default function LogoPaths() {
         C376.870361,1122.467529 376.718903,1127.911865 376.392792,1133.727539 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -3250,8 +3346,10 @@ export default function LogoPaths() {
         C1113.026855,719.225525 1112.973267,718.814941 1112.973267,718.814941 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -3292,8 +3390,10 @@ export default function LogoPaths() {
         C655.614990,1297.920288 656.288208,1298.985352 656.961426,1300.050415 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -3320,8 +3420,10 @@ export default function LogoPaths() {
         C491.624634,1261.367188 491.875763,1261.119263 492.000854,1260.994873 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -3357,8 +3459,10 @@ export default function LogoPaths() {
         C1651.706177,746.712952 1650.400757,744.458862 1647.041504,743.243042 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -3415,8 +3519,10 @@ export default function LogoPaths() {
         C1110.869507,719.788818 1111.961670,719.713745 1113.053955,719.638550 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -3475,8 +3581,10 @@ export default function LogoPaths() {
         C628.647827,1286.238281 629.356750,1288.733521 630.065735,1291.228760 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -3505,8 +3613,10 @@ export default function LogoPaths() {
         C1016.972412,784.955566 1016.990967,784.986633 1016.973145,784.979858 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -3531,8 +3641,10 @@ export default function LogoPaths() {
         C834.109009,1264.352051 833.555603,1263.184204 833.002197,1262.016357 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -3557,8 +3669,10 @@ export default function LogoPaths() {
         C561.176636,1284.223511 561.588440,1284.274414 562.000183,1284.325195 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -3584,8 +3698,10 @@ export default function LogoPaths() {
         C482.894043,1276.330322 482.839783,1276.169434 482.785553,1276.008423 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -3636,8 +3752,10 @@ export default function LogoPaths() {
         C1440.141235,720.795654 1430.144531,720.127014 1420.144775,719.527222 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -3654,8 +3772,10 @@ export default function LogoPaths() {
         C560.996948,665.058044 580.493835,665.142029 600.448853,665.229187 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -3703,8 +3823,10 @@ export default function LogoPaths() {
         C1198.092896,732.257874 1197.471924,731.752319 1196.238403,731.541016 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -3742,8 +3864,10 @@ export default function LogoPaths() {
         C887.435181,1276.981445 891.727478,1276.913574 896.019836,1276.845703 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -3778,8 +3902,10 @@ export default function LogoPaths() {
         C1686.818970,783.871155 1686.917603,783.481506 1686.861328,783.288574 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -3809,8 +3935,10 @@ export default function LogoPaths() {
         C1199.593628,713.749512 1198.967407,720.287720 1192.455933,718.958191 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -3863,8 +3991,10 @@ export default function LogoPaths() {
         C813.386597,1292.810669 813.458801,1292.765381 813.314392,1292.855957 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -3897,8 +4027,10 @@ export default function LogoPaths() {
         C875.531311,1273.557373 885.492920,1275.332520 895.733643,1276.595459 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -3926,8 +4058,10 @@ export default function LogoPaths() {
         C711.156006,1209.915039 710.187988,1209.731079 709.216187,1209.581543 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -3951,8 +4085,10 @@ export default function LogoPaths() {
         C562.006653,1283.728149 562.011108,1284.026733 562.005615,1284.176025 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -3987,8 +4123,10 @@ export default function LogoPaths() {
         C1241.913330,1207.396362 1241.958984,1207.604492 1242.039551,1207.674072 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -4005,8 +4143,10 @@ export default function LogoPaths() {
         C851.191772,1206.370117 852.071289,1207.297852 852.908081,1208.580322 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -4021,8 +4161,10 @@ export default function LogoPaths() {
         C1334.231323,1076.965088 1332.922974,1076.684204 1331.304443,1076.256348 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -4062,8 +4204,10 @@ export default function LogoPaths() {
         C1443.577271,711.048889 1443.293457,711.529968 1443.009766,712.011108 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4102,8 +4246,10 @@ export default function LogoPaths() {
         C1417.480835,735.613403 1417.389526,735.075745 1416.739136,734.527466 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4131,8 +4277,10 @@ export default function LogoPaths() {
         C563.007751,1277.342529 562.657837,1277.427246 562.307983,1277.511963 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -4144,8 +4292,10 @@ export default function LogoPaths() {
         C459.260529,747.083801 475.715454,730.224487 492.446289,713.238464 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -4174,8 +4324,10 @@ export default function LogoPaths() {
         C442.904694,763.913635 442.877594,764.003723 442.841614,763.973389 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -4208,8 +4360,10 @@ export default function LogoPaths() {
         C1717.501343,795.448181 1718.325928,799.326782 1717.671509,802.278320 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -4230,8 +4384,10 @@ export default function LogoPaths() {
         C1543.121948,1075.037354 1543.038818,1075.028687 1543.035889,1075.070312 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -4256,8 +4412,10 @@ export default function LogoPaths() {
         C1743.146240,835.304688 1742.317749,834.697449 1741.181396,834.009399 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -4276,8 +4434,10 @@ export default function LogoPaths() {
         C1649.521606,1206.984619 1649.770386,1207.157471 1649.999268,1207.677002 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -4304,8 +4464,10 @@ export default function LogoPaths() {
         C1645.595215,1202.180298 1647.227173,1204.260864 1649.023438,1206.637695 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -4337,8 +4499,10 @@ export default function LogoPaths() {
         C705.197144,1292.857422 707.410278,1296.227295 710.039185,1296.026611 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -4366,8 +4530,10 @@ export default function LogoPaths() {
         C426.293488,800.971558 426.293488,796.654663 426.293518,792.337830 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -4390,8 +4556,10 @@ export default function LogoPaths() {
         C401.855896,1174.051514 400.643494,1174.054199 399.431091,1174.056885 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -4409,8 +4577,10 @@ export default function LogoPaths() {
         C1619.606812,830.559143 1618.760864,831.750610 1617.914917,832.942139 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -4429,8 +4599,10 @@ export default function LogoPaths() {
         C1366.282593,1208.278076 1371.481445,1208.314697 1376.680176,1208.351440 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -4447,8 +4619,10 @@ export default function LogoPaths() {
         C428.506226,761.423950 428.291077,761.480652 428.406647,761.663757 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -4461,8 +4635,10 @@ export default function LogoPaths() {
         C387.056427,808.994080 389.566498,809.413757 392.076569,809.833435 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -4474,8 +4650,10 @@ export default function LogoPaths() {
         C477.682373,808.911682 462.592194,809.478638 447.123718,809.947510 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -4487,8 +4665,10 @@ export default function LogoPaths() {
         C426.987701,841.948975 426.499481,829.066406 426.112061,815.756287 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -4509,8 +4689,10 @@ export default function LogoPaths() {
         C1409.415283,733.787476 1409.811157,733.771301 1410.500977,733.713806 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -4537,8 +4719,10 @@ export default function LogoPaths() {
         C698.985535,1262.535034 699.501343,1262.313110 700.017090,1262.091064 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -4554,8 +4738,10 @@ export default function LogoPaths() {
         C827.258850,797.651367 836.167358,797.636230 845.075867,797.621094 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -4576,8 +4762,10 @@ export default function LogoPaths() {
         C1070.203735,727.387817 1070.201172,727.445129 1070.223145,727.463562 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4600,8 +4788,10 @@ export default function LogoPaths() {
         C653.299744,1265.983521 650.831665,1270.226562 647.075867,1266.667114 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -4623,8 +4813,10 @@ export default function LogoPaths() {
         C494.429932,1274.734497 494.705780,1274.941284 494.981628,1275.148071 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -4643,8 +4835,10 @@ export default function LogoPaths() {
         C395.539185,809.963684 394.208557,809.925049 392.477264,809.859924 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4665,8 +4859,10 @@ export default function LogoPaths() {
         C1726.043579,800.953552 1726.037720,800.970459 1726.044800,800.962036 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4684,8 +4880,10 @@ export default function LogoPaths() {
         C606.897705,1211.461792 604.391968,1211.400391 601.886230,1211.338867 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4704,8 +4902,10 @@ export default function LogoPaths() {
         C838.194763,796.861877 841.293335,797.028809 844.733887,797.408386 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -4716,8 +4916,10 @@ export default function LogoPaths() {
         C485.418762,1276.035156 485.979218,1275.481567 486.852997,1274.935181 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -4731,8 +4933,10 @@ export default function LogoPaths() {
         C658.576965,1300.063477 658.115356,1300.068970 657.307617,1300.062500 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4754,8 +4958,10 @@ export default function LogoPaths() {
         C695.448669,1262.865601 695.698853,1263.334961 695.949097,1263.804199 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -4768,8 +4974,10 @@ export default function LogoPaths() {
         C572.682068,798.016846 568.332947,798.134766 563.983887,798.252625 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -4780,8 +4988,10 @@ export default function LogoPaths() {
         C1001.361450,1275.763916 1008.067932,1275.964478 1014.906433,1276.526978 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -4794,8 +5004,10 @@ export default function LogoPaths() {
         C1446.454102,703.943054 1450.908081,703.849670 1455.716553,703.936951 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -4813,8 +5025,10 @@ export default function LogoPaths() {
         C823.192810,1212.272461 822.436523,1212.180908 821.321533,1211.959473 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4829,8 +5043,10 @@ export default function LogoPaths() {
         C598.583374,797.783264 588.267944,797.789917 577.952454,797.796631 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -4842,8 +5058,10 @@ export default function LogoPaths() {
         C1420.452026,741.884827 1417.681152,741.947998 1414.456055,742.006775 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -4856,8 +5074,10 @@ export default function LogoPaths() {
         C375.755768,1140.256226 376.347321,1141.127808 376.938904,1141.999268 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4873,8 +5093,10 @@ export default function LogoPaths() {
         C1387.628174,735.140808 1388.516724,736.991455 1389.751709,738.929504 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -4885,8 +5107,10 @@ export default function LogoPaths() {
         C550.015259,1209.996338 561.018250,1210.038208 572.482117,1210.135132 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -4905,8 +5129,10 @@ export default function LogoPaths() {
         C840.553833,806.578003 843.301147,803.243286 846.048462,799.908569 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -4916,8 +5142,10 @@ export default function LogoPaths() {
         C924.913452,1284.009644 919.703979,1284.222656 914.189941,1284.134399 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -4928,8 +5156,10 @@ export default function LogoPaths() {
         C1301.271729,812.416870 1304.505249,808.772461 1308.114746,805.131470 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -4941,8 +5171,10 @@ export default function LogoPaths() {
         C499.265594,1287.852295 497.293549,1286.109985 495.091370,1284.088623 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -4954,8 +5186,10 @@ export default function LogoPaths() {
         C589.990723,1262.106812 594.163879,1262.064087 598.744629,1262.073364 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -4969,8 +5203,10 @@ export default function LogoPaths() {
         C622.941895,1262.767212 622.919373,1262.945312 622.896912,1263.123291 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -4985,8 +5221,10 @@ export default function LogoPaths() {
         C974.440552,1277.032471 974.879822,1277.256592 974.879822,1277.256592 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -4998,8 +5236,10 @@ export default function LogoPaths() {
         C925.008301,1276.447632 925.024536,1276.890381 925.024536,1276.890381 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5015,8 +5255,10 @@ export default function LogoPaths() {
         C713.920776,1267.450073 713.484619,1267.475098 713.048523,1267.500000 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5027,8 +5269,10 @@ export default function LogoPaths() {
         C1236.837524,703.946716 1238.658081,703.752441 1240.738525,703.816528 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5041,8 +5285,10 @@ export default function LogoPaths() {
         C1646.295044,801.022827 1644.404053,802.957397 1642.169189,804.940491 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5053,8 +5299,10 @@ export default function LogoPaths() {
         C767.680664,1262.246094 769.543030,1262.203247 771.845825,1262.340332 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5065,8 +5313,10 @@ export default function LogoPaths() {
         C1724.008057,797.429382 1724.965210,798.866821 1725.982910,800.628906 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5077,8 +5327,10 @@ export default function LogoPaths() {
         C981.319275,1276.989380 978.561768,1277.055420 975.342041,1277.188965 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5088,8 +5340,10 @@ export default function LogoPaths() {
         C1091.952759,726.887207 1085.847900,726.938049 1079.371826,726.831970 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5099,8 +5353,10 @@ export default function LogoPaths() {
         C1348.453003,703.726379 1350.889648,703.511963 1353.629639,703.515198 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5115,8 +5371,10 @@ export default function LogoPaths() {
         C670.998352,1262.286255 670.999817,1262.117310 671.001343,1261.948486 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5126,8 +5384,10 @@ export default function LogoPaths() {
         C1333.148193,703.786926 1336.284668,703.637268 1339.713867,703.761353 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5137,8 +5397,10 @@ export default function LogoPaths() {
         C1253.171631,742.128357 1251.343506,742.274841 1249.257324,742.162781 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -5148,8 +5410,10 @@ export default function LogoPaths() {
         C371.182343,1083.448242 371.127899,1078.318604 371.183319,1072.772339 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -5159,8 +5423,10 @@ export default function LogoPaths() {
         C378.669739,1154.958008 377.091431,1153.229126 375.372253,1151.211670 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5170,8 +5436,10 @@ export default function LogoPaths() {
         C960.194519,1283.922974 957.272644,1284.106201 954.076660,1283.965942 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5183,8 +5451,10 @@ export default function LogoPaths() {
         C803.040405,1262.680054 804.008606,1262.832397 804.976807,1262.984619 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5194,8 +5464,10 @@ export default function LogoPaths() {
         C477.509949,1271.591431 475.098114,1270.909546 475.159851,1267.010010 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5206,8 +5478,10 @@ export default function LogoPaths() {
         C931.970764,1276.900269 928.946960,1276.951416 925.473877,1276.946533 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5217,8 +5491,10 @@ export default function LogoPaths() {
         C1404.142456,703.801514 1406.291260,703.655029 1408.720093,703.754333 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5228,8 +5504,10 @@ export default function LogoPaths() {
         C1346.678833,745.665283 1344.032349,743.029846 1341.230957,742.232422 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5240,8 +5518,10 @@ export default function LogoPaths() {
         C664.116638,1299.848755 662.019775,1300.016479 659.480835,1300.121094 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5251,8 +5531,10 @@ export default function LogoPaths() {
         C789.499207,1300.228516 786.998108,1300.380981 784.248047,1300.311768 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5262,8 +5544,10 @@ export default function LogoPaths() {
         C1217.669922,704.239258 1219.462646,704.190857 1221.697998,704.231445 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5273,8 +5557,10 @@ export default function LogoPaths() {
         C798.760376,1299.554443 796.630066,1300.039673 794.249329,1300.291748 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5288,8 +5574,10 @@ export default function LogoPaths() {
         C1384.969116,705.028442 1384.994385,705.004517 1385.006836,704.991943 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5300,8 +5588,10 @@ export default function LogoPaths() {
         C1369.245361,703.752441 1370.416260,703.619446 1371.787109,703.702148 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5313,8 +5603,10 @@ export default function LogoPaths() {
         C1228.691040,704.174988 1229.505249,704.135193 1230.720337,704.177795 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5325,8 +5617,10 @@ export default function LogoPaths() {
         C1388.096558,704.032166 1390.260010,703.765686 1392.709351,703.755554 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5339,8 +5633,10 @@ export default function LogoPaths() {
         C775.932739,1298.052612 775.960266,1298.059937 775.969971,1298.072388 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -5352,8 +5648,10 @@ export default function LogoPaths() {
         C967.021301,1282.968628 967.153259,1282.802490 967.211426,1282.713867 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5364,8 +5662,10 @@ export default function LogoPaths() {
         C1307.211792,703.588074 1308.358154,703.491272 1309.731323,703.597900 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5375,8 +5675,10 @@ export default function LogoPaths() {
         C1277.503052,742.074341 1275.975586,742.282532 1274.218628,742.216003 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5390,8 +5692,10 @@ export default function LogoPaths() {
         C726.043945,1262.537720 726.047974,1262.722534 726.052124,1262.907349 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5405,8 +5709,10 @@ export default function LogoPaths() {
         C707.145691,1261.660767 708.340759,1261.586914 709.764648,1261.729004 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5417,8 +5723,10 @@ export default function LogoPaths() {
         C1278.861816,703.893555 1279.736206,703.726746 1280.808105,703.790527 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5429,8 +5737,10 @@ export default function LogoPaths() {
         C851.741333,1213.294189 850.982300,1212.513794 850.076782,1211.461792 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5441,8 +5751,10 @@ export default function LogoPaths() {
         C1412.145996,703.999939 1413.296997,704.006592 1414.767334,704.089905 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5452,8 +5764,10 @@ export default function LogoPaths() {
         C1299.045410,742.239929 1297.084106,742.527344 1295.019287,742.506714 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5463,8 +5777,10 @@ export default function LogoPaths() {
         C1313.504883,703.575684 1314.960327,703.399658 1316.699463,703.380005 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5475,8 +5791,10 @@ export default function LogoPaths() {
         C1370.824951,742.247314 1369.630737,742.372742 1368.219238,742.259644 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5486,8 +5804,10 @@ export default function LogoPaths() {
         C1308.598145,742.486877 1307.064819,742.599243 1305.298096,742.514771 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5497,8 +5817,10 @@ export default function LogoPaths() {
         C1289.504883,742.199890 1288.004639,742.410706 1286.239746,742.399170 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5508,8 +5830,10 @@ export default function LogoPaths() {
         C1325.200684,703.579285 1326.340210,703.463501 1327.711670,703.541260 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5521,8 +5845,10 @@ export default function LogoPaths() {
         C1239.984131,1204.258789 1240.975708,1205.446777 1241.940430,1207.015503 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5532,8 +5858,10 @@ export default function LogoPaths() {
         C821.187622,1261.792480 822.371887,1261.657715 823.778076,1261.763916 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5543,8 +5871,10 @@ export default function LogoPaths() {
         C1301.172729,703.662842 1302.311890,703.489258 1303.690430,703.505249 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5554,8 +5884,10 @@ export default function LogoPaths() {
         C1409.493530,742.151428 1407.987183,742.309265 1406.240601,742.210754 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5565,8 +5897,10 @@ export default function LogoPaths() {
         C1323.386841,742.566040 1321.771240,742.715637 1320.037598,742.535583 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5576,8 +5910,10 @@ export default function LogoPaths() {
         C1244.507202,703.878296 1246.009399,703.722290 1247.753540,703.817627 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5588,8 +5924,10 @@ export default function LogoPaths() {
         C1379.011597,704.602051 1379.006470,704.792847 1379.001221,704.983643 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5601,8 +5939,10 @@ export default function LogoPaths() {
         C757.451477,1261.769165 757.899719,1261.795044 758.671875,1261.914062 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5615,8 +5955,10 @@ export default function LogoPaths() {
         C755.199951,1264.664551 755.103943,1264.825562 755.056030,1264.906006 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5627,8 +5969,10 @@ export default function LogoPaths() {
         C1364.976318,704.546814 1364.968994,704.743835 1364.961670,704.940857 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5641,8 +5985,10 @@ export default function LogoPaths() {
         C703.747375,1261.859619 704.481812,1261.817017 705.583496,1261.754517 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5653,8 +5999,10 @@ export default function LogoPaths() {
         C833.045349,1212.173706 833.073730,1211.844971 833.099487,1211.515869 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5668,8 +6016,10 @@ export default function LogoPaths() {
         C746.831177,1261.600830 747.716614,1261.545410 748.795776,1261.696777 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5680,8 +6030,10 @@ export default function LogoPaths() {
         C671.333130,1299.907471 670.536133,1299.997803 669.344482,1300.006958 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5695,8 +6047,10 @@ export default function LogoPaths() {
         C1381.677368,740.728333 1382.041260,740.721558 1382.676758,740.691895 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5707,8 +6061,10 @@ export default function LogoPaths() {
         C1641.965942,1195.769897 1642.056152,1196.416870 1642.164307,1197.390381 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5719,8 +6075,10 @@ export default function LogoPaths() {
         C1254.146240,704.382202 1254.219482,704.750366 1254.190186,704.935791 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5730,8 +6088,10 @@ export default function LogoPaths() {
         C964.289368,1276.594727 965.565735,1276.404419 966.919067,1276.531494 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5741,8 +6101,10 @@ export default function LogoPaths() {
         C827.182068,1261.837036 828.364197,1261.673950 829.773193,1261.748535 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5754,8 +6116,10 @@ export default function LogoPaths() {
         C636.992920,1262.636841 636.997681,1262.815063 637.002441,1262.993286 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5766,8 +6130,10 @@ export default function LogoPaths() {
         C756.553650,1262.611450 756.104126,1263.479614 755.427246,1264.506104 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5781,8 +6147,10 @@ export default function LogoPaths() {
         C726.083008,1262.940430 726.045044,1262.954224 726.048584,1262.930786 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5794,8 +6162,10 @@ export default function LogoPaths() {
         C697.432922,1263.029541 696.973877,1263.372070 696.231995,1263.759399 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5807,8 +6177,10 @@ export default function LogoPaths() {
         C719.852905,1261.803711 720.703918,1261.626221 721.779907,1261.625854 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -5823,8 +6195,10 @@ export default function LogoPaths() {
         C743.725037,1261.794800 744.465271,1261.748169 745.575562,1261.678955 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5836,8 +6210,10 @@ export default function LogoPaths() {
         C804.984497,1262.981445 804.995239,1262.994141 804.986023,1262.989380 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5850,8 +6226,10 @@ export default function LogoPaths() {
         C1270.915283,742.247864 1269.805176,742.577271 1268.324585,742.886719 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5861,8 +6239,10 @@ export default function LogoPaths() {
         C812.873352,1261.807251 813.743530,1261.672974 814.806824,1261.767822 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -5872,8 +6252,10 @@ export default function LogoPaths() {
         C444.879303,806.197998 446.313171,806.150574 448.038025,806.237549 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5884,8 +6266,10 @@ export default function LogoPaths() {
         C665.921387,1262.339111 665.774109,1262.796631 665.774109,1262.796631 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5895,8 +6279,10 @@ export default function LogoPaths() {
         C657.850647,1261.728760 658.718811,1261.608765 659.800415,1261.682373 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5908,8 +6294,10 @@ export default function LogoPaths() {
         C641.921631,1262.859863 641.880859,1263.236450 641.840027,1263.613159 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5921,8 +6309,10 @@ export default function LogoPaths() {
         C1259.981323,705.117859 1259.421875,705.106201 1258.862549,705.094604 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5934,8 +6324,10 @@ export default function LogoPaths() {
         C625.250427,1263.110229 624.466187,1263.182251 623.289429,1263.188721 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5945,8 +6337,10 @@ export default function LogoPaths() {
         C948.201416,1283.850708 947.236633,1284.066528 946.060425,1284.002075 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5958,8 +6352,10 @@ export default function LogoPaths() {
         C1380.439575,705.152283 1380.027344,705.119446 1379.308105,705.035095 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -5969,8 +6365,10 @@ export default function LogoPaths() {
         C1387.135864,742.178223 1386.265503,742.313416 1385.195068,742.229614 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5980,8 +6378,10 @@ export default function LogoPaths() {
         C794.887817,1261.804932 795.760315,1261.680542 796.819824,1261.794678 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -5991,8 +6391,10 @@ export default function LogoPaths() {
         C767.117798,1300.236450 766.255554,1300.355835 765.198364,1300.255127 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -6002,8 +6404,10 @@ export default function LogoPaths() {
         C373.570435,1148.705200 372.900543,1147.695312 372.208374,1146.362305 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6013,8 +6417,10 @@ export default function LogoPaths() {
         C680.848083,1261.718384 681.719116,1261.608643 682.799866,1261.696777 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6024,8 +6430,10 @@ export default function LogoPaths() {
         C762.149719,1300.181030 761.297546,1300.362061 760.235046,1300.339111 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6037,8 +6445,10 @@ export default function LogoPaths() {
         C736.979980,1262.564697 736.975098,1262.755615 736.970154,1262.946411 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6048,8 +6458,10 @@ export default function LogoPaths() {
         C690.849060,1261.741699 691.708435,1261.583740 692.795776,1261.599854 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6059,8 +6471,10 @@ export default function LogoPaths() {
         C1319.850098,703.798950 1320.700195,703.603638 1321.758789,703.612915 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6070,8 +6484,10 @@ export default function LogoPaths() {
         C1025.928833,1276.793823 1026.890259,1276.531982 1027.925903,1276.583984 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6081,8 +6497,10 @@ export default function LogoPaths() {
         C1356.872925,703.723633 1357.727783,703.568787 1358.777344,703.626892 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6092,8 +6510,10 @@ export default function LogoPaths() {
         C1294.878784,703.774475 1295.747314,703.630798 1296.802612,703.715698 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6104,8 +6524,10 @@ export default function LogoPaths() {
         C1240.180542,798.486267 1239.914429,799.095154 1239.381836,799.795776 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6115,8 +6537,10 @@ export default function LogoPaths() {
         C1363.139160,742.152527 1362.271484,742.342346 1361.206543,742.302856 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6126,8 +6550,10 @@ export default function LogoPaths() {
         C1187.702393,704.108521 1188.492065,704.076233 1189.676270,704.074707 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6138,8 +6564,10 @@ export default function LogoPaths() {
         C1194.422852,704.062317 1194.901245,704.054626 1195.736450,704.089355 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6151,8 +6579,10 @@ export default function LogoPaths() {
         C830.815735,1211.726318 831.637695,1211.506226 832.779541,1211.401001 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6163,8 +6593,10 @@ export default function LogoPaths() {
         C703.716003,1299.748657 703.199341,1299.845337 702.290283,1299.886841 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6175,8 +6607,10 @@ export default function LogoPaths() {
         C1095.896729,1223.868774 1095.961670,1223.676636 1096.026489,1223.484497 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -6186,8 +6620,10 @@ export default function LogoPaths() {
         C1310.509277,803.412292 1311.083862,802.431335 1312.009521,801.514221 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6197,8 +6633,10 @@ export default function LogoPaths() {
         C778.584106,1261.803101 779.146484,1261.689819 779.854370,1261.786865 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6208,8 +6646,10 @@ export default function LogoPaths() {
         C789.543091,1261.913330 790.118103,1261.748169 790.848999,1261.799927 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6221,8 +6661,10 @@ export default function LogoPaths() {
         C731.070557,1261.828003 732.123901,1261.787354 733.572510,1261.756714 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -6233,8 +6675,10 @@ export default function LogoPaths() {
         C1093.795532,1225.291260 1094.562622,1224.504395 1095.678101,1223.600952 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -6245,8 +6689,10 @@ export default function LogoPaths() {
         C401.991669,805.897522 402.212769,805.928284 402.318726,805.963379 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6256,8 +6702,10 @@ export default function LogoPaths() {
         C597.613586,1299.913696 597.098999,1299.929565 596.200806,1299.895996 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -6267,8 +6715,10 @@ export default function LogoPaths() {
         C441.345886,764.939453 441.798401,764.453918 442.577820,763.941040 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6280,8 +6730,10 @@ export default function LogoPaths() {
         C739.934021,1262.966919 738.856812,1262.953735 737.374878,1262.943359 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6292,8 +6744,10 @@ export default function LogoPaths() {
         C1234.962769,1196.243042 1234.967041,1196.438354 1234.911011,1196.920410 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6305,8 +6759,10 @@ export default function LogoPaths() {
         C631.052551,1261.954346 632.120239,1261.927246 633.587891,1261.920532 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6316,8 +6772,10 @@ export default function LogoPaths() {
         C1313.409546,742.180115 1312.832275,742.283936 1312.123291,742.159302 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6328,8 +6786,10 @@ export default function LogoPaths() {
         C675.991516,1261.901489 675.927002,1262.349731 675.863037,1262.566895 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6340,8 +6800,10 @@ export default function LogoPaths() {
         C965.362488,1283.393555 965.898987,1283.193604 966.728394,1282.981201 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6351,8 +6813,10 @@ export default function LogoPaths() {
         C1337.429321,742.252991 1336.875488,742.385681 1336.170776,742.322510 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6362,8 +6826,10 @@ export default function LogoPaths() {
         C941.473267,1283.915771 940.823730,1284.055908 940.013184,1283.938965 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6374,8 +6840,10 @@ export default function LogoPaths() {
         C1235.472534,805.449402 1235.019165,806.151489 1234.224854,806.897766 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6385,8 +6853,10 @@ export default function LogoPaths() {
         C714.554321,1261.717896 715.126099,1261.642456 715.851440,1261.757812 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6396,8 +6866,10 @@ export default function LogoPaths() {
         C1289.550415,703.947083 1290.121948,703.752319 1290.846680,703.778809 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6408,8 +6880,10 @@ export default function LogoPaths() {
         C701.497986,1261.995483 702.065125,1261.760498 702.822510,1261.713867 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6419,8 +6893,10 @@ export default function LogoPaths() {
         C1283.421387,742.092346 1282.835815,742.217712 1282.114868,742.107666 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6430,8 +6906,10 @@ export default function LogoPaths() {
         C846.845764,1211.354736 845.660889,1211.511963 844.222534,1211.480225 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6441,8 +6919,10 @@ export default function LogoPaths() {
         C578.417053,1211.439819 577.744202,1211.593384 576.994812,1211.496094 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6452,8 +6932,10 @@ export default function LogoPaths() {
         C833.571777,796.490723 834.249634,796.350159 835.011841,796.452271 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6463,8 +6945,10 @@ export default function LogoPaths() {
         C753.445312,1300.164307 752.892517,1300.317383 752.177185,1300.279053 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6476,8 +6960,10 @@ export default function LogoPaths() {
         C669.557373,1261.846313 670.116211,1261.709229 670.838135,1261.760254 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6487,8 +6973,10 @@ export default function LogoPaths() {
         C625.428650,1300.270142 624.883484,1300.387573 624.181030,1300.322998 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6498,8 +6986,10 @@ export default function LogoPaths() {
         C1328.500488,742.723877 1327.838989,742.904358 1327.077148,742.834351 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6509,8 +6999,10 @@ export default function LogoPaths() {
         C1213.598633,741.898743 1213.117188,741.920471 1212.275635,741.905762 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6522,8 +7014,10 @@ export default function LogoPaths() {
         C742.536316,1263.150513 742.096619,1263.135376 741.334106,1263.050049 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6533,8 +7027,10 @@ export default function LogoPaths() {
         C1206.593140,741.916199 1206.116455,741.936218 1205.282959,741.922974 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6544,8 +7040,10 @@ export default function LogoPaths() {
         C602.432251,1300.154907 601.867554,1300.281494 601.150269,1300.201050 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6556,8 +7054,10 @@ export default function LogoPaths() {
         C1107.874023,727.069519 1106.742188,727.038818 1105.301758,726.876709 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6568,8 +7068,10 @@ export default function LogoPaths() {
         C1112.973267,718.814941 1113.026855,719.225525 1113.040405,719.432068 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6579,8 +7081,10 @@ export default function LogoPaths() {
         C1545.435669,1072.501221 1545.012329,1073.184692 1544.256104,1073.907471 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6590,8 +7094,10 @@ export default function LogoPaths() {
         C1077.859619,719.501465 1078.705811,719.372986 1079.770020,719.411560 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6601,8 +7107,10 @@ export default function LogoPaths() {
         C938.863159,1276.697266 939.722473,1276.558350 940.786560,1276.623901 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -6613,8 +7121,10 @@ export default function LogoPaths() {
         C1298.004517,817.035889 1297.936646,816.545654 1297.987427,816.303467 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6626,8 +7136,10 @@ export default function LogoPaths() {
         C628.297485,1262.935181 627.543518,1262.986450 626.412109,1263.038086 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6639,8 +7151,10 @@ export default function LogoPaths() {
         C637.753296,1261.907471 638.495850,1261.891357 639.609619,1261.873291 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6653,8 +7167,10 @@ export default function LogoPaths() {
         C666.764709,1261.883789 667.510071,1261.900391 668.626953,1261.950195 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6664,8 +7180,10 @@ export default function LogoPaths() {
         C1074.273682,726.608215 1073.433105,726.802429 1072.268799,726.911255 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -6677,8 +7195,10 @@ export default function LogoPaths() {
         C1297.195435,816.992493 1297.363159,816.966370 1297.783203,816.972046 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -6688,8 +7208,10 @@ export default function LogoPaths() {
         C1294.411377,820.707947 1294.885498,819.937988 1295.699219,819.088623 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -6699,8 +7221,10 @@ export default function LogoPaths() {
         C454.055084,888.421448 454.262787,887.866943 454.698120,887.229614 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -6711,8 +7235,10 @@ export default function LogoPaths() {
         C1292.490112,821.865967 1292.893066,821.672058 1293.631592,821.455811 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6722,8 +7248,10 @@ export default function LogoPaths() {
         C519.131653,1284.420166 518.291870,1284.548340 517.241699,1284.496826 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6734,8 +7262,10 @@ export default function LogoPaths() {
         C699.501343,1262.313110 698.985535,1262.535034 698.180786,1262.721924 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6746,8 +7276,10 @@ export default function LogoPaths() {
         C1373.636597,741.867249 1373.182251,741.985901 1372.373535,742.113220 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -6757,8 +7289,10 @@ export default function LogoPaths() {
         C1645.328613,797.822388 1645.702393,797.619141 1646.293457,797.368164 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -6768,8 +7302,10 @@ export default function LogoPaths() {
         C1083.142944,1228.405273 1083.389648,1227.830200 1083.889038,1227.031982 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6779,8 +7315,10 @@ export default function LogoPaths() {
         C848.631409,799.293274 848.586548,799.590393 848.334229,799.922241 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6792,8 +7330,10 @@ export default function LogoPaths() {
         C642.890320,1263.277954 642.671814,1263.515259 642.088867,1263.629639 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -6803,8 +7343,10 @@ export default function LogoPaths() {
         C393.784119,805.773743 393.966156,805.709595 394.280579,805.914978 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -6815,8 +7357,10 @@ export default function LogoPaths() {
         C429.691376,805.479919 429.980560,805.695007 429.880676,805.753540 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -6827,8 +7371,10 @@ export default function LogoPaths() {
         C1366.477173,704.244751 1366.017700,704.580994 1365.260010,704.929077 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6838,8 +7384,10 @@ export default function LogoPaths() {
         C1068.619995,719.888489 1069.117676,719.630188 1069.804443,719.541321 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6849,8 +7397,10 @@ export default function LogoPaths() {
         C950.565002,1276.695068 951.113220,1276.565186 951.821411,1276.617432 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6860,8 +7410,10 @@ export default function LogoPaths() {
         C1088.554565,719.500549 1089.105469,719.392883 1089.822388,719.445801 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6871,8 +7423,10 @@ export default function LogoPaths() {
         C1019.562622,1276.702148 1020.116699,1276.585571 1020.831177,1276.651733 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6882,8 +7436,10 @@ export default function LogoPaths() {
         C1567.748657,1049.168213 1567.568481,1049.456299 1567.148193,1049.844971 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6893,8 +7449,10 @@ export default function LogoPaths() {
         C1565.874634,1051.281616 1565.698242,1051.552979 1565.183350,1051.849854 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6904,8 +7462,10 @@ export default function LogoPaths() {
         C1564.872314,1052.291748 1564.694580,1052.559326 1564.188477,1052.856445 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6915,8 +7475,10 @@ export default function LogoPaths() {
         C1563.884888,1053.301514 1563.709717,1053.570068 1563.204712,1053.869263 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6927,8 +7489,10 @@ export default function LogoPaths() {
         C780.927185,1300.066650 780.495972,1300.069214 780.280334,1300.065796 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6938,8 +7502,10 @@ export default function LogoPaths() {
         C1569.702637,1047.090332 1569.522827,1047.389282 1569.094482,1047.788208 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6949,8 +7515,10 @@ export default function LogoPaths() {
         C1035.238770,1276.590210 1035.509888,1276.384155 1036.039673,1276.156738 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6960,8 +7528,10 @@ export default function LogoPaths() {
         C1538.148804,1068.374878 1538.395020,1068.247681 1538.845215,1068.404053 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -6971,8 +7541,10 @@ export default function LogoPaths() {
         C1352.758545,742.364502 1352.458496,742.453552 1352.050049,742.400085 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6982,8 +7554,10 @@ export default function LogoPaths() {
         C1550.724731,1067.142700 1550.539429,1067.434204 1550.105225,1067.818115 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -6993,8 +7567,10 @@ export default function LogoPaths() {
         C1551.715210,1066.050781 1551.538818,1066.370239 1551.105469,1066.802979 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7005,8 +7581,10 @@ export default function LogoPaths() {
         C724.615723,1300.610107 724.201233,1300.537964 724.091187,1300.441406 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7016,8 +7594,10 @@ export default function LogoPaths() {
         C1098.857666,1221.415039 1098.719971,1221.633423 1098.287842,1221.845581 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7027,8 +7607,10 @@ export default function LogoPaths() {
         C1562.890869,1054.312744 1562.713013,1054.577759 1562.213135,1054.875977 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7038,8 +7620,10 @@ export default function LogoPaths() {
         C801.682129,1299.916260 801.422241,1299.747559 801.095825,1299.294922 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -7049,8 +7633,10 @@ export default function LogoPaths() {
         C1092.961060,1226.410889 1092.845215,1226.789917 1092.426880,1227.148071 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -7059,8 +7645,10 @@ export default function LogoPaths() {
         C1668.498779,770.486389 1668.498169,770.521912 1668.498535,770.504150 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7070,8 +7658,10 @@ export default function LogoPaths() {
         C1021.681641,780.196167 1021.573059,780.443604 1021.117004,780.697266 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7081,8 +7671,10 @@ export default function LogoPaths() {
         C1559.956787,1057.397095 1559.796265,1057.648438 1559.334229,1057.936279 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7092,8 +7684,10 @@ export default function LogoPaths() {
         C1561.904297,1055.320190 1561.732910,1055.582886 1561.244995,1055.882080 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -7103,8 +7697,10 @@ export default function LogoPaths() {
         C1685.903076,784.461365 1686.002197,784.180176 1686.581177,783.927734 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -7114,8 +7710,10 @@ export default function LogoPaths() {
         C1070.953491,726.957214 1070.668945,727.329773 1070.436279,727.358765 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7126,8 +7724,10 @@ export default function LogoPaths() {
         C1378.044556,741.528198 1378.250366,741.295105 1378.773926,741.074158 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7137,8 +7737,10 @@ export default function LogoPaths() {
         C937.197021,1283.847900 936.846558,1283.871338 935.970520,1283.859985 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7148,8 +7750,10 @@ export default function LogoPaths() {
         C1017.852905,784.302307 1017.706787,784.577271 1017.197449,784.867188 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7159,8 +7763,10 @@ export default function LogoPaths() {
         C1005.123535,785.690308 1005.227600,785.468933 1005.626160,785.219971 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7170,8 +7776,10 @@ export default function LogoPaths() {
         C1102.885376,726.750916 1102.581909,726.857727 1101.999756,726.718323 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7182,8 +7790,10 @@ export default function LogoPaths() {
         C805.890259,1262.386230 805.684753,1262.617798 805.199707,1262.886963 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -7192,8 +7802,10 @@ export default function LogoPaths() {
         C1684.489868,786.496033 1684.525269,786.505798 1684.507568,786.500916 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7203,8 +7815,10 @@ export default function LogoPaths() {
         C1004.152588,786.739319 1004.291199,786.489441 1004.758545,786.229736 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7214,8 +7828,10 @@ export default function LogoPaths() {
         C689.896362,1299.865479 689.700684,1299.915527 689.209839,1299.896851 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7225,8 +7841,10 @@ export default function LogoPaths() {
         C959.197937,1276.490723 959.463867,1276.400391 959.898682,1276.725220 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7236,8 +7854,10 @@ export default function LogoPaths() {
         C482.814911,1276.746216 482.669220,1276.491821 482.654541,1276.123047 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -7247,8 +7867,10 @@ export default function LogoPaths() {
         C453.040100,889.593262 453.170593,889.203918 453.641418,888.862000 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -7258,8 +7880,10 @@ export default function LogoPaths() {
         C452.044800,890.595520 452.177490,890.206909 452.646057,889.864014 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7269,8 +7893,10 @@ export default function LogoPaths() {
         C1019.799500,782.214905 1019.674377,782.466003 1019.214111,782.736572 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7282,8 +7908,10 @@ export default function LogoPaths() {
         C629.973633,1262.947144 629.510193,1262.950562 629.280823,1262.917236 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -7293,8 +7921,10 @@ export default function LogoPaths() {
         C450.708130,891.621216 450.994843,891.250305 451.639252,890.897888 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7306,8 +7936,10 @@ export default function LogoPaths() {
         C643.922852,1262.812622 643.464050,1262.918945 643.228638,1262.926514 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7317,8 +7949,10 @@ export default function LogoPaths() {
         C648.044739,1261.916016 648.490479,1261.892578 648.713623,1261.894775 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7328,8 +7962,10 @@ export default function LogoPaths() {
         C653.026611,1261.950073 653.492554,1261.922852 653.725891,1261.926025 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7339,8 +7975,10 @@ export default function LogoPaths() {
         C1350.945923,742.041565 1350.488525,742.098877 1350.261230,742.060303 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7350,8 +7988,10 @@ export default function LogoPaths() {
         C1285.016113,703.991638 1285.492554,703.915039 1285.731689,703.946777 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -7362,8 +8002,10 @@ export default function LogoPaths() {
         C429.556885,814.511169 429.483734,814.772339 429.408417,814.692993 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7373,8 +8015,10 @@ export default function LogoPaths() {
         C1296.184814,817.724609 1296.362305,817.445679 1296.783813,817.092651 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7384,8 +8028,10 @@ export default function LogoPaths() {
         C1744.393188,836.150269 1744.632202,836.341553 1744.854492,836.852905 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -7395,8 +8041,10 @@ export default function LogoPaths() {
         C374.785919,1150.672485 374.571564,1150.496948 374.387085,1150.015869 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -7406,8 +8054,10 @@ export default function LogoPaths() {
         C380.937927,1157.697388 380.666687,1157.540649 380.406006,1157.009521 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7417,8 +8067,10 @@ export default function LogoPaths() {
         C1745.267822,837.122803 1745.539917,837.288147 1745.817627,837.812256 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -7430,8 +8082,10 @@ export default function LogoPaths() {
         C1385.130737,704.172241 1385.533081,704.227600 1385.733032,704.263123 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7441,8 +8095,10 @@ export default function LogoPaths() {
         C534.526550,1206.000366 534.273254,1205.820801 534.031372,1205.299072 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7452,8 +8108,10 @@ export default function LogoPaths() {
         C533.576050,1204.986816 533.306335,1204.808960 533.050049,1204.265503 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7463,8 +8121,10 @@ export default function LogoPaths() {
         C532.706604,1203.826538 532.438843,1203.632935 532.099915,1203.196045 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7474,8 +8134,10 @@ export default function LogoPaths() {
         C531.772034,1202.779175 531.496765,1202.583862 531.149841,1202.139648 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7485,8 +8147,10 @@ export default function LogoPaths() {
         C530.825073,1201.739990 530.539246,1201.554932 530.178284,1201.118164 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7496,8 +8160,10 @@ export default function LogoPaths() {
         C1332.005981,741.986084 1331.567139,742.102112 1331.340332,742.091797 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7507,8 +8173,10 @@ export default function LogoPaths() {
         C529.842041,1200.716919 529.549622,1200.536011 529.181030,1200.100342 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7518,8 +8186,10 @@ export default function LogoPaths() {
         C1643.427612,1199.137451 1643.680786,1199.357422 1643.948730,1199.838623 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7529,8 +8199,10 @@ export default function LogoPaths() {
         C528.853760,1199.693481 528.550476,1199.486694 528.179810,1199.004639 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7540,8 +8212,10 @@ export default function LogoPaths() {
         C1642.632446,1197.915649 1642.868896,1198.084106 1643.060181,1198.598877 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7551,8 +8225,10 @@ export default function LogoPaths() {
         C1548.739380,1069.160278 1548.550903,1069.449219 1548.115479,1069.833496 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7562,8 +8238,10 @@ export default function LogoPaths() {
         C1547.741089,1070.159790 1547.556152,1070.452393 1547.121948,1070.838135 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7573,8 +8251,10 @@ export default function LogoPaths() {
         C1546.732422,1071.158081 1546.529663,1071.442017 1546.070557,1071.803345 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7585,8 +8265,10 @@ export default function LogoPaths() {
         C1543.924438,1074.258667 1543.785400,1074.544922 1543.327148,1074.906494 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7596,8 +8278,10 @@ export default function LogoPaths() {
         C848.239258,797.807922 848.528748,797.798035 848.823608,797.966919 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7607,8 +8291,10 @@ export default function LogoPaths() {
         C538.690796,1210.035278 538.395508,1209.937134 538.043213,1209.456299 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7618,8 +8304,10 @@ export default function LogoPaths() {
         C535.441101,1207.003296 535.207520,1206.840088 534.986572,1206.360840 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7629,8 +8317,10 @@ export default function LogoPaths() {
         C1751.308594,843.254822 1751.552734,843.451660 1751.699341,844.027466 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7640,8 +8330,10 @@ export default function LogoPaths() {
         C1105.134521,719.226746 1105.398315,719.107849 1105.876343,719.290588 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7651,8 +8343,10 @@ export default function LogoPaths() {
         C1749.963867,842.385010 1750.275879,842.484314 1750.697754,842.814087 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7662,8 +8356,10 @@ export default function LogoPaths() {
         C1096.197266,719.344360 1096.480469,719.267090 1096.931152,719.558960 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7673,8 +8369,10 @@ export default function LogoPaths() {
         C1748.364868,841.066895 1748.606812,841.209961 1748.880371,841.648926 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7684,8 +8382,10 @@ export default function LogoPaths() {
         C1072.252319,719.620239 1072.545166,719.531006 1072.943604,719.583740 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7695,8 +8395,10 @@ export default function LogoPaths() {
         C1746.307617,838.176758 1746.563721,838.375427 1746.759766,838.942444 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -7706,8 +8408,10 @@ export default function LogoPaths() {
         C1549.727417,1068.148926 1549.545410,1068.441406 1549.117188,1068.831055 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7718,8 +8422,10 @@ export default function LogoPaths() {
         C841.910400,809.195740 841.737366,809.162659 841.303894,809.084229 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7781,8 +8487,10 @@ export default function LogoPaths() {
         C533.513123,921.404358 533.588928,921.530640 533.513123,921.404358 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7800,8 +8508,10 @@ export default function LogoPaths() {
         C534.663391,1021.353333 534.084839,1038.848999 533.359253,1056.659668 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7815,8 +8525,10 @@ export default function LogoPaths() {
         C830.633789,1177.365967 835.011292,1184.174194 839.707825,1191.022583 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7830,8 +8542,10 @@ export default function LogoPaths() {
         C740.060120,1124.851929 740.074585,1125.258179 740.088989,1125.664429 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7848,8 +8562,10 @@ export default function LogoPaths() {
         C542.019165,1095.974609 542.037903,1095.906250 542.037903,1095.906250 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7876,8 +8592,10 @@ export default function LogoPaths() {
         C595.309204,1126.997314 597.812561,1127.125000 600.315857,1127.252686 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7890,8 +8608,10 @@ export default function LogoPaths() {
         C657.770996,1123.082764 668.038696,1123.234131 678.626648,1123.587646 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7903,8 +8623,10 @@ export default function LogoPaths() {
         C753.008728,1125.887329 747.005127,1125.849487 740.545288,1125.738037 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7915,8 +8637,10 @@ export default function LogoPaths() {
         C533.401855,1066.998657 533.729675,1073.987671 534.063232,1081.434570 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7929,8 +8653,10 @@ export default function LogoPaths() {
         C641.328308,1124.854614 642.711243,1124.878540 644.506470,1124.874512 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7943,8 +8669,10 @@ export default function LogoPaths() {
         C585.672058,1125.003052 586.737732,1125.689453 587.948303,1126.380615 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7957,8 +8685,10 @@ export default function LogoPaths() {
         C627.761108,1124.022827 633.533508,1124.226685 639.625183,1124.584473 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7971,8 +8701,10 @@ export default function LogoPaths() {
         C609.031372,1127.255493 605.064575,1127.286011 600.706787,1127.284668 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -7984,8 +8716,10 @@ export default function LogoPaths() {
         C625.183777,1127.106689 619.423889,1127.401367 613.331177,1127.460449 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -7996,8 +8730,10 @@ export default function LogoPaths() {
         C706.545593,1122.134644 710.168823,1122.743530 713.935425,1123.480835 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -8012,8 +8748,10 @@ export default function LogoPaths() {
         C558.079407,1110.984009 561.055237,1114.074097 564.050537,1117.516846 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -8025,8 +8763,10 @@ export default function LogoPaths() {
         C765.974304,1126.287598 762.816589,1126.350342 759.335571,1126.169067 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -8037,8 +8777,10 @@ export default function LogoPaths() {
         C773.403198,1126.249756 771.680176,1126.383789 769.544556,1126.371338 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -8051,8 +8793,10 @@ export default function LogoPaths() {
         C837.631531,813.098816 837.402954,813.305359 837.094116,813.753235 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -8062,8 +8806,10 @@ export default function LogoPaths() {
         C532.196228,942.961853 532.413818,943.923218 532.303711,944.941345 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -8074,8 +8820,10 @@ export default function LogoPaths() {
         C839.324402,811.377502 838.951843,812.113831 838.238525,812.892090 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -8280,8 +9028,10 @@ export default function LogoPaths() {
         C503.008057,968.059937 503.411102,967.778870 503.691284,966.939697 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -8468,8 +9218,10 @@ export default function LogoPaths() {
         C679.450989,1177.489502 679.517517,1177.457275 679.450989,1177.489502 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -8495,8 +9247,10 @@ export default function LogoPaths() {
         C642.025146,1211.633423 632.002014,1211.370850 621.978821,1211.108154 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -8531,8 +9285,10 @@ export default function LogoPaths() {
         C746.328674,1197.512329 745.681641,1198.265503 744.964233,1198.902344 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -8566,8 +9322,10 @@ export default function LogoPaths() {
         C697.972839,1193.922241 701.955139,1195.121826 707.071594,1194.052368 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -8590,8 +9348,10 @@ export default function LogoPaths() {
         C543.861938,1198.702637 544.442566,1198.689453 545.023132,1198.676270 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -8604,8 +9364,10 @@ export default function LogoPaths() {
         C658.860352,1197.412354 655.781189,1197.744019 652.341003,1197.914307 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -8621,8 +9383,10 @@ export default function LogoPaths() {
         C641.934204,1198.179688 638.930786,1198.531006 635.495850,1198.937988 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -8632,8 +9396,10 @@ export default function LogoPaths() {
         C663.721741,1209.749023 674.552124,1209.635376 685.761230,1209.693115 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -8643,8 +9409,10 @@ export default function LogoPaths() {
         C457.807343,1048.335083 458.527618,1047.639771 459.647705,1047.022705 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -8654,8 +9422,10 @@ export default function LogoPaths() {
         C456.890686,1059.946167 456.824249,1058.853516 456.877563,1057.364258 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -8665,8 +9435,10 @@ export default function LogoPaths() {
         C458.177979,1073.894165 457.534332,1073.286621 456.953003,1072.324463 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -8677,8 +9449,10 @@ export default function LogoPaths() {
         C543.270630,1198.100220 543.960510,1198.191284 544.836792,1198.479248 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -8688,8 +9462,10 @@ export default function LogoPaths() {
         C457.066498,1076.404785 457.207153,1075.784058 457.688080,1075.123535 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -8952,8 +9728,10 @@ export default function LogoPaths() {
         C927.441162,847.553650 927.631836,847.529114 927.536499,847.385498 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -9013,8 +9791,10 @@ export default function LogoPaths() {
         C902.818054,919.259399 902.813904,919.027283 902.809753,918.795227 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -9136,8 +9916,10 @@ export default function LogoPaths() {
         C992.613892,813.122681 993.230469,812.824341 993.634033,811.877930 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -9209,8 +9991,10 @@ export default function LogoPaths() {
         C858.872314,884.197144 858.650879,884.386597 858.429443,884.576050 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -9340,8 +10124,10 @@ export default function LogoPaths() {
         C1058.467896,843.517273 1059.009277,843.441956 1059.592773,842.837585 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -9493,8 +10279,10 @@ export default function LogoPaths() {
         C1062.523926,817.865051 1062.380737,818.006775 1062.492065,818.377319 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9525,8 +10313,10 @@ export default function LogoPaths() {
         C1147.108032,834.126892 1147.203491,834.137756 1147.203491,834.137756 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -9552,8 +10342,10 @@ export default function LogoPaths() {
         C1160.981812,857.967834 1160.975342,857.937073 1160.975342,857.937073 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -9571,8 +10363,10 @@ export default function LogoPaths() {
         C1199.940552,824.791016 1202.609009,819.065247 1206.608887,815.621216 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -9597,8 +10391,10 @@ export default function LogoPaths() {
         C1151.568726,818.384583 1151.193481,818.120056 1151.006714,817.986694 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -9610,8 +10406,10 @@ export default function LogoPaths() {
         C1191.580322,821.173157 1189.643677,821.986755 1187.961426,819.068115 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -9624,8 +10422,10 @@ export default function LogoPaths() {
         C999.082336,810.125000 1001.136475,810.056580 1003.541565,810.114502 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -9640,8 +10440,10 @@ export default function LogoPaths() {
         C1159.450684,813.239014 1159.157227,813.127747 1159.055908,813.007874 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9654,8 +10456,10 @@ export default function LogoPaths() {
         C939.408081,809.404602 939.924927,809.547485 940.836426,809.777222 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9666,8 +10470,10 @@ export default function LogoPaths() {
         C1134.741699,810.580322 1135.474609,810.622192 1136.573242,810.618958 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -9679,8 +10485,10 @@ export default function LogoPaths() {
         C1168.746826,825.117249 1167.932129,823.834167 1167.101074,822.196899 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -9692,8 +10500,10 @@ export default function LogoPaths() {
         C1171.002319,849.998291 1171.019531,849.981567 1171.019531,849.981567 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9706,8 +10516,10 @@ export default function LogoPaths() {
         C1169.122925,835.558350 1169.418457,834.470032 1169.961792,833.206787 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9717,8 +10529,10 @@ export default function LogoPaths() {
         C1133.317871,809.203491 1133.539429,809.265625 1133.748535,809.630859 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9775,8 +10589,10 @@ export default function LogoPaths() {
         C1570.985840,805.351929 1571.878296,805.323059 1572.770630,805.294189 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -9864,8 +10680,10 @@ export default function LogoPaths() {
         C1316.947754,812.608582 1317.209351,812.056946 1317.668213,811.378967 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -9883,8 +10701,10 @@ export default function LogoPaths() {
         C1566.669922,805.369507 1564.774170,805.639160 1562.878418,805.908875 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9922,8 +10742,10 @@ export default function LogoPaths() {
         C1575.300903,871.028564 1577.216431,870.384949 1579.535400,869.904785 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -9947,8 +10769,10 @@ export default function LogoPaths() {
         C1444.275024,869.953796 1442.562988,870.736084 1440.859375,871.139526 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9959,8 +10783,10 @@ export default function LogoPaths() {
         C1237.136230,1037.120850 1237.395996,1028.326172 1237.728149,1019.148071 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9970,8 +10796,10 @@ export default function LogoPaths() {
         C1438.180908,799.185669 1435.655640,799.239990 1432.719360,799.225952 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9981,8 +10809,10 @@ export default function LogoPaths() {
         C1456.826294,799.121887 1454.956421,799.177612 1452.697510,799.148804 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -9992,8 +10822,10 @@ export default function LogoPaths() {
         C1314.861572,814.526062 1315.396606,813.808044 1316.309082,813.125122 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -10003,8 +10835,10 @@ export default function LogoPaths() {
         C1313.067505,817.053040 1313.351440,816.266174 1313.944580,815.394775 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -10014,8 +10848,10 @@ export default function LogoPaths() {
         C1311.421875,818.785767 1311.802490,818.309631 1312.508057,817.809204 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10072,8 +10908,10 @@ export default function LogoPaths() {
         C953.593445,1122.201416 953.313599,1121.953613 953.033752,1121.705933 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10083,8 +10921,10 @@ export default function LogoPaths() {
         C1221.245483,1180.591431 1223.544922,1183.107910 1225.790039,1186.003418 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10094,8 +10934,10 @@ export default function LogoPaths() {
         C1224.556274,818.004028 1224.059814,818.939697 1223.216553,819.894165 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10105,8 +10947,10 @@ export default function LogoPaths() {
         C1227.604492,1188.792236 1228.326660,1189.544556 1229.038818,1190.655029 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10116,8 +10960,10 @@ export default function LogoPaths() {
         C1231.590576,1193.963257 1231.805420,1194.157471 1232.005859,1194.643555 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10202,8 +11048,10 @@ export default function LogoPaths() {
         C1662.773682,738.105286 1662.972534,738.149353 1663.740601,738.073425 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -10227,8 +11075,10 @@ export default function LogoPaths() {
         C1483.599854,726.800537 1479.689819,726.393494 1475.414551,726.183960 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -10250,8 +11100,10 @@ export default function LogoPaths() {
         C1536.959229,725.132996 1535.614258,725.892456 1534.107666,726.379395 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -10264,8 +11116,10 @@ export default function LogoPaths() {
         C1559.404663,687.769775 1559.109131,689.088196 1558.477783,690.584839 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -10278,8 +11132,10 @@ export default function LogoPaths() {
         C1569.990234,695.992676 1570.000000,696.000000 1570.004883,696.004456 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -10290,8 +11146,10 @@ export default function LogoPaths() {
         C1549.990234,684.990234 1550.000000,685.000000 1550.004883,685.004883 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -10302,8 +11160,10 @@ export default function LogoPaths() {
         C1563.380859,694.808594 1562.335693,694.917725 1561.194824,694.688110 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10314,8 +11174,10 @@ export default function LogoPaths() {
         C1476.787720,719.082703 1478.608032,719.061890 1480.813599,719.074585 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10326,8 +11188,10 @@ export default function LogoPaths() {
         C1688.754639,761.034180 1689.502319,761.002380 1690.624268,760.985352 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -10339,8 +11203,10 @@ export default function LogoPaths() {
         C1649.319702,713.473999 1649.208984,714.451660 1649.091064,715.772400 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -10351,8 +11217,10 @@ export default function LogoPaths() {
         C1541.989014,708.999268 1541.313477,708.942139 1540.518188,708.597412 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10363,8 +11231,10 @@ export default function LogoPaths() {
         C1615.124634,710.558716 1615.707886,710.054077 1616.476929,709.777283 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10374,8 +11244,10 @@ export default function LogoPaths() {
         C1534.705811,720.156372 1535.545410,720.167175 1536.800659,720.246704 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10387,8 +11259,10 @@ export default function LogoPaths() {
         C1624.000000,712.000000 1624.005371,712.003723 1624.005371,712.003723 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10400,8 +11274,10 @@ export default function LogoPaths() {
         C1624.005371,712.003723 1624.000000,712.000000 1623.998047,711.996948 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10412,8 +11288,10 @@ export default function LogoPaths() {
         C1611.988281,712.992126 1612.000000,713.000000 1612.003784,713.005859 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10461,8 +11339,10 @@ export default function LogoPaths() {
         C916.601624,799.472351 918.076477,798.793152 919.907776,798.160889 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -10495,8 +11375,10 @@ export default function LogoPaths() {
         C1093.061890,1208.904541 1093.334229,1208.897949 1093.606445,1208.886475 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10514,8 +11396,10 @@ export default function LogoPaths() {
         C924.367859,1213.760620 922.756226,1212.520752 921.016968,1211.471191 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10537,8 +11421,10 @@ export default function LogoPaths() {
         C998.325134,791.984802 998.600769,792.051208 999.268066,792.283325 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10552,8 +11438,10 @@ export default function LogoPaths() {
         C856.370850,1143.071167 846.830139,1131.239624 837.159851,1119.179932 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10565,8 +11453,10 @@ export default function LogoPaths() {
         C826.151550,1063.597290 826.357910,1055.591797 826.806274,1047.288208 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10578,8 +11468,10 @@ export default function LogoPaths() {
         C963.310730,790.923645 970.241638,791.051331 977.647461,791.120056 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10595,8 +11487,10 @@ export default function LogoPaths() {
         C835.003113,1111.999634 835.022522,1111.967163 835.022522,1111.967163 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10606,8 +11500,10 @@ export default function LogoPaths() {
         C825.083740,1089.266968 827.497620,1084.775391 827.807861,1080.282715 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10617,8 +11513,10 @@ export default function LogoPaths() {
         C943.272400,790.377991 946.500122,792.250488 949.725098,792.811218 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10628,8 +11526,10 @@ export default function LogoPaths() {
         C827.169678,916.732483 827.220398,914.458252 827.631897,912.088135 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10639,8 +11539,10 @@ export default function LogoPaths() {
         C911.662781,1202.916138 910.346497,1201.828979 908.994995,1200.404785 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10650,8 +11552,10 @@ export default function LogoPaths() {
         C929.496155,794.489136 931.012329,794.020813 932.765381,793.823853 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10661,8 +11565,10 @@ export default function LogoPaths() {
         C915.689209,1206.884521 914.369568,1205.793335 913.023315,1204.361572 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10672,8 +11578,10 @@ export default function LogoPaths() {
         C912.191956,802.762390 913.306152,801.452209 914.773560,800.146790 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10683,8 +11591,10 @@ export default function LogoPaths() {
         C828.185303,902.391968 828.251526,900.776550 828.664246,899.083984 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10694,8 +11604,10 @@ export default function LogoPaths() {
         C995.964661,791.226074 996.930237,791.264587 997.972656,791.610718 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10705,8 +11617,10 @@ export default function LogoPaths() {
         C894.768494,820.014160 895.521423,819.019592 896.640625,818.019165 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10716,8 +11630,10 @@ export default function LogoPaths() {
         C828.997070,1101.125732 828.806702,1100.244141 828.875732,1099.176270 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -10729,8 +11645,10 @@ export default function LogoPaths() {
         C832.122192,1106.414185 832.165222,1106.845337 832.204102,1107.601318 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10740,8 +11658,10 @@ export default function LogoPaths() {
         C918.933838,1209.644165 918.020020,1209.150269 917.065308,1208.323730 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -10805,8 +11725,10 @@ export default function LogoPaths() {
         C1339.000000,738.000793 1339.006348,737.993286 1339.006348,737.993286 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -10822,8 +11744,10 @@ export default function LogoPaths() {
         C1461.971436,721.606384 1461.983154,721.785034 1461.983154,721.785034 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -10839,8 +11763,10 @@ export default function LogoPaths() {
         C1253.877563,725.128174 1247.308228,725.553711 1240.352539,725.980713 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -10859,8 +11785,10 @@ export default function LogoPaths() {
         C1407.427002,720.014282 1409.695679,720.014282 1411.964355,720.014282 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -10876,8 +11804,10 @@ export default function LogoPaths() {
         C1231.429199,720.689819 1231.892090,721.360901 1232.612549,722.207031 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10888,8 +11818,10 @@ export default function LogoPaths() {
         C1406.808350,730.562012 1407.704956,731.923279 1408.810547,733.544067 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10902,8 +11834,10 @@ export default function LogoPaths() {
         C1274.130127,738.114258 1273.114014,739.228455 1272.024170,740.676270 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10914,8 +11848,10 @@ export default function LogoPaths() {
         C1259.633789,706.974854 1259.258423,706.374451 1258.872803,705.434326 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -10928,8 +11864,10 @@ export default function LogoPaths() {
         C1341.006592,738.007019 1341.000000,738.000732 1340.996826,737.996704 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -10938,8 +11876,10 @@ export default function LogoPaths() {
         C1299.038940,710.268372 1298.942017,710.269836 1298.990479,710.269165 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10950,8 +11890,10 @@ export default function LogoPaths() {
         C1380.699341,739.825012 1380.925659,740.044006 1381.232910,740.499084 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -10961,8 +11903,10 @@ export default function LogoPaths() {
         C1253.511719,730.920349 1253.382935,731.039307 1253.254517,731.010620 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -10972,8 +11916,10 @@ export default function LogoPaths() {
         C1230.112549,719.358398 1230.419922,719.466675 1230.846924,719.796753 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11052,8 +11998,10 @@ export default function LogoPaths() {
         C539.884094,1117.595825 538.985107,1116.728394 538.086121,1115.860840 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11090,8 +12038,10 @@ export default function LogoPaths() {
         C644.057617,1139.168213 653.662842,1139.135010 663.610962,1139.471680 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11115,8 +12065,10 @@ export default function LogoPaths() {
         C768.632874,1199.159912 757.263000,1199.119263 745.428650,1198.990479 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -11135,8 +12087,10 @@ export default function LogoPaths() {
         C654.290771,1131.510132 652.598755,1131.484985 650.482544,1131.487549 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11151,8 +12105,10 @@ export default function LogoPaths() {
         C812.257019,1182.793823 812.447449,1182.885864 812.847412,1183.216064 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11162,8 +12118,10 @@ export default function LogoPaths() {
         C660.223755,1131.589844 658.401855,1131.746094 656.281372,1131.718994 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11208,8 +12166,10 @@ export default function LogoPaths() {
         C1317.865112,1206.501587 1317.423462,1207.614258 1316.966309,1208.214722 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11221,8 +12181,10 @@ export default function LogoPaths() {
         C1282.726440,1172.320557 1282.617798,1172.455444 1282.509155,1172.590454 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -11232,8 +12194,10 @@ export default function LogoPaths() {
         C1302.018311,1193.477173 1300.011230,1191.483765 1297.887573,1189.148071 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11249,8 +12213,10 @@ export default function LogoPaths() {
         C1264.771240,1152.198975 1264.635742,1152.319336 1264.500244,1152.439697 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11260,8 +12226,10 @@ export default function LogoPaths() {
         C1310.583496,1202.823242 1309.230225,1201.578247 1307.899170,1199.952393 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11271,8 +12239,10 @@ export default function LogoPaths() {
         C1277.184692,839.414429 1278.387817,837.819214 1279.921143,836.101440 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11286,8 +12256,10 @@ export default function LogoPaths() {
         C1258.216309,1145.308105 1257.000854,1144.080322 1255.814697,1142.514648 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11297,8 +12269,10 @@ export default function LogoPaths() {
         C1282.378784,833.684021 1283.806763,832.134277 1285.590332,830.504333 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11308,8 +12282,10 @@ export default function LogoPaths() {
         C1256.217529,861.984680 1257.459961,860.521057 1259.072754,858.998535 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11321,8 +12297,10 @@ export default function LogoPaths() {
         C1269.016479,1155.989136 1268.890991,1156.110840 1268.558838,1156.393799 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11332,8 +12310,10 @@ export default function LogoPaths() {
         C1263.720459,854.238220 1264.523804,853.025269 1265.682373,851.673706 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11343,8 +12323,10 @@ export default function LogoPaths() {
         C1247.960205,870.444824 1248.761108,869.411987 1249.874756,868.281006 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11354,8 +12336,10 @@ export default function LogoPaths() {
         C1274.333130,842.481812 1274.849365,841.794861 1275.685791,841.044189 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11365,8 +12349,10 @@ export default function LogoPaths() {
         C1255.195801,1141.688721 1254.519653,1141.226562 1253.864502,1140.429199 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11378,8 +12364,10 @@ export default function LogoPaths() {
         C1286.430420,1174.926514 1286.796753,1175.253418 1287.163086,1175.580322 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11389,8 +12377,10 @@ export default function LogoPaths() {
         C1305.357788,1197.395142 1304.673584,1196.817749 1303.980713,1195.883545 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11402,8 +12392,10 @@ export default function LogoPaths() {
         C1285.483032,1174.503174 1285.326172,1174.662354 1284.933594,1175.060303 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11413,8 +12405,10 @@ export default function LogoPaths() {
         C1287.952148,828.189636 1288.227661,827.603516 1288.805664,826.854980 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11424,8 +12418,10 @@ export default function LogoPaths() {
         C1286.299194,829.830505 1286.684448,829.282837 1287.414185,828.708618 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11435,8 +12431,10 @@ export default function LogoPaths() {
         C1250.213013,867.790833 1250.368774,867.507996 1250.907715,867.230347 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11446,8 +12444,10 @@ export default function LogoPaths() {
         C1307.028442,1198.921753 1306.613770,1198.779175 1306.112427,1198.298584 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11457,8 +12457,10 @@ export default function LogoPaths() {
         C1251.382812,866.792603 1251.615967,866.452637 1252.162842,866.042664 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11468,8 +12470,10 @@ export default function LogoPaths() {
         C1253.550781,1139.930542 1253.174316,1139.773438 1252.677612,1139.316162 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11481,8 +12485,10 @@ export default function LogoPaths() {
         C1284.065308,1172.932495 1283.937378,1173.048828 1283.604004,1173.323486 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11492,8 +12498,10 @@ export default function LogoPaths() {
         C1267.429932,849.808472 1267.651367,849.469116 1268.182373,849.062622 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -11503,8 +12511,10 @@ export default function LogoPaths() {
         C1266.262573,851.127930 1266.435913,850.777527 1266.885376,850.318726 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11521,8 +12531,10 @@ export default function LogoPaths() {
         C1285.315918,1173.918335 1284.991943,1173.492676 1284.430664,1172.941650 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11538,8 +12550,10 @@ export default function LogoPaths() {
         C1248.991821,1115.323608 1249.567871,1116.335205 1250.143799,1117.346802 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -11552,8 +12566,10 @@ export default function LogoPaths() {
         C1241.730957,1101.914307 1242.365601,1103.946533 1243.000122,1105.978760 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11564,8 +12580,10 @@ export default function LogoPaths() {
         C1262.241821,1146.752319 1261.482178,1146.451538 1260.433838,1146.003174 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11575,8 +12593,10 @@ export default function LogoPaths() {
         C1263.615845,1147.799072 1264.285278,1148.600220 1264.972412,1149.727173 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11586,8 +12606,10 @@ export default function LogoPaths() {
         C1257.680786,1142.195312 1258.257324,1142.374756 1258.909912,1142.805908 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11596,8 +12618,10 @@ export default function LogoPaths() {
         C1259.472168,864.487732 1259.505371,864.558899 1259.488770,864.523315 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11606,8 +12630,10 @@ export default function LogoPaths() {
         C1258.466431,866.467163 1258.482910,866.509949 1258.474609,866.488525 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11662,8 +12688,10 @@ export default function LogoPaths() {
         C1158.051392,1135.669556 1157.975220,1135.669800 1158.127563,1135.669434 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11675,8 +12703,10 @@ export default function LogoPaths() {
         C915.464966,1020.880676 916.000244,1006.724792 916.795898,992.271729 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11687,8 +12717,10 @@ export default function LogoPaths() {
         C915.787842,1069.437378 915.922485,1060.322021 916.409912,1051.057373 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11698,8 +12730,10 @@ export default function LogoPaths() {
         C916.586243,942.192139 916.100220,934.365906 915.928467,926.252686 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11709,8 +12743,10 @@ export default function LogoPaths() {
         C916.619873,1044.757568 916.419250,1043.437012 916.537476,1042.025146 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11720,8 +12756,10 @@ export default function LogoPaths() {
         C1108.279907,872.910095 1106.546509,872.989136 1104.388428,872.967346 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11731,8 +12769,10 @@ export default function LogoPaths() {
         C912.950195,920.394409 912.865906,920.710266 912.504883,921.164673 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -11742,8 +12782,10 @@ export default function LogoPaths() {
         C948.376709,1120.118530 948.620544,1120.308105 948.899597,1120.790527 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -11790,8 +12832,10 @@ export default function LogoPaths() {
         C1317.272583,1065.375732 1318.718018,1066.696289 1319.770264,1068.347778 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -11810,8 +12854,10 @@ export default function LogoPaths() {
         C1580.054688,871.068542 1580.092773,871.115601 1580.121704,871.124451 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11824,8 +12870,10 @@ export default function LogoPaths() {
         C1569.740723,873.045593 1573.424561,873.010559 1577.568848,873.012329 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -11835,8 +12883,10 @@ export default function LogoPaths() {
         C1620.255981,830.427673 1619.440552,831.668640 1618.270020,832.925842 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -11876,8 +12926,10 @@ export default function LogoPaths() {
         C1572.355103,1125.664551 1579.475708,1124.100220 1583.055664,1131.533081 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -11890,8 +12942,10 @@ export default function LogoPaths() {
         C1631.123169,1182.810547 1633.468628,1186.599365 1636.069336,1190.522461 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -11901,8 +12955,10 @@ export default function LogoPaths() {
         C1636.471924,1191.013062 1636.731323,1191.189697 1636.975342,1191.720337 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -11941,8 +12997,10 @@ export default function LogoPaths() {
         C852.732910,1111.559448 851.146179,1110.750488 849.982727,1110.496948 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11954,8 +13012,10 @@ export default function LogoPaths() {
         C831.810181,1017.188171 831.669312,1028.291504 831.266968,1039.702393 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11965,8 +13025,10 @@ export default function LogoPaths() {
         C831.090759,927.485229 831.231384,934.984009 831.042603,942.760376 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11976,8 +13038,10 @@ export default function LogoPaths() {
         C830.929688,956.816833 831.139160,959.668213 831.029419,962.778809 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11987,8 +13051,10 @@ export default function LogoPaths() {
         C830.943237,985.814026 831.158386,988.662415 831.059692,991.774048 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -11998,8 +13064,10 @@ export default function LogoPaths() {
         C832.476440,896.776489 832.245117,899.776245 831.684814,902.947205 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -12009,8 +13077,10 @@ export default function LogoPaths() {
         C832.076843,1077.491211 832.280090,1079.009033 832.225464,1080.771606 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12020,8 +13090,10 @@ export default function LogoPaths() {
         C882.359558,842.837646 883.420715,841.616943 884.775269,840.299927 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12031,8 +13103,10 @@ export default function LogoPaths() {
         C835.018372,1055.661621 834.942749,1055.128662 834.974731,1054.203003 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -12042,8 +13116,10 @@ export default function LogoPaths() {
         C833.274170,1108.827759 833.588074,1109.614258 833.867004,1110.739868 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12053,8 +13129,10 @@ export default function LogoPaths() {
         C869.523132,856.386230 869.956909,855.783752 870.668457,855.105103 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -12064,8 +13142,10 @@ export default function LogoPaths() {
         C834.768066,889.497498 834.565002,890.029297 834.088257,890.672119 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12075,8 +13155,10 @@ export default function LogoPaths() {
         C851.083923,875.620483 851.207825,875.347717 851.734985,875.100098 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12086,8 +13168,10 @@ export default function LogoPaths() {
         C852.967407,873.581604 853.105835,873.296875 853.650146,873.035461 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -12097,8 +13181,10 @@ export default function LogoPaths() {
         C833.776917,891.240662 833.642883,891.524292 833.163086,891.859131 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12108,8 +13194,10 @@ export default function LogoPaths() {
         C893.116272,831.659851 893.275574,831.344604 893.693237,830.941040 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12119,8 +13207,10 @@ export default function LogoPaths() {
         C887.124573,837.694458 887.259277,837.417419 887.809326,837.183228 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12130,8 +13220,10 @@ export default function LogoPaths() {
         C891.168762,833.721313 891.319336,833.419312 891.723022,833.045105 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12141,8 +13233,10 @@ export default function LogoPaths() {
         C892.136536,832.682861 892.300842,832.388306 892.719727,832.025513 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -12153,8 +13247,10 @@ export default function LogoPaths() {
         C833.903198,1111.176880 834.340393,1111.089722 834.562927,1111.077637 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -12329,8 +13425,10 @@ export default function LogoPaths() {
         C780.294434,836.437256 780.408997,836.828979 780.864075,836.966858 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -12434,8 +13532,10 @@ export default function LogoPaths() {
         C568.470276,824.573425 568.415222,824.477173 568.470276,824.573425 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -12536,8 +13636,10 @@ export default function LogoPaths() {
         C686.573608,813.521301 686.484070,813.572815 686.573608,813.521301 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -12595,8 +13697,10 @@ export default function LogoPaths() {
         C597.000000,825.000000 596.990967,825.008423 596.990967,825.008423 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -12631,8 +13735,10 @@ export default function LogoPaths() {
         C805.850525,795.106384 806.897644,795.134216 807.944702,795.161987 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12656,8 +13762,10 @@ export default function LogoPaths() {
         C728.034119,799.081055 736.976868,798.970947 745.919556,798.860779 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12671,8 +13779,10 @@ export default function LogoPaths() {
         C628.151733,797.913574 645.529541,797.919373 662.907349,797.925232 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12684,8 +13794,10 @@ export default function LogoPaths() {
         C727.028442,798.062622 736.151184,798.265930 745.596619,798.618774 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12696,8 +13808,10 @@ export default function LogoPaths() {
         C663.810547,809.438904 671.575867,809.451111 679.674805,809.699951 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12707,8 +13821,10 @@ export default function LogoPaths() {
         C640.758362,809.803101 647.408447,809.526428 654.518738,809.313965 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12718,8 +13834,10 @@ export default function LogoPaths() {
         C701.111938,809.364258 702.098145,809.345581 703.436401,809.443115 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12729,8 +13847,10 @@ export default function LogoPaths() {
         C695.170349,809.410217 696.148804,809.329773 697.484863,809.353760 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12740,8 +13860,10 @@ export default function LogoPaths() {
         C689.141418,809.357483 690.129761,809.309204 691.472473,809.380432 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12751,8 +13873,10 @@ export default function LogoPaths() {
         C697.205322,798.720398 696.491821,798.766479 695.426392,798.738770 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12762,8 +13886,10 @@ export default function LogoPaths() {
         C683.587952,809.634521 684.407898,809.459595 685.531738,809.382202 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -12774,8 +13900,10 @@ export default function LogoPaths() {
         C709.649109,809.343872 710.128540,809.206726 710.969910,808.960693 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12812,8 +13940,10 @@ export default function LogoPaths() {
         C1560.292725,725.647339 1556.616333,725.647339 1552.737305,725.346375 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -12823,8 +13953,10 @@ export default function LogoPaths() {
         C1533.611694,725.661194 1533.268555,725.250916 1532.858643,724.575195 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -12834,8 +13966,10 @@ export default function LogoPaths() {
         C1593.014648,729.009888 1593.000122,729.000488 1592.995117,728.994019 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12903,8 +14037,10 @@ export default function LogoPaths() {
         C1309.013306,919.001953 1309.280640,919.288147 1309.280640,919.288147 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -12936,8 +14072,10 @@ export default function LogoPaths() {
         C1500.286499,865.075806 1502.151611,865.597595 1504.211914,866.305420 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -12962,8 +14100,10 @@ export default function LogoPaths() {
         C1554.510620,873.999878 1554.773315,874.401428 1555.036133,874.802917 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -12975,8 +14115,10 @@ export default function LogoPaths() {
         C1310.004395,976.891357 1310.000366,1029.157715 1309.953735,1081.929321 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -12989,8 +14131,10 @@ export default function LogoPaths() {
         C1311.202637,925.608459 1311.982300,923.040466 1312.760010,920.227783 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13003,8 +14147,10 @@ export default function LogoPaths() {
         C1311.196899,1057.393066 1311.161743,1050.433594 1311.363281,1042.982910 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13014,8 +14160,10 @@ export default function LogoPaths() {
         C1311.392578,1033.162720 1311.296143,1028.822266 1311.338623,1023.989380 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13025,8 +14173,10 @@ export default function LogoPaths() {
         C1311.374390,1009.162903 1311.282715,1004.825623 1311.325439,999.995422 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13036,8 +14186,10 @@ export default function LogoPaths() {
         C1311.375488,985.159607 1311.286499,981.820068 1311.334717,977.990234 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13047,8 +14199,10 @@ export default function LogoPaths() {
         C1346.839355,883.114075 1348.580322,881.087097 1350.668213,879.045288 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13058,8 +14212,10 @@ export default function LogoPaths() {
         C1317.617432,1091.838379 1319.331665,1093.555054 1321.010864,1095.632202 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13069,8 +14225,10 @@ export default function LogoPaths() {
         C1354.216553,876.204224 1355.399414,875.367859 1356.803101,874.775635 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13082,8 +14240,10 @@ export default function LogoPaths() {
         C1328.027344,1102.410767 1328.039917,1103.163940 1328.052490,1103.917236 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13093,8 +14253,10 @@ export default function LogoPaths() {
         C1331.539185,899.478333 1331.967651,898.789612 1332.731934,898.077026 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13104,8 +14266,10 @@ export default function LogoPaths() {
         C1310.376953,1083.219604 1310.782715,1083.771606 1311.276855,1084.659668 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -13117,8 +14281,10 @@ export default function LogoPaths() {
         C1309.588501,917.678345 1309.841919,917.882568 1309.966431,917.987366 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13128,8 +14294,10 @@ export default function LogoPaths() {
         C1321.296143,1096.179199 1321.587646,1096.333252 1321.922607,1096.742920 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13139,8 +14307,10 @@ export default function LogoPaths() {
         C1322.301636,1097.179199 1322.600952,1097.324829 1322.934814,1097.731812 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13150,8 +14320,10 @@ export default function LogoPaths() {
         C1323.303101,1098.179321 1323.599731,1098.327881 1323.931152,1098.736572 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13161,8 +14333,10 @@ export default function LogoPaths() {
         C1324.322021,1099.276855 1324.640137,1099.519409 1324.976074,1100.079590 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13172,8 +14346,10 @@ export default function LogoPaths() {
         C1312.276489,1085.915527 1312.565186,1086.171875 1312.913818,1086.712402 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13183,8 +14359,10 @@ export default function LogoPaths() {
         C1313.279663,1087.192627 1313.561646,1087.357788 1313.898438,1087.771484 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13194,8 +14372,10 @@ export default function LogoPaths() {
         C1314.258667,1088.211304 1314.539307,1088.376831 1314.882568,1088.787354 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13205,8 +14385,10 @@ export default function LogoPaths() {
         C1315.239258,1089.228882 1315.513428,1089.404785 1315.845459,1089.826294 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -13300,8 +14482,10 @@ export default function LogoPaths() {
         C738.460388,1288.492432 738.493469,1288.478271 738.460388,1288.492432 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -13320,8 +14504,10 @@ export default function LogoPaths() {
         C803.185669,1284.673218 794.301270,1282.821045 785.389954,1283.786621 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -13344,8 +14530,10 @@ export default function LogoPaths() {
         C841.471252,1276.605835 845.727417,1277.224854 849.855347,1277.258789 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -13364,8 +14552,10 @@ export default function LogoPaths() {
         C837.119812,1283.720459 836.519775,1283.846680 835.919739,1283.972900 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13375,8 +14565,10 @@ export default function LogoPaths() {
         C774.621216,1297.920166 775.148071,1297.762573 775.803833,1297.828857 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13386,8 +14578,10 @@ export default function LogoPaths() {
         C528.721558,825.166382 528.627197,824.798767 528.788879,824.264526 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13398,8 +14592,10 @@ export default function LogoPaths() {
         C530.448425,821.842651 530.696838,821.901123 530.690918,822.012207 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13433,8 +14629,10 @@ export default function LogoPaths() {
         C807.988098,794.071289 807.979797,794.289429 807.958069,794.834839 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13453,8 +14651,10 @@ export default function LogoPaths() {
         C611.394409,796.813660 612.774048,796.799194 614.556091,796.676147 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13464,8 +14664,10 @@ export default function LogoPaths() {
         C597.732056,796.330566 600.562500,795.879089 603.691223,795.681030 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13475,8 +14677,10 @@ export default function LogoPaths() {
         C811.297424,794.039124 812.587341,794.135925 813.973328,794.546387 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13486,8 +14690,10 @@ export default function LogoPaths() {
         C816.656982,795.039185 817.306458,795.133789 818.036926,795.476807 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -13521,8 +14727,10 @@ export default function LogoPaths() {
         C448.220306,1214.237061 448.626038,1214.611206 449.031769,1214.985474 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13545,8 +14753,10 @@ export default function LogoPaths() {
         C421.889374,1184.700562 421.855377,1184.863892 421.821350,1185.027100 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13568,8 +14778,10 @@ export default function LogoPaths() {
         C483.965393,1262.641479 483.022614,1260.833862 482.079834,1259.026367 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13580,8 +14792,10 @@ export default function LogoPaths() {
         C432.212891,1192.269287 432.001648,1193.923950 431.628967,1195.944824 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13595,8 +14809,10 @@ export default function LogoPaths() {
         C421.914093,1185.176880 421.888733,1185.088989 421.855042,1185.058105 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13607,8 +14823,10 @@ export default function LogoPaths() {
         C442.815643,1204.077393 441.985840,1205.259033 441.060425,1206.764404 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13619,8 +14837,10 @@ export default function LogoPaths() {
         C436.022064,1197.675049 435.512115,1198.623657 434.889587,1199.922119 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13632,8 +14852,10 @@ export default function LogoPaths() {
         C444.993561,1208.787476 445.003021,1209.589722 444.953339,1210.790771 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13643,8 +14865,10 @@ export default function LogoPaths() {
         C435.993866,1201.397827 436.948944,1201.884644 437.922546,1202.719116 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13656,8 +14880,10 @@ export default function LogoPaths() {
         C444.984100,1207.985107 445.000214,1208.000000 445.007751,1208.008179 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13667,8 +14893,10 @@ export default function LogoPaths() {
         C448.130005,1213.659058 448.563293,1214.014771 449.014160,1214.677979 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13678,8 +14906,10 @@ export default function LogoPaths() {
         C446.454498,1212.262207 447.018250,1212.475464 447.642151,1213.000244 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -13713,8 +14943,10 @@ export default function LogoPaths() {
         C1207.001831,1185.994507 1206.997803,1186.025269 1206.997803,1186.025269 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -13724,8 +14956,10 @@ export default function LogoPaths() {
         C954.927551,1124.504272 954.503906,1124.053223 954.060181,1123.274902 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -13735,8 +14969,10 @@ export default function LogoPaths() {
         C1208.288208,1172.083374 1208.573730,1172.295532 1208.915771,1172.775879 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -13746,8 +14982,10 @@ export default function LogoPaths() {
         C1206.379150,1170.054565 1206.691406,1170.233276 1207.088135,1170.679688 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -13757,8 +14995,10 @@ export default function LogoPaths() {
         C1205.370117,1169.060913 1205.680542,1169.228760 1206.057373,1169.662842 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -13768,8 +15008,10 @@ export default function LogoPaths() {
         C1204.418213,1167.979248 1204.705444,1168.191040 1205.050049,1168.672485 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -13779,8 +15021,10 @@ export default function LogoPaths() {
         C953.770569,1122.739014 953.488464,1122.495361 953.119995,1121.978760 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13791,8 +15035,10 @@ export default function LogoPaths() {
         C886.643066,1283.897827 880.018555,1283.901123 872.934204,1283.810303 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13804,8 +15050,10 @@ export default function LogoPaths() {
         C861.965027,1282.961548 862.053467,1283.045654 862.053467,1283.045654 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13816,8 +15064,10 @@ export default function LogoPaths() {
         C978.989746,1282.595459 978.743042,1283.238037 978.118286,1283.720581 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13828,8 +15078,10 @@ export default function LogoPaths() {
         C1083.018799,1231.008179 1083.000000,1230.998047 1082.994629,1230.988525 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -13842,8 +15094,10 @@ export default function LogoPaths() {
         C1200.165161,719.741028 1201.425903,719.894836 1202.949951,719.661743 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13855,8 +15109,10 @@ export default function LogoPaths() {
         C1238.014648,735.984070 1238.000000,735.999695 1237.992676,736.007202 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -13867,8 +15123,10 @@ export default function LogoPaths() {
         C1270.394897,740.525452 1270.328369,740.504700 1270.364868,740.504028 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13902,8 +15160,10 @@ export default function LogoPaths() {
         C777.847778,1219.446289 782.954346,1217.587891 788.116638,1216.372192 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13913,8 +15173,10 @@ export default function LogoPaths() {
         C607.396118,1212.038086 604.803101,1212.007935 602.048096,1211.658325 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13924,8 +15186,10 @@ export default function LogoPaths() {
         C826.059448,1212.417725 825.094055,1212.674683 824.038879,1212.647827 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13935,8 +15199,10 @@ export default function LogoPaths() {
         C1154.581543,726.959106 1152.146118,726.981323 1149.311768,726.979065 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13946,8 +15212,10 @@ export default function LogoPaths() {
         C1125.604492,726.812317 1123.166504,726.737183 1120.392334,726.471069 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13960,8 +15228,10 @@ export default function LogoPaths() {
         C1168.787354,726.191895 1170.566650,726.160400 1172.701050,726.168335 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13972,8 +15242,10 @@ export default function LogoPaths() {
         C1161.438477,727.097412 1160.871948,727.243103 1160.148438,727.180298 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -13983,8 +15255,10 @@ export default function LogoPaths() {
         C1169.414307,727.306213 1168.746582,727.450989 1168.024780,727.320374 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -13995,8 +15269,10 @@ export default function LogoPaths() {
         C1163.559326,726.577576 1163.057617,726.767090 1162.280396,726.954163 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14006,8 +15282,10 @@ export default function LogoPaths() {
         C1114.786499,726.385376 1114.488525,726.477478 1114.059570,726.462524 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14019,8 +15297,10 @@ export default function LogoPaths() {
         C767.988464,1289.996582 768.002563,1290.003418 768.008545,1290.010010 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -14032,8 +15312,10 @@ export default function LogoPaths() {
         C765.004883,1284.004883 765.000000,1284.000000 764.997803,1283.997559 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14043,8 +15325,10 @@ export default function LogoPaths() {
         C747.431519,1264.119263 746.887512,1264.254150 746.251099,1264.140625 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14054,8 +15338,10 @@ export default function LogoPaths() {
         C726.801147,1263.168701 726.499451,1263.236572 726.140381,1263.122437 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -14066,8 +15352,10 @@ export default function LogoPaths() {
         C1132.468750,719.601685 1136.905396,719.485107 1141.653076,719.631470 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -14077,8 +15365,10 @@ export default function LogoPaths() {
         C1120.157959,719.519958 1122.262085,719.406494 1124.661621,719.495972 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -14097,8 +15387,10 @@ export default function LogoPaths() {
         C564.497070,1277.793945 564.790283,1277.905640 565.120056,1277.921265 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14115,8 +15407,10 @@ export default function LogoPaths() {
         C631.399658,1294.649902 632.077026,1293.258667 632.716431,1291.540527 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -14130,8 +15424,10 @@ export default function LogoPaths() {
         C597.002747,1282.721558 596.973022,1282.217163 596.943298,1281.712769 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14144,8 +15440,10 @@ export default function LogoPaths() {
         C593.937256,1283.420044 595.133911,1282.752319 596.636902,1281.898682 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14155,8 +15453,10 @@ export default function LogoPaths() {
         C551.244019,1276.733398 551.533386,1276.629395 551.941528,1276.656250 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14167,8 +15467,10 @@ export default function LogoPaths() {
         C1665.453979,751.032471 1664.320068,749.965698 1663.192139,748.594849 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -14180,8 +15482,10 @@ export default function LogoPaths() {
         C1694.081055,785.112671 1694.144897,784.209412 1694.509277,783.119629 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -14191,8 +15495,10 @@ export default function LogoPaths() {
         C1623.549072,719.264771 1623.046753,719.588440 1622.225098,719.956421 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -14202,8 +15508,10 @@ export default function LogoPaths() {
         C1617.330322,719.918091 1616.741089,719.759216 1615.983887,719.338257 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14213,8 +15521,10 @@ export default function LogoPaths() {
         C1176.758911,726.236572 1177.502563,726.220886 1178.615234,726.255737 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14225,8 +15535,10 @@ export default function LogoPaths() {
         C1174.659790,725.135803 1174.820923,725.349304 1175.026611,725.770203 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14237,8 +15549,10 @@ export default function LogoPaths() {
         C1180.617310,725.105103 1180.741699,725.360474 1180.876953,725.842102 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14249,8 +15563,10 @@ export default function LogoPaths() {
         C1182.163818,726.326416 1182.331909,726.293823 1182.752319,726.308472 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -14265,8 +15581,10 @@ export default function LogoPaths() {
         C611.516479,1277.107056 612.621582,1277.287476 613.885071,1277.608154 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14277,8 +15595,10 @@ export default function LogoPaths() {
         C557.766663,1287.503418 556.906067,1286.165527 555.984375,1284.483887 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -14299,8 +15619,10 @@ export default function LogoPaths() {
         C400.643494,1174.054199 401.855896,1174.051514 403.521423,1174.054932 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -14313,8 +15635,10 @@ export default function LogoPaths() {
         C478.092743,1261.658936 474.154999,1257.161133 470.083801,1252.362061 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14328,8 +15652,10 @@ export default function LogoPaths() {
         C1410.615356,711.793701 1411.629150,713.057312 1411.968994,719.608582 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -14341,8 +15667,10 @@ export default function LogoPaths() {
         C1432.000000,707.002441 1432.000000,707.000000 1432.000000,706.998779 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -14353,8 +15681,10 @@ export default function LogoPaths() {
         C1196.296509,733.044617 1196.267456,732.292847 1196.544678,731.393860 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14367,8 +15697,10 @@ export default function LogoPaths() {
         C1725.088623,816.920349 1725.852661,815.065735 1725.955322,813.405029 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -14379,8 +15711,10 @@ export default function LogoPaths() {
         C1697.300659,788.167786 1694.506348,792.434570 1693.965088,786.319092 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14391,8 +15725,10 @@ export default function LogoPaths() {
         C849.383362,1283.100098 849.071716,1283.097656 848.526489,1283.090332 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14402,8 +15738,10 @@ export default function LogoPaths() {
         C837.455811,1284.059937 837.016357,1284.049805 836.248291,1284.006226 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -14412,8 +15750,10 @@ export default function LogoPaths() {
         C813.458801,1292.765381 813.386597,1292.810669 813.422729,1292.788086 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14425,8 +15765,10 @@ export default function LogoPaths() {
         C799.033020,1214.781860 799.039429,1214.974487 799.045776,1215.167114 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14437,8 +15779,10 @@ export default function LogoPaths() {
         C801.888123,1214.683960 800.701721,1215.148315 799.280518,1215.389893 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14448,8 +15792,10 @@ export default function LogoPaths() {
         C812.165283,1212.409180 813.401489,1212.005737 814.850281,1211.875488 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14461,8 +15807,10 @@ export default function LogoPaths() {
         C792.760071,1214.852295 793.480103,1214.845581 794.552490,1214.756104 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14472,8 +15820,10 @@ export default function LogoPaths() {
         C804.840149,1213.374268 805.768372,1213.005981 806.880859,1212.900635 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -14500,8 +15850,10 @@ export default function LogoPaths() {
         C1160.655762,1201.916260 1165.885498,1203.125732 1171.094360,1203.701050 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -14513,8 +15865,10 @@ export default function LogoPaths() {
         C1469.822754,720.056274 1470.536499,720.045959 1471.604736,720.082764 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14526,8 +15880,10 @@ export default function LogoPaths() {
         C1464.658569,720.561218 1463.316406,720.994263 1461.974121,721.427307 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14539,8 +15895,10 @@ export default function LogoPaths() {
         C1442.989014,711.990051 1443.000000,712.000000 1443.004883,712.005493 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -14553,8 +15911,10 @@ export default function LogoPaths() {
         C1461.983154,721.785034 1461.971436,721.606384 1461.972778,721.516846 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -14565,8 +15925,10 @@ export default function LogoPaths() {
         C1416.529907,735.598511 1416.634521,735.062988 1417.018799,734.532837 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -14576,8 +15938,10 @@ export default function LogoPaths() {
         C564.221802,1277.322998 564.540894,1277.395996 564.989990,1277.695068 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -14589,8 +15953,10 @@ export default function LogoPaths() {
         C425.821350,790.021790 425.965363,790.880310 426.201416,792.038330 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -14608,8 +15974,10 @@ export default function LogoPaths() {
         C1316.962402,1208.473755 1316.935669,1208.343750 1316.950928,1208.279297 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -14627,8 +15995,10 @@ export default function LogoPaths() {
         C1625.376465,1208.307495 1607.680054,1208.160156 1589.521606,1208.020996 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -14659,8 +16029,10 @@ export default function LogoPaths() {
         C1493.639648,1133.357910 1473.418091,1133.309082 1453.196533,1133.260132 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -14679,8 +16051,10 @@ export default function LogoPaths() {
         C1546.991821,1136.154175 1544.381836,1135.217773 1541.771729,1134.281372 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -14690,8 +16064,10 @@ export default function LogoPaths() {
         C1581.293579,1134.583008 1582.041260,1135.139038 1582.873535,1136.054443 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -14700,8 +16076,10 @@ export default function LogoPaths() {
         C675.918701,1295.032104 675.837341,1295.064209 675.877991,1295.048096 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -14712,8 +16090,10 @@ export default function LogoPaths() {
         C1335.187622,1209.099121 1326.431274,1208.939453 1317.319092,1208.676514 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -14723,8 +16103,10 @@ export default function LogoPaths() {
         C428.506226,761.423950 428.406647,761.663757 428.348877,761.572205 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -14735,8 +16117,10 @@ export default function LogoPaths() {
         C707.941528,1265.202515 707.545776,1264.856689 707.163147,1264.219482 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -14768,8 +16152,10 @@ export default function LogoPaths() {
         C783.086182,809.075867 770.162231,808.927734 757.238220,808.779602 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14782,8 +16168,10 @@ export default function LogoPaths() {
         C671.399109,1263.987305 671.792908,1265.013184 672.142090,1266.322510 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -14794,8 +16182,10 @@ export default function LogoPaths() {
         C486.856964,1266.532837 486.510284,1266.045776 486.126068,1265.247925 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -14805,8 +16195,10 @@ export default function LogoPaths() {
         C493.295959,1272.950806 492.617798,1271.865845 491.947266,1270.401733 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -14816,8 +16208,10 @@ export default function LogoPaths() {
         C490.548065,1268.994263 490.097321,1268.991333 489.313171,1268.929688 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -14829,8 +16223,10 @@ export default function LogoPaths() {
         C1719.710205,809.182983 1719.734985,809.127075 1719.706787,809.149963 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14843,8 +16239,10 @@ export default function LogoPaths() {
         C690.343323,1264.293091 692.049072,1264.152344 693.802979,1264.545166 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14855,8 +16253,10 @@ export default function LogoPaths() {
         C677.245728,1264.308228 678.496948,1265.622070 679.908447,1267.222412 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14869,8 +16269,10 @@ export default function LogoPaths() {
         C721.003967,1264.739502 721.007874,1265.473633 721.011047,1266.574951 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -14881,8 +16283,10 @@ export default function LogoPaths() {
         C744.982056,1264.023560 745.000610,1264.000122 745.012329,1263.990845 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -14949,8 +16353,10 @@ export default function LogoPaths() {
         C522.435242,1004.272095 522.281372,1004.568909 522.392761,1005.158142 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -14984,8 +16390,10 @@ export default function LogoPaths() {
         C523.243713,1041.950439 523.278564,1037.199463 523.313416,1032.448364 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15003,8 +16411,10 @@ export default function LogoPaths() {
         C559.147827,1115.695068 559.228149,1116.422241 559.239258,1117.509766 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15014,8 +16424,10 @@ export default function LogoPaths() {
         C533.974854,1089.795532 534.985779,1090.568604 535.974854,1091.691406 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -15024,8 +16436,10 @@ export default function LogoPaths() {
         C531.501099,923.559753 531.586975,923.513916 531.544067,923.536865 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -15034,8 +16448,10 @@ export default function LogoPaths() {
         C533.588928,921.530640 533.513123,921.404358 533.551025,921.467529 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15045,8 +16461,10 @@ export default function LogoPaths() {
         C532.072449,1088.096802 532.429565,1088.274902 532.886597,1088.741699 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15056,8 +16474,10 @@ export default function LogoPaths() {
         C536.254822,1092.203369 536.545227,1092.368042 536.893677,1092.786499 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15068,8 +16488,10 @@ export default function LogoPaths() {
         C555.031677,1108.695801 555.060242,1109.393555 555.094299,1110.438232 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15079,8 +16501,10 @@ export default function LogoPaths() {
         C544.028320,1097.818115 545.967651,1099.668335 547.883179,1101.884033 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15092,8 +16516,10 @@ export default function LogoPaths() {
         C575.227112,1131.471680 573.643494,1131.433472 571.670105,1131.425171 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15103,8 +16529,10 @@ export default function LogoPaths() {
         C560.029846,1118.350220 560.934204,1118.859741 561.904175,1119.697510 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15114,8 +16542,10 @@ export default function LogoPaths() {
         C563.705872,1121.785156 564.437073,1122.543579 565.104004,1123.635986 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15125,8 +16555,10 @@ export default function LogoPaths() {
         C579.889709,1128.944092 581.147034,1128.883057 582.869995,1128.912842 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15136,8 +16568,10 @@ export default function LogoPaths() {
         C562.291321,1120.180542 562.600464,1120.328003 562.940002,1120.746948 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15147,8 +16581,10 @@ export default function LogoPaths() {
         C555.800293,1111.379639 556.385315,1111.844482 557.002930,1112.611572 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -15221,8 +16657,10 @@ export default function LogoPaths() {
         C569.001099,864.398804 568.762878,864.448975 568.529480,864.521606 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -15279,8 +16717,10 @@ export default function LogoPaths() {
         C536.744446,887.789429 539.086731,885.571533 541.682373,883.136292 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15310,8 +16750,10 @@ export default function LogoPaths() {
         C502.000916,953.069641 504.791534,956.858337 507.970215,952.712769 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15330,8 +16772,10 @@ export default function LogoPaths() {
         C510.509216,1007.330933 510.755096,1004.288391 511.330444,1001.098877 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15343,8 +16787,10 @@ export default function LogoPaths() {
         C506.370911,936.962219 509.365631,932.765442 512.578735,928.296814 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15360,8 +16806,10 @@ export default function LogoPaths() {
         C549.219604,866.068970 549.837280,867.370972 550.701599,868.888916 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15380,8 +16828,10 @@ export default function LogoPaths() {
         C563.944275,857.084167 563.984741,857.509094 563.988403,857.722473 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15396,8 +16846,10 @@ export default function LogoPaths() {
         C511.278107,1075.234253 511.046906,1070.599365 511.014648,1065.516357 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -15412,8 +16864,10 @@ export default function LogoPaths() {
         C541.828613,1133.708984 543.781067,1131.052856 545.930054,1128.184937 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15425,8 +16879,10 @@ export default function LogoPaths() {
         C502.351013,977.256897 500.522644,976.080566 499.691437,975.281555 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15438,8 +16894,10 @@ export default function LogoPaths() {
         C491.201355,881.193298 491.288727,880.633179 491.582275,879.760254 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -15450,8 +16908,10 @@ export default function LogoPaths() {
         C545.941833,849.651062 550.104797,853.584778 545.277466,854.546875 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15463,8 +16923,10 @@ export default function LogoPaths() {
         C475.412079,921.797180 474.113770,920.691223 473.252319,919.866577 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15476,8 +16938,10 @@ export default function LogoPaths() {
         C555.216125,861.321655 556.551758,860.241272 557.676941,859.109375 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15488,8 +16952,10 @@ export default function LogoPaths() {
         C519.871460,1101.552490 520.872803,1100.130493 521.928101,1098.360229 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -15501,8 +16967,10 @@ export default function LogoPaths() {
         C527.663940,1104.086060 527.353699,1103.794189 527.043457,1103.502197 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -15512,8 +16980,10 @@ export default function LogoPaths() {
         C533.376587,1109.867065 531.767700,1108.776733 530.093994,1107.355957 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -15524,8 +16994,10 @@ export default function LogoPaths() {
         C458.587006,1034.623657 458.977539,1034.322021 459.698792,1034.071777 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15536,8 +17008,10 @@ export default function LogoPaths() {
         C502.751068,967.042969 503.221191,966.991333 503.752716,967.218750 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15548,8 +17022,10 @@ export default function LogoPaths() {
         C506.798615,990.775330 507.055054,990.440979 507.601257,990.044556 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15560,8 +17036,10 @@ export default function LogoPaths() {
         C511.724640,993.600403 511.382263,993.182495 511.002136,992.487061 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -15571,8 +17049,10 @@ export default function LogoPaths() {
         C540.097351,1118.197632 539.057373,1117.399780 538.051758,1116.231445 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15583,8 +17063,10 @@ export default function LogoPaths() {
         C526.426025,1103.587891 526.733887,1103.538818 526.888672,1103.520508 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15594,8 +17076,10 @@ export default function LogoPaths() {
         C512.586060,924.910095 512.380615,924.763916 512.101746,924.413208 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15605,8 +17089,10 @@ export default function LogoPaths() {
         C509.805206,1062.734619 509.714569,1062.463135 509.760437,1062.092407 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15616,8 +17102,10 @@ export default function LogoPaths() {
         C518.550903,1093.954590 518.320618,1093.753906 518.048279,1093.278320 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -15627,8 +17115,10 @@ export default function LogoPaths() {
         C519.478821,1094.994873 519.261780,1094.804443 518.997803,1094.362305 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -15638,8 +17128,10 @@ export default function LogoPaths() {
         C543.828125,1121.731445 543.543945,1121.561157 543.175659,1121.149536 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -15649,8 +17141,10 @@ export default function LogoPaths() {
         C536.694580,1113.796753 536.415771,1113.595215 536.096680,1113.125854 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -15660,8 +17154,10 @@ export default function LogoPaths() {
         C537.629272,1115.129028 537.345398,1114.868774 537.028748,1114.317993 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15767,8 +17263,10 @@ export default function LogoPaths() {
         C673.482056,1166.552979 673.429260,1166.462891 673.482056,1166.552979 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -15840,8 +17338,10 @@ export default function LogoPaths() {
         C678.615417,1159.131592 678.012024,1159.634399 676.966431,1160.613037 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -15861,8 +17361,10 @@ export default function LogoPaths() {
         C561.907104,1158.603149 563.283447,1159.418213 564.913208,1160.095825 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -15888,8 +17390,10 @@ export default function LogoPaths() {
         C621.164062,1151.746460 620.811035,1151.743652 620.452759,1152.181519 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -15907,8 +17411,10 @@ export default function LogoPaths() {
         C612.954041,1169.478027 613.090454,1167.672852 613.466187,1165.627930 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -15927,8 +17433,10 @@ export default function LogoPaths() {
         C547.418152,1138.472778 547.510559,1138.421631 547.418152,1138.472778 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -15943,8 +17451,10 @@ export default function LogoPaths() {
         C584.763184,1159.058960 584.090820,1158.540039 583.432007,1158.133545 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -15957,8 +17467,10 @@ export default function LogoPaths() {
         C511.998779,1107.000000 512.000000,1107.000000 512.000000,1107.000000 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -15973,8 +17485,10 @@ export default function LogoPaths() {
         C675.149170,1189.041138 675.322754,1189.061646 675.741760,1188.990234 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -15986,8 +17500,10 @@ export default function LogoPaths() {
         C669.431030,1188.723999 670.864807,1188.320801 672.536011,1188.166992 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -16001,8 +17517,10 @@ export default function LogoPaths() {
         C675.263184,1172.183105 675.956726,1171.790161 676.794556,1171.141846 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -16014,8 +17532,10 @@ export default function LogoPaths() {
         C597.124512,1151.466187 597.662964,1150.170166 598.532837,1148.733154 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -16027,8 +17547,10 @@ export default function LogoPaths() {
         C560.250122,1153.449219 559.658386,1152.571289 559.021362,1151.365601 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -16039,8 +17561,10 @@ export default function LogoPaths() {
         C587.787842,1178.457153 589.259155,1178.213989 590.851624,1178.342041 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -16052,8 +17576,10 @@ export default function LogoPaths() {
         C580.421021,1172.928101 581.110596,1174.379028 581.593933,1176.112427 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16066,8 +17592,10 @@ export default function LogoPaths() {
         C636.177979,1191.143311 636.006836,1192.742554 636.068604,1194.655273 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16077,8 +17605,10 @@ export default function LogoPaths() {
         C592.579163,1194.946289 594.428955,1194.225220 596.958435,1198.368408 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -16090,8 +17620,10 @@ export default function LogoPaths() {
         C529.957642,1128.554321 529.299744,1129.096313 528.340820,1129.506226 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16103,8 +17635,10 @@ export default function LogoPaths() {
         C556.913452,1196.030396 557.828857,1197.078735 558.887329,1198.398071 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16117,8 +17651,10 @@ export default function LogoPaths() {
         C631.110596,1195.430298 630.347290,1196.212158 629.583984,1196.993896 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -16128,8 +17664,10 @@ export default function LogoPaths() {
         C566.497498,1153.387695 567.016479,1152.814087 567.805847,1152.118652 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -16139,8 +17677,10 @@ export default function LogoPaths() {
         C623.649719,1198.308838 624.501892,1198.195435 625.762695,1198.237549 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -16149,8 +17689,10 @@ export default function LogoPaths() {
         C679.517517,1177.457275 679.450989,1177.489502 679.484253,1177.473389 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -16160,8 +17702,10 @@ export default function LogoPaths() {
         C558.830444,1150.741577 558.696350,1150.466919 558.689087,1150.062500 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -16172,8 +17716,10 @@ export default function LogoPaths() {
         C638.004089,1157.899780 637.971130,1157.978394 637.930420,1157.991211 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16184,8 +17730,10 @@ export default function LogoPaths() {
         C555.998047,1194.981934 555.955200,1195.035400 555.929871,1195.058594 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16195,8 +17743,10 @@ export default function LogoPaths() {
         C617.223328,1198.379517 617.541504,1198.277466 617.975708,1198.323608 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16210,8 +17760,10 @@ export default function LogoPaths() {
         C786.248352,1215.992798 786.765625,1216.118164 787.689209,1216.256104 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16221,8 +17773,10 @@ export default function LogoPaths() {
         C694.732849,1212.396118 702.567932,1212.485107 710.684692,1212.884033 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16232,8 +17786,10 @@ export default function LogoPaths() {
         C657.112305,1211.795166 661.255981,1211.669189 665.693176,1211.831787 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -16263,8 +17819,10 @@ export default function LogoPaths() {
         C758.172363,1189.518066 756.618164,1192.333008 755.063965,1195.147949 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -16289,8 +17847,10 @@ export default function LogoPaths() {
         C742.963623,1164.398682 744.234802,1166.522583 744.000000,1170.082275 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -16305,8 +17865,10 @@ export default function LogoPaths() {
         C731.739746,1190.263062 730.860962,1190.634888 729.982178,1191.006592 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16319,8 +17881,10 @@ export default function LogoPaths() {
         C726.572937,1192.500610 728.096985,1192.043701 729.801575,1191.296631 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16331,8 +17895,10 @@ export default function LogoPaths() {
         C749.443970,1195.041016 748.864868,1194.829712 748.181152,1194.319580 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -16343,8 +17909,10 @@ export default function LogoPaths() {
         C745.739075,1188.803345 745.474243,1188.596924 745.107178,1188.155762 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16354,8 +17922,10 @@ export default function LogoPaths() {
         C724.485046,1192.778198 723.927734,1192.604370 723.210266,1192.180176 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -16366,8 +17936,10 @@ export default function LogoPaths() {
         C734.336121,1196.025635 734.143982,1195.803833 733.893311,1195.355713 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -16380,8 +17952,10 @@ export default function LogoPaths() {
         C689.689453,1189.656128 692.994873,1187.636841 687.983276,1185.297607 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -16392,8 +17966,10 @@ export default function LogoPaths() {
         C635.202820,1199.818970 632.108826,1197.593262 629.848633,1197.305420 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16531,8 +18107,10 @@ export default function LogoPaths() {
         C865.122925,1121.828613 863.655396,1122.411987 862.187866,1122.995483 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -16567,8 +18145,10 @@ export default function LogoPaths() {
         C897.542847,1085.339478 897.542847,1085.339478 896.183838,1088.012939 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -16590,8 +18170,10 @@ export default function LogoPaths() {
         C847.965027,1024.311035 847.548706,1023.376648 847.057007,1022.822815 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16608,8 +18190,10 @@ export default function LogoPaths() {
         C1005.059570,856.716248 1005.079102,856.883850 1005.098572,857.051392 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16621,8 +18205,10 @@ export default function LogoPaths() {
         C876.995789,1037.987549 876.931030,1037.927246 876.931030,1037.927246 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -16639,8 +18225,10 @@ export default function LogoPaths() {
         C870.000061,1034.988770 870.003357,1034.982300 870.003357,1034.982300 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16653,8 +18241,10 @@ export default function LogoPaths() {
         C853.000000,969.999329 853.011536,969.987061 853.011536,969.987061 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -16670,8 +18260,10 @@ export default function LogoPaths() {
         C869.561646,1026.134644 868.767151,1025.260742 867.764160,1024.112305 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16686,8 +18278,10 @@ export default function LogoPaths() {
         C1021.874268,853.446533 1022.524048,852.730896 1023.002808,851.960571 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -16702,8 +18296,10 @@ export default function LogoPaths() {
         C857.956482,1038.410278 857.963623,1039.861206 858.100220,1041.644409 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16716,8 +18312,10 @@ export default function LogoPaths() {
         C876.422119,1032.733276 876.586548,1028.708252 880.545898,1027.115479 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -16728,8 +18326,10 @@ export default function LogoPaths() {
         C869.171570,1011.498657 867.916870,1009.820984 866.322144,1008.056641 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -16744,8 +18344,10 @@ export default function LogoPaths() {
         C896.005676,1060.652344 895.634216,1060.047119 895.118164,1059.196533 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16757,8 +18359,10 @@ export default function LogoPaths() {
         C955.534973,848.684998 955.113281,848.352783 954.425476,847.938110 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -16771,8 +18375,10 @@ export default function LogoPaths() {
         C893.322266,957.721313 893.322266,959.553406 893.373718,961.690002 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16787,8 +18393,10 @@ export default function LogoPaths() {
         C867.059875,1044.108398 867.011108,1044.023438 866.983154,1043.983154 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -16802,8 +18410,10 @@ export default function LogoPaths() {
         C990.841248,859.816162 989.918335,859.833618 988.650391,859.821899 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -16816,8 +18426,10 @@ export default function LogoPaths() {
         C856.961792,996.627014 855.768677,995.237183 854.429077,993.494507 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16831,8 +18443,10 @@ export default function LogoPaths() {
         C898.254456,1052.011353 898.376770,1054.929810 898.208191,1058.135010 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16843,8 +18457,10 @@ export default function LogoPaths() {
         C871.756714,909.792419 873.690430,909.109070 875.797485,908.112732 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -16857,8 +18473,10 @@ export default function LogoPaths() {
         C1012.709412,855.296814 1013.780334,855.220825 1014.851196,855.144775 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16870,8 +18488,10 @@ export default function LogoPaths() {
         C852.171021,956.212463 852.616150,954.833740 853.183105,953.122925 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -16884,8 +18504,10 @@ export default function LogoPaths() {
         C932.995300,843.995667 933.013611,844.007263 933.013611,844.007263 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16897,8 +18519,10 @@ export default function LogoPaths() {
         C998.768311,859.268250 998.225891,859.629883 997.336243,859.982300 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16909,8 +18533,10 @@ export default function LogoPaths() {
         C885.937622,1028.477783 886.454163,1029.813232 886.921509,1031.496826 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16921,8 +18547,10 @@ export default function LogoPaths() {
         C892.986267,1034.930786 891.972839,1035.674683 890.705688,1036.174438 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -16933,8 +18561,10 @@ export default function LogoPaths() {
         C966.000000,858.000000 965.996338,857.996277 965.996338,857.996216 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -16950,8 +18580,10 @@ export default function LogoPaths() {
         C966.983093,855.016968 966.997375,855.002502 967.003967,854.993652 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -16963,8 +18595,10 @@ export default function LogoPaths() {
         C864.997375,878.005432 864.970581,878.037231 864.958374,878.054810 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16976,8 +18610,10 @@ export default function LogoPaths() {
         C898.132141,1049.093018 898.015930,1049.004150 897.960510,1048.956421 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -16988,8 +18624,10 @@ export default function LogoPaths() {
         C856.674988,969.136841 856.044556,968.765625 855.203430,968.167908 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -17000,8 +18638,10 @@ export default function LogoPaths() {
         C932.893066,822.448608 932.455139,822.571655 931.851685,822.551514 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17012,8 +18652,10 @@ export default function LogoPaths() {
         C887.573242,1034.994995 887.933716,1034.651123 888.508667,1034.510254 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -17023,8 +18665,10 @@ export default function LogoPaths() {
         C893.683838,1059.960449 893.425964,1060.852417 893.040894,1062.077759 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17034,8 +18678,10 @@ export default function LogoPaths() {
         C902.428162,944.498535 902.401917,943.214539 902.531128,941.572449 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17045,8 +18691,10 @@ export default function LogoPaths() {
         C902.324463,923.812561 902.279114,922.646179 902.430786,921.194702 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -17058,8 +18706,10 @@ export default function LogoPaths() {
         C933.013611,844.007263 932.995300,843.995667 932.986816,843.987183 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17070,8 +18720,10 @@ export default function LogoPaths() {
         C857.759094,957.971436 858.035950,957.707336 858.473267,957.617432 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17083,8 +18735,10 @@ export default function LogoPaths() {
         C853.011536,969.987061 853.000000,969.999329 852.993652,970.004395 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17094,8 +18748,10 @@ export default function LogoPaths() {
         C902.419006,959.157593 902.373718,958.479919 902.457092,957.483398 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17105,8 +18761,10 @@ export default function LogoPaths() {
         C858.713257,954.737488 858.963745,954.890625 859.071777,955.200623 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17116,8 +18774,10 @@ export default function LogoPaths() {
         C902.491272,1024.155396 902.433716,1023.478821 902.517090,1022.487549 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -17128,8 +18788,10 @@ export default function LogoPaths() {
         C858.650879,884.386597 858.872314,884.197144 859.471008,883.786743 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17139,8 +18801,10 @@ export default function LogoPaths() {
         C902.552002,933.872559 902.484375,933.695679 902.488159,933.244019 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17150,8 +18814,10 @@ export default function LogoPaths() {
         C902.547852,951.854797 902.399048,951.488953 902.479248,951.308472 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17161,8 +18827,10 @@ export default function LogoPaths() {
         C870.003357,1034.982300 870.000061,1034.988770 870.004883,1034.993164 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17172,8 +18840,10 @@ export default function LogoPaths() {
         C902.612122,1029.922852 902.441833,1029.508057 902.517456,1029.296875 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17183,8 +18853,10 @@ export default function LogoPaths() {
         C902.443665,936.828857 902.300171,936.477234 902.385559,936.307617 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -17195,8 +18867,10 @@ export default function LogoPaths() {
         C897.996460,1064.004883 898.000000,1064.000000 898.002686,1063.998291 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17206,8 +18880,10 @@ export default function LogoPaths() {
         C902.374390,1007.941040 902.277283,1007.473328 902.355591,1007.247681 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17218,8 +18894,10 @@ export default function LogoPaths() {
         C902.202209,919.312500 902.344360,919.145508 902.607361,918.901489 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17229,8 +18907,10 @@ export default function LogoPaths() {
         C902.326172,995.916260 902.187622,995.496765 902.243408,995.283020 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17240,8 +18920,10 @@ export default function LogoPaths() {
         C902.449341,974.891418 902.315979,974.496765 902.384033,974.299927 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17251,8 +18933,10 @@ export default function LogoPaths() {
         C902.362366,978.904785 902.220581,978.512512 902.276489,978.311646 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -17262,8 +18946,10 @@ export default function LogoPaths() {
         C927.441162,847.553650 927.536499,847.385498 927.584167,847.457275 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -17354,8 +19040,10 @@ export default function LogoPaths() {
         C1124.524414,833.398499 1124.603638,833.523743 1124.524414,833.398499 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -17387,8 +19075,10 @@ export default function LogoPaths() {
         C1048.122070,858.445435 1049.598145,856.703186 1051.074219,854.961060 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17419,8 +19109,10 @@ export default function LogoPaths() {
         C1089.452515,854.514343 1089.515747,854.490112 1089.452515,854.514343 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17437,8 +19129,10 @@ export default function LogoPaths() {
         C1051.040527,854.056458 1051.051758,854.237183 1051.068604,854.689453 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -17450,8 +19144,10 @@ export default function LogoPaths() {
         C1035.974854,860.026245 1035.999390,860.000732 1036.011719,859.987549 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17462,8 +19158,10 @@ export default function LogoPaths() {
         C1033.766602,861.504944 1034.546143,860.810852 1035.650146,860.071533 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -17476,8 +19174,10 @@ export default function LogoPaths() {
         C1021.101379,839.457336 1020.711548,839.806458 1020.321716,840.155640 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17489,8 +19189,10 @@ export default function LogoPaths() {
         C988.169312,835.431946 986.652649,834.521179 984.837341,833.453735 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17502,8 +19204,10 @@ export default function LogoPaths() {
         C944.006775,835.992737 944.023499,835.974304 944.023499,835.974304 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -17514,8 +19218,10 @@ export default function LogoPaths() {
         C1014.714294,823.642273 1014.536316,824.790771 1014.064941,826.026855 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17526,8 +19232,10 @@ export default function LogoPaths() {
         C944.023499,835.974304 944.006775,835.992737 943.999512,835.999878 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17539,8 +19247,10 @@ export default function LogoPaths() {
         C1020.310059,840.903992 1020.258850,840.528870 1020.290283,840.342285 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17551,8 +19261,10 @@ export default function LogoPaths() {
         C992.325500,811.562012 992.979797,811.719971 993.740479,812.202026 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17564,8 +19276,10 @@ export default function LogoPaths() {
         C1027.992798,844.999939 1027.932251,845.039551 1027.932251,845.039551 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -17577,8 +19291,10 @@ export default function LogoPaths() {
         C1009.980957,820.033203 1010.016113,819.985840 1010.035645,819.963745 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17588,8 +19304,10 @@ export default function LogoPaths() {
         C966.103577,855.656189 966.282593,855.405090 966.771118,855.120239 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -17600,8 +19318,10 @@ export default function LogoPaths() {
         C1010.994751,849.007202 1011.000000,849.000000 1011.003662,848.997437 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17651,8 +19371,10 @@ export default function LogoPaths() {
         C872.033264,1095.948486 871.744751,1095.997314 871.456177,1096.046143 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17683,8 +19405,10 @@ export default function LogoPaths() {
         C846.512390,1043.598389 846.548523,1041.969238 846.872559,1040.077026 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17700,8 +19424,10 @@ export default function LogoPaths() {
         C857.022766,1029.819824 853.995056,1034.580688 858.091919,1036.691162 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17714,8 +19440,10 @@ export default function LogoPaths() {
         C846.267334,1069.862793 846.237183,1069.693970 846.198608,1069.268066 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17726,8 +19454,10 @@ export default function LogoPaths() {
         C845.558105,1051.433716 845.313538,1050.902954 845.148926,1050.149658 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17750,8 +19480,10 @@ export default function LogoPaths() {
         C1088.389893,856.700867 1088.798462,856.651550 1088.798462,856.651550 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17767,8 +19499,10 @@ export default function LogoPaths() {
         C1082.076660,819.919861 1080.171265,817.685059 1077.978027,815.220459 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17784,8 +19518,10 @@ export default function LogoPaths() {
         C1155.457397,821.230774 1151.670532,820.388489 1151.575684,818.679932 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17796,8 +19532,10 @@ export default function LogoPaths() {
         C1088.594482,828.055298 1087.461060,827.193420 1086.114014,826.076660 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17809,8 +19547,10 @@ export default function LogoPaths() {
         C1094.723267,819.283813 1091.928833,817.074463 1088.965332,814.586487 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17825,8 +19565,10 @@ export default function LogoPaths() {
         C1106.246948,831.173157 1105.986694,830.993103 1105.679199,830.528442 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17840,8 +19582,10 @@ export default function LogoPaths() {
         C1096.062866,835.734985 1095.936279,835.561951 1095.589233,835.297302 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17853,8 +19597,10 @@ export default function LogoPaths() {
         C1085.791260,831.853149 1084.190430,832.490845 1082.331299,832.943848 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -17867,8 +19613,10 @@ export default function LogoPaths() {
         C1111.046509,828.529236 1109.731079,826.893494 1108.143555,825.069702 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -17881,8 +19629,10 @@ export default function LogoPaths() {
         C1126.619629,813.634460 1127.433228,814.515991 1128.434814,815.671509 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -17896,8 +19646,10 @@ export default function LogoPaths() {
         C1109.002563,843.004272 1109.000000,843.000000 1108.998047,842.997803 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17908,8 +19660,10 @@ export default function LogoPaths() {
         C1090.153687,846.491821 1090.839844,847.595581 1091.780884,848.887207 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17922,8 +19676,10 @@ export default function LogoPaths() {
         C1096.322021,848.279785 1096.146118,849.119995 1095.970337,849.960205 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -17934,8 +19690,10 @@ export default function LogoPaths() {
         C1058.539307,842.774414 1059.066772,842.816772 1059.571655,843.102173 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -17948,8 +19706,10 @@ export default function LogoPaths() {
         C1028.005493,821.992065 1028.051636,821.950623 1028.051636,821.950623 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -17965,8 +19725,10 @@ export default function LogoPaths() {
         C1022.925415,851.018311 1022.992920,851.487061 1022.997864,851.723816 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17978,8 +19740,10 @@ export default function LogoPaths() {
         C1027.549927,854.175720 1026.811279,853.191895 1026.060059,851.843384 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -17996,8 +19760,10 @@ export default function LogoPaths() {
         C1018.519348,850.406677 1018.602173,850.532349 1018.519348,850.406677 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18011,8 +19777,10 @@ export default function LogoPaths() {
         C1034.002197,830.996460 1033.990723,831.009216 1033.990723,831.009216 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18025,8 +19793,10 @@ export default function LogoPaths() {
         C1056.523315,820.560547 1057.332520,820.941345 1058.332153,821.609619 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18038,8 +19808,10 @@ export default function LogoPaths() {
         C1031.947998,841.054993 1031.995972,840.999817 1032.017822,840.970581 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18053,8 +19825,10 @@ export default function LogoPaths() {
         C1032.996826,834.006287 1033.000000,834.000000 1033.001953,833.997925 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18065,8 +19839,10 @@ export default function LogoPaths() {
         C1062.391113,821.275818 1063.403809,821.217651 1064.528564,821.457703 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18078,8 +19854,10 @@ export default function LogoPaths() {
         C1070.994263,818.004883 1071.000000,818.000000 1071.002075,817.998779 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18091,8 +19869,10 @@ export default function LogoPaths() {
         C1028.000000,819.000000 1027.995117,818.992920 1027.995117,818.992920 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18105,8 +19885,10 @@ export default function LogoPaths() {
         C1041.895996,852.264954 1041.755981,852.161987 1041.376953,851.923218 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18119,8 +19901,10 @@ export default function LogoPaths() {
         C1027.995117,818.992920 1028.000000,819.000000 1028.002441,819.002441 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -18132,8 +19916,10 @@ export default function LogoPaths() {
         C1011.249634,854.929810 1011.419006,854.579834 1011.841248,854.073303 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18146,8 +19932,10 @@ export default function LogoPaths() {
         C1058.993042,827.992798 1059.016724,828.014893 1059.016724,828.014893 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18159,8 +19947,10 @@ export default function LogoPaths() {
         C1067.000000,817.000000 1066.993652,816.994507 1066.993652,816.994507 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -18172,8 +19962,10 @@ export default function LogoPaths() {
         C1027.932251,845.039551 1027.992798,844.999939 1028.020508,844.976624 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18183,8 +19975,10 @@ export default function LogoPaths() {
         C1019.646729,847.640747 1020.535278,847.293030 1021.797363,846.960693 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18197,8 +19991,10 @@ export default function LogoPaths() {
         C1058.026367,827.025818 1058.010864,827.010498 1058.005615,827.001343 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18210,8 +20006,10 @@ export default function LogoPaths() {
         C1039.002563,823.003540 1038.973267,822.983093 1038.973267,822.983093 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18223,8 +20021,10 @@ export default function LogoPaths() {
         C1066.993652,816.994507 1067.000000,817.000000 1067.003418,817.002563 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -18235,8 +20035,10 @@ export default function LogoPaths() {
         C1023.432556,846.153198 1022.970703,846.000000 1022.970703,846.000000 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18248,8 +20050,10 @@ export default function LogoPaths() {
         C1022.892029,846.862732 1022.938477,846.432068 1022.954590,846.216064 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18259,8 +20063,10 @@ export default function LogoPaths() {
         C1033.028198,826.753357 1033.357300,826.702454 1033.712280,826.862793 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18272,8 +20078,10 @@ export default function LogoPaths() {
         C1039.014648,825.986938 1039.001709,825.998840 1038.995239,826.002930 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18283,8 +20091,10 @@ export default function LogoPaths() {
         C1017.925171,845.408875 1018.137024,845.466980 1018.238281,845.651489 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18294,8 +20104,10 @@ export default function LogoPaths() {
         C1062.608765,817.941345 1062.550415,818.159302 1062.364868,818.262878 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -18305,8 +20117,10 @@ export default function LogoPaths() {
         C1005.363342,856.202148 1005.476562,856.457764 1005.214722,856.931885 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18320,8 +20134,10 @@ export default function LogoPaths() {
         C1148.004517,840.346191 1148.962769,840.864868 1150.113037,841.665588 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -18333,8 +20149,10 @@ export default function LogoPaths() {
         C1171.019531,849.981567 1171.002319,849.998291 1170.995117,850.007141 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -18345,8 +20163,10 @@ export default function LogoPaths() {
         C1146.418335,838.521057 1146.680542,838.920593 1146.994629,839.573853 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18356,8 +20176,10 @@ export default function LogoPaths() {
         C1146.587036,834.641174 1146.121094,835.234436 1145.370605,835.916748 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -18372,8 +20194,10 @@ export default function LogoPaths() {
         C1153.879883,856.647583 1153.665039,856.427368 1153.168213,856.182556 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -18385,8 +20209,10 @@ export default function LogoPaths() {
         C1147.978027,858.771362 1146.806641,859.563049 1145.399780,860.208191 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -18398,8 +20224,10 @@ export default function LogoPaths() {
         C1120.990234,856.990234 1121.000000,857.000000 1121.004883,857.004883 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -18409,8 +20237,10 @@ export default function LogoPaths() {
         C1154.860229,859.206238 1154.446411,858.425110 1154.030762,857.288086 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -18485,8 +20315,10 @@ export default function LogoPaths() {
         C1524.828735,823.647522 1523.250122,823.357178 1521.304321,823.705322 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18527,8 +20359,10 @@ export default function LogoPaths() {
         C1571.189819,859.706177 1571.647095,859.548645 1572.104370,859.391174 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18581,8 +20415,10 @@ export default function LogoPaths() {
         C1376.493896,811.709595 1376.289551,812.073608 1376.499268,812.920288 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -18599,8 +20435,10 @@ export default function LogoPaths() {
         C1513.000854,811.997986 1513.027100,812.015747 1513.027100,812.015747 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -18613,8 +20451,10 @@ export default function LogoPaths() {
         C1615.313721,813.275574 1614.659912,812.507385 1613.984863,811.396118 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -18624,8 +20464,10 @@ export default function LogoPaths() {
         C1567.427612,805.694763 1565.438232,806.040710 1563.163574,806.147827 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -18635,8 +20477,10 @@ export default function LogoPaths() {
         C1515.024170,866.586914 1517.329712,866.436707 1519.942871,866.544373 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -18646,8 +20490,10 @@ export default function LogoPaths() {
         C1526.711060,866.666870 1528.665405,866.515259 1530.915771,866.610352 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18657,8 +20503,10 @@ export default function LogoPaths() {
         C1516.936646,810.023682 1518.169556,809.962646 1519.860107,809.990479 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -18669,8 +20517,10 @@ export default function LogoPaths() {
         C1619.455811,810.930359 1619.043823,811.398926 1618.333374,811.985962 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18680,8 +20530,10 @@ export default function LogoPaths() {
         C1574.914917,858.625916 1574.757812,859.224121 1574.276123,859.899536 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -18691,8 +20543,10 @@ export default function LogoPaths() {
         C1576.033936,857.398132 1575.812500,857.696350 1575.314331,858.028198 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -18702,8 +20556,10 @@ export default function LogoPaths() {
         C1602.857422,828.327454 1602.696777,828.626831 1602.285156,829.010498 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -18713,8 +20569,10 @@ export default function LogoPaths() {
         C1603.820557,827.305176 1603.676758,827.602478 1603.280884,827.958740 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -18724,8 +20582,10 @@ export default function LogoPaths() {
         C1612.972656,817.362671 1612.797729,817.678467 1612.354004,818.070251 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -18735,8 +20595,10 @@ export default function LogoPaths() {
         C1604.935913,826.348572 1604.783936,826.626892 1604.240967,826.889893 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -18746,8 +20608,10 @@ export default function LogoPaths() {
         C1611.990479,818.424194 1611.830566,818.777466 1611.403931,819.263611 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -18900,8 +20764,10 @@ export default function LogoPaths() {
         C1321.431763,866.480347 1321.528687,866.424255 1321.431763,866.480347 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19004,8 +20870,10 @@ export default function LogoPaths() {
         C1248.490234,908.664307 1248.409302,908.529419 1248.490234,908.664307 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -19123,8 +20991,10 @@ export default function LogoPaths() {
         C1256.209351,1059.729248 1255.839966,1059.726685 1255.463989,1060.183350 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19190,8 +21060,10 @@ export default function LogoPaths() {
         C1245.588257,1025.836304 1245.649902,1025.895874 1245.526733,1025.776855 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19227,8 +21099,10 @@ export default function LogoPaths() {
         C1246.808594,1099.442017 1247.689575,1098.922363 1248.524658,1097.766479 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19254,8 +21128,10 @@ export default function LogoPaths() {
         C1241.159302,965.234863 1241.467041,966.046326 1241.774658,966.857849 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -19287,8 +21163,10 @@ export default function LogoPaths() {
         C1257.319092,1005.074036 1257.653442,1005.564331 1257.987793,1006.054626 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19305,8 +21183,10 @@ export default function LogoPaths() {
         C1250.739136,995.798401 1248.562622,999.242188 1248.930908,1001.879150 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19318,8 +21198,10 @@ export default function LogoPaths() {
         C1239.171753,927.025208 1239.632446,923.766541 1240.010132,920.149292 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19336,8 +21218,10 @@ export default function LogoPaths() {
         C1243.394531,982.644653 1245.158813,982.760864 1247.301758,982.860596 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19350,8 +21234,10 @@ export default function LogoPaths() {
         C1241.028198,914.853027 1240.616943,913.458496 1240.530273,911.974121 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19362,8 +21248,10 @@ export default function LogoPaths() {
         C1240.227295,1003.125122 1240.511963,1000.302673 1240.964600,997.141113 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19377,8 +21265,10 @@ export default function LogoPaths() {
         C1240.348389,1010.145264 1239.937378,1008.268494 1239.726562,1006.182312 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19388,8 +21278,10 @@ export default function LogoPaths() {
         C1258.051758,880.978516 1257.849976,877.783813 1262.687256,880.834534 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19400,8 +21292,10 @@ export default function LogoPaths() {
         C1241.552368,1015.707764 1241.204224,1014.210632 1240.807617,1012.367676 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19412,8 +21306,10 @@ export default function LogoPaths() {
         C1246.903076,1047.280029 1246.978638,1046.908936 1247.092407,1046.256348 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19425,8 +21321,10 @@ export default function LogoPaths() {
         C1243.755981,991.317932 1243.536621,991.599182 1243.170654,992.105164 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19437,8 +21335,10 @@ export default function LogoPaths() {
         C1261.286133,876.987854 1261.860840,876.552979 1262.729126,876.069214 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19448,8 +21348,10 @@ export default function LogoPaths() {
         C1241.863525,994.845886 1242.745850,994.664429 1243.825195,994.728394 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19461,8 +21363,10 @@ export default function LogoPaths() {
         C1246.751831,1077.517700 1246.475342,1077.045532 1246.179688,1076.283936 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19472,8 +21376,10 @@ export default function LogoPaths() {
         C1242.608765,1045.688843 1242.245117,1045.685913 1241.765869,1045.416382 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19483,8 +21389,10 @@ export default function LogoPaths() {
         C1240.803467,969.086548 1240.595947,969.124390 1240.073853,969.128723 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19494,8 +21402,10 @@ export default function LogoPaths() {
         C1243.645752,1018.059814 1243.421265,1018.186096 1243.152588,1018.131165 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19505,8 +21415,10 @@ export default function LogoPaths() {
         C1245.035522,1017.380615 1244.762207,1017.591370 1244.227661,1017.836487 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -19518,8 +21430,10 @@ export default function LogoPaths() {
         C1471.750732,873.192444 1493.352783,873.239258 1515.397705,873.350952 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -19531,8 +21445,10 @@ export default function LogoPaths() {
         C1461.543945,872.026123 1451.522827,871.837402 1441.180420,871.426453 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -19544,8 +21460,10 @@ export default function LogoPaths() {
         C1562.554810,874.632812 1559.247192,874.766235 1555.487793,874.851318 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -19555,8 +21473,10 @@ export default function LogoPaths() {
         C1528.762085,873.293030 1532.395386,873.206116 1536.476562,873.187195 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -19566,8 +21486,10 @@ export default function LogoPaths() {
         C1418.771118,873.436890 1420.387451,873.395264 1422.392090,873.459106 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19577,8 +21499,10 @@ export default function LogoPaths() {
         C1579.227783,871.763184 1579.387817,871.472046 1579.801270,871.124695 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -19588,8 +21512,10 @@ export default function LogoPaths() {
         C1382.891235,873.622803 1383.192139,873.438965 1383.758545,873.263306 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19599,8 +21525,10 @@ export default function LogoPaths() {
         C1578.208008,872.746216 1578.374268,872.458313 1578.796387,872.119934 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -19611,8 +21539,10 @@ export default function LogoPaths() {
         C1663.001099,738.014771 1662.822388,737.844604 1662.822388,737.844604 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -19623,8 +21553,10 @@ export default function LogoPaths() {
         C1690.215820,775.208130 1690.091797,775.078857 1689.800293,774.739380 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -19634,8 +21566,10 @@ export default function LogoPaths() {
         C1662.822388,737.844604 1663.001099,738.014771 1663.086182,738.104126 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -19688,8 +21622,10 @@ export default function LogoPaths() {
         C994.838318,1201.031128 995.037109,1201.003784 995.855469,1201.046753 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -19705,8 +21641,10 @@ export default function LogoPaths() {
         C955.782654,1209.675049 939.705261,1209.275269 923.323547,1208.714111 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19717,8 +21655,10 @@ export default function LogoPaths() {
         C1340.204834,736.172668 1340.575928,736.780334 1340.976807,737.697510 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -19760,8 +21700,10 @@ export default function LogoPaths() {
         C797.753357,1180.178955 799.523376,1180.896118 801.176636,1181.758057 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -19801,8 +21743,10 @@ export default function LogoPaths() {
         C766.855774,1167.508789 766.855774,1168.783081 766.855774,1170.057373 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19839,8 +21783,10 @@ export default function LogoPaths() {
         C739.763184,1149.287109 740.884460,1149.643799 742.005737,1150.000610 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19855,8 +21801,10 @@ export default function LogoPaths() {
         C704.000000,1153.000000 703.991394,1153.009155 703.991394,1153.009155 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19869,8 +21817,10 @@ export default function LogoPaths() {
         C671.775085,1144.776733 677.192078,1145.072388 682.864624,1145.632568 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19883,8 +21833,10 @@ export default function LogoPaths() {
         C801.934143,1179.708008 801.426514,1180.456543 801.047729,1181.481689 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19895,8 +21847,10 @@ export default function LogoPaths() {
         C743.613831,1147.199585 742.938599,1148.302124 742.134521,1149.702637 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -19906,8 +21860,10 @@ export default function LogoPaths() {
         C552.325684,1126.477539 550.745911,1124.887207 549.339966,1123.018555 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -19918,8 +21874,10 @@ export default function LogoPaths() {
         C735.187134,1145.758667 735.629028,1146.896484 736.075317,1148.380005 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -19929,8 +21887,10 @@ export default function LogoPaths() {
         C555.456116,1130.569824 554.603027,1129.580933 553.822998,1128.336182 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -19940,8 +21900,10 @@ export default function LogoPaths() {
         C547.376892,1120.511230 546.778748,1120.003906 546.196045,1119.164062 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -19951,8 +21913,10 @@ export default function LogoPaths() {
         C548.898865,1122.269287 548.453613,1121.942505 547.994751,1121.319580 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -19962,8 +21926,10 @@ export default function LogoPaths() {
         C556.716370,1132.301147 556.479126,1132.361450 556.263794,1132.246582 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -19998,8 +21964,10 @@ export default function LogoPaths() {
         C764.161560,1194.796753 767.316040,1195.542236 767.790527,1190.111816 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -20009,8 +21977,10 @@ export default function LogoPaths() {
         C800.027100,1193.972534 799.289124,1194.925903 798.177124,1195.788818 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -20080,8 +22050,10 @@ export default function LogoPaths() {
         C1548.431763,1137.879761 1549.082275,1137.827515 1549.732788,1137.775146 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -20145,8 +22117,10 @@ export default function LogoPaths() {
         C1617.507202,1195.562012 1619.318604,1195.224487 1621.129883,1194.886963 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -20167,8 +22141,10 @@ export default function LogoPaths() {
         C1270.241943,1135.864502 1270.516846,1136.136108 1270.791870,1136.407593 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -20179,8 +22155,10 @@ export default function LogoPaths() {
         C1242.365601,1103.946533 1241.730957,1101.914307 1241.135742,1099.530273 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -20191,8 +22169,10 @@ export default function LogoPaths() {
         C1247.229248,1111.148804 1248.570679,1112.267700 1249.920288,1113.760132 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -20375,8 +22355,10 @@ export default function LogoPaths() {
         C962.455444,1147.304565 962.981567,1146.934570 963.069885,1146.121094 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20414,8 +22396,10 @@ export default function LogoPaths() {
         C1063.375732,1145.599731 1063.218018,1145.343872 1063.174561,1145.017822 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -20426,8 +22410,10 @@ export default function LogoPaths() {
         C1116.209839,1134.158691 1124.361206,1135.571045 1132.860596,1135.078857 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20451,8 +22437,10 @@ export default function LogoPaths() {
         C1208.331543,1187.745605 1208.621094,1187.939575 1208.910767,1188.133423 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -20465,8 +22453,10 @@ export default function LogoPaths() {
         C1096.436646,1137.213623 1096.413696,1138.282715 1096.129639,1139.597656 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -20480,8 +22470,10 @@ export default function LogoPaths() {
         C1187.017822,1172.933472 1187.636719,1170.963013 1188.137817,1168.974365 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -20492,8 +22484,10 @@ export default function LogoPaths() {
         C1165.439453,1134.483643 1167.858032,1135.124512 1170.208496,1136.099976 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -20505,8 +22499,10 @@ export default function LogoPaths() {
         C1197.980469,1177.812866 1199.006348,1178.567505 1200.191895,1179.633789 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -20516,8 +22512,10 @@ export default function LogoPaths() {
         C1101.589722,1139.693115 1102.974365,1139.545532 1104.580811,1139.625977 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -20526,8 +22524,10 @@ export default function LogoPaths() {
         C1157.975220,1135.669800 1158.051392,1135.669556 1158.013306,1135.669678 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -20541,8 +22541,10 @@ export default function LogoPaths() {
         C1484.001709,1127.035522 1485.869141,1127.821411 1487.984619,1128.582886 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -20571,8 +22573,10 @@ export default function LogoPaths() {
         C1354.343750,1127.533691 1356.715942,1127.958862 1359.029297,1128.937744 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20585,8 +22589,10 @@ export default function LogoPaths() {
         C1577.282471,1128.810669 1578.151611,1129.483032 1579.100098,1130.245361 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -20596,8 +22602,10 @@ export default function LogoPaths() {
         C1505.834961,1125.857910 1508.366577,1126.667725 1511.138428,1128.546631 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -20609,8 +22617,10 @@ export default function LogoPaths() {
         C1495.545288,1127.961548 1494.168945,1128.197510 1492.575195,1128.674072 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -20637,8 +22647,10 @@ export default function LogoPaths() {
         C862.000000,1093.000000 861.988770,1092.990723 861.988770,1092.990723 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -20650,8 +22662,10 @@ export default function LogoPaths() {
         C868.109009,1129.750732 865.125916,1126.713501 862.165405,1123.335815 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -20662,8 +22676,10 @@ export default function LogoPaths() {
         C851.213867,1113.722412 850.598328,1112.109741 849.771118,1110.219238 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -20674,8 +22690,10 @@ export default function LogoPaths() {
         C858.555420,1092.151978 858.395325,1091.361938 858.127197,1090.279175 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20709,8 +22727,10 @@ export default function LogoPaths() {
         C798.906372,837.110596 788.755432,847.764282 777.727295,858.016724 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -20726,8 +22746,10 @@ export default function LogoPaths() {
         C699.194824,856.776978 702.053833,858.078552 704.086792,858.682312 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20745,8 +22767,10 @@ export default function LogoPaths() {
         C619.192200,849.979919 617.588928,851.241455 615.944336,852.920654 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20759,8 +22783,10 @@ export default function LogoPaths() {
         C638.379517,837.108765 640.959167,839.530212 639.642334,842.883850 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20773,8 +22799,10 @@ export default function LogoPaths() {
         C683.994446,841.053345 686.803894,839.657959 689.738403,837.966858 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20786,8 +22814,10 @@ export default function LogoPaths() {
         C649.838684,851.648743 652.368958,856.644409 656.914185,858.626221 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20799,8 +22829,10 @@ export default function LogoPaths() {
         C677.212097,854.021484 669.903442,858.426025 678.774353,858.031494 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -20811,8 +22843,10 @@ export default function LogoPaths() {
         C716.421570,857.172546 717.294556,857.303406 718.289673,857.631348 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -20826,8 +22860,10 @@ export default function LogoPaths() {
         C760.973022,823.744019 758.916931,825.826782 756.238159,822.281982 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -20839,8 +22875,10 @@ export default function LogoPaths() {
         C733.269714,854.771973 733.960938,857.009705 735.071533,858.732361 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20854,8 +22892,10 @@ export default function LogoPaths() {
         C675.832520,811.960754 677.034546,811.987671 678.560913,812.040344 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20867,8 +22907,10 @@ export default function LogoPaths() {
         C675.447266,839.504211 675.447266,839.504211 671.696167,842.449219 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20879,8 +22921,10 @@ export default function LogoPaths() {
         C668.817383,851.262695 669.049377,850.035706 669.497192,848.545044 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -20890,8 +22934,10 @@ export default function LogoPaths() {
         C750.363525,846.231995 752.612305,846.231995 754.717285,846.565186 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -20902,8 +22948,10 @@ export default function LogoPaths() {
         C749.148132,856.268188 746.146606,851.751770 753.122009,853.710022 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -20916,8 +22964,10 @@ export default function LogoPaths() {
         C706.293945,841.489685 705.551697,841.035828 704.531738,840.389404 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -20928,8 +22978,10 @@ export default function LogoPaths() {
         C626.986389,818.984680 626.998047,818.997864 627.002075,819.004272 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -20940,8 +22992,10 @@ export default function LogoPaths() {
         C741.455383,828.391174 742.432312,827.550659 743.644897,826.872681 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -20952,8 +23006,10 @@ export default function LogoPaths() {
         C691.219482,821.438599 691.573914,820.835632 692.231445,820.200806 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -20965,8 +23021,10 @@ export default function LogoPaths() {
         C691.000122,830.002319 690.970154,829.977844 690.970154,829.977844 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -20978,8 +23036,10 @@ export default function LogoPaths() {
         C627.000000,814.000366 626.986450,813.989746 626.986450,813.989746 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -20991,8 +23051,10 @@ export default function LogoPaths() {
         C778.987915,820.988770 779.000366,821.000366 779.006714,821.006592 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21003,8 +23065,10 @@ export default function LogoPaths() {
         C780.667175,836.181824 780.765625,836.574341 780.685059,837.095154 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -21015,8 +23079,10 @@ export default function LogoPaths() {
         C702.979797,820.987061 703.002808,821.003113 703.012939,821.013306 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21027,8 +23093,10 @@ export default function LogoPaths() {
         C692.977905,855.984375 692.996277,855.997559 693.001831,856.006470 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -21039,8 +23107,10 @@ export default function LogoPaths() {
         C690.970154,829.977844 691.000122,830.002319 691.012390,830.017334 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21050,8 +23120,10 @@ export default function LogoPaths() {
         C626.986450,813.989746 627.000000,814.000366 627.005493,814.007263 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -21063,8 +23135,10 @@ export default function LogoPaths() {
         C568.804932,855.447083 566.677490,856.083862 564.247192,856.902344 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21078,8 +23152,10 @@ export default function LogoPaths() {
         C600.762573,833.183777 602.355896,831.435852 603.996643,829.338501 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21092,8 +23168,10 @@ export default function LogoPaths() {
         C599.480774,848.869080 599.967346,848.758423 599.967346,848.758423 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21107,8 +23185,10 @@ export default function LogoPaths() {
         C596.990967,825.008423 597.000000,825.000000 597.004395,824.995605 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21119,8 +23199,10 @@ export default function LogoPaths() {
         C593.801697,837.568298 595.476624,836.176758 598.821838,835.055603 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21132,8 +23214,10 @@ export default function LogoPaths() {
         C596.029236,846.017883 595.905884,845.936401 595.905884,845.936401 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21144,8 +23228,10 @@ export default function LogoPaths() {
         C604.588196,857.145386 606.218689,857.804932 607.916565,858.739563 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21155,8 +23241,10 @@ export default function LogoPaths() {
         C596.010437,854.263367 597.907654,857.400330 599.822449,858.735413 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21167,8 +23255,10 @@ export default function LogoPaths() {
         C585.053467,858.170959 586.157776,858.674927 587.590576,858.883179 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21180,8 +23270,10 @@ export default function LogoPaths() {
         C597.267639,847.395325 598.129395,848.180298 598.991150,848.965271 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -21192,8 +23284,10 @@ export default function LogoPaths() {
         C564.995117,821.995239 565.000000,822.000000 565.001953,822.002014 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21204,8 +23298,10 @@ export default function LogoPaths() {
         C569.907166,810.651184 570.438599,811.146851 570.987671,812.038452 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21215,8 +23311,10 @@ export default function LogoPaths() {
         C588.587646,856.562744 589.546387,855.379639 591.304993,858.538635 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -21227,8 +23325,10 @@ export default function LogoPaths() {
         C540.883484,820.644836 540.710266,819.932007 540.744019,819.031128 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21240,8 +23340,10 @@ export default function LogoPaths() {
         C594.005127,825.004944 594.000000,825.000000 593.997620,824.997314 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21252,8 +23354,10 @@ export default function LogoPaths() {
         C606.754211,834.064331 606.024597,833.834106 605.144775,833.345215 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -21265,8 +23369,10 @@ export default function LogoPaths() {
         C572.004089,823.003906 571.945068,822.945435 571.945068,822.945435 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -21277,8 +23383,10 @@ export default function LogoPaths() {
         C568.666748,847.546875 568.112183,847.762817 567.260254,847.972839 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -21290,8 +23398,10 @@ export default function LogoPaths() {
         C571.945068,822.945435 572.004089,823.003906 572.033569,823.033203 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -21301,8 +23411,10 @@ export default function LogoPaths() {
         C571.499512,835.933044 571.382690,836.044678 571.264587,836.018188 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -21313,8 +23425,10 @@ export default function LogoPaths() {
         C560.084595,818.884583 559.970154,819.025146 559.910339,819.093140 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -21323,8 +23437,10 @@ export default function LogoPaths() {
         C568.415222,824.477173 568.470276,824.573425 568.442749,824.525269 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21336,8 +23452,10 @@ export default function LogoPaths() {
         C740.161804,809.166748 748.217957,809.076355 756.756226,808.882812 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21350,8 +23468,10 @@ export default function LogoPaths() {
         C722.050842,825.973572 722.009399,825.995911 721.991272,826.010803 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21362,8 +23482,10 @@ export default function LogoPaths() {
         C697.995422,812.903076 698.392456,814.405579 698.575012,816.170654 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21375,8 +23497,10 @@ export default function LogoPaths() {
         C717.005737,824.005432 717.000000,824.000000 716.996826,823.996887 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -21386,8 +23510,10 @@ export default function LogoPaths() {
         C799.399292,830.403137 799.659302,829.075867 799.968140,827.405151 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21397,8 +23523,10 @@ export default function LogoPaths() {
         C718.079224,809.493774 716.263916,809.687195 714.031372,809.817627 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21410,8 +23538,10 @@ export default function LogoPaths() {
         C690.018738,816.979736 690.000061,816.999084 689.989380,817.007324 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21421,8 +23551,10 @@ export default function LogoPaths() {
         C726.416077,809.395447 725.899170,809.510315 725.224243,809.469604 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21431,8 +23563,10 @@ export default function LogoPaths() {
         C686.484070,813.572815 686.573608,813.521301 686.528809,813.547058 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21443,8 +23577,10 @@ export default function LogoPaths() {
         C722.635925,809.530823 722.217102,809.469788 722.129150,809.347656 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -21457,8 +23593,10 @@ export default function LogoPaths() {
         C599.967346,848.758423 599.480774,848.869080 599.235962,848.917175 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21480,8 +23618,10 @@ export default function LogoPaths() {
         C705.287476,794.173340 704.098389,793.963562 702.909302,793.753784 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21492,8 +23632,10 @@ export default function LogoPaths() {
         C762.080505,793.024536 748.871948,793.341492 735.344482,793.407959 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21506,8 +23648,10 @@ export default function LogoPaths() {
         C688.339294,795.116699 683.673401,795.166565 678.553223,795.292847 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21519,8 +23663,10 @@ export default function LogoPaths() {
         C702.568176,795.081848 698.100769,795.337708 693.319214,795.330200 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21530,8 +23676,10 @@ export default function LogoPaths() {
         C727.943115,793.697876 723.797119,794.168579 719.334839,794.386353 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21542,8 +23690,10 @@ export default function LogoPaths() {
         C792.994751,793.260681 792.993958,793.068054 792.993225,792.875488 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21553,8 +23703,10 @@ export default function LogoPaths() {
         C783.111145,793.139465 782.213623,793.249146 781.141174,793.097046 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21566,8 +23718,10 @@ export default function LogoPaths() {
         C791.498169,792.826965 791.924255,792.869385 792.671753,792.893677 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21578,8 +23732,10 @@ export default function LogoPaths() {
         C801.390808,795.160095 800.777832,795.177368 800.049561,794.940796 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21590,8 +23746,10 @@ export default function LogoPaths() {
         C803.576782,795.019348 803.129150,795.075684 802.342651,795.137451 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21638,8 +23796,10 @@ export default function LogoPaths() {
         C1337.145752,876.136292 1342.086060,864.908325 1353.111938,860.256226 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -21662,8 +23822,10 @@ export default function LogoPaths() {
         C1448.852417,1138.958252 1442.367065,1139.020508 1435.881958,1139.093018 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -21681,8 +23843,10 @@ export default function LogoPaths() {
         C1306.827393,1073.391235 1306.106201,1074.557373 1305.321777,1075.847412 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21692,8 +23856,10 @@ export default function LogoPaths() {
         C1337.714111,1114.697754 1335.328979,1112.225098 1332.953125,1109.405762 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21703,8 +23869,10 @@ export default function LogoPaths() {
         C1342.796875,1120.319702 1341.821899,1119.491211 1340.794189,1118.310913 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21714,8 +23882,10 @@ export default function LogoPaths() {
         C1328.701416,1104.813965 1328.405762,1104.665894 1328.082520,1104.257080 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21725,8 +23895,10 @@ export default function LogoPaths() {
         C1329.694946,1105.823486 1329.399048,1105.674194 1329.070190,1105.264404 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21736,8 +23908,10 @@ export default function LogoPaths() {
         C1330.672729,1106.843262 1330.377441,1106.690308 1330.054199,1106.273682 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21747,8 +23921,10 @@ export default function LogoPaths() {
         C1331.659058,1107.859497 1331.357422,1107.711670 1331.028809,1107.298340 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21758,8 +23934,10 @@ export default function LogoPaths() {
         C1332.645874,1108.875000 1332.346924,1108.721680 1332.020020,1108.303711 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -21770,8 +23948,10 @@ export default function LogoPaths() {
         C1310.707031,913.013245 1310.081055,912.601807 1309.203125,911.991455 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21781,8 +23961,10 @@ export default function LogoPaths() {
         C1452.278931,863.333313 1450.360840,863.455139 1448.144775,863.354004 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21791,8 +23973,10 @@ export default function LogoPaths() {
         C738.493469,1288.478271 738.460388,1288.492432 738.476929,1288.485352 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -21803,8 +23987,10 @@ export default function LogoPaths() {
         C862.053467,1283.045654 861.965027,1282.961548 861.921997,1282.918213 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21814,8 +24000,10 @@ export default function LogoPaths() {
         C637.055786,796.177917 640.230225,795.801819 643.704956,795.691040 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -21825,8 +24013,10 @@ export default function LogoPaths() {
         C658.735352,795.268188 661.574341,794.842651 664.707703,794.678711 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -21836,8 +24026,10 @@ export default function LogoPaths() {
         C419.183685,1190.460083 422.396942,1186.984619 421.896423,1185.485352 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -21847,8 +24039,10 @@ export default function LogoPaths() {
         C405.332123,1175.116089 405.652924,1175.330444 405.955566,1175.856934 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -21885,8 +24079,10 @@ export default function LogoPaths() {
         C1176.376465,1203.719849 1174.152222,1203.713013 1171.511108,1203.703613 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -21912,8 +24108,10 @@ export default function LogoPaths() {
         C1198.513550,1201.205688 1189.027832,1202.591797 1179.071411,1203.852295 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -21923,8 +24121,10 @@ export default function LogoPaths() {
         C1208.195923,1187.230591 1208.466309,1187.436890 1208.823730,1187.888306 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -21934,8 +24134,10 @@ export default function LogoPaths() {
         C1207.247314,1186.192383 1207.522461,1186.390015 1207.883789,1186.831543 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -21953,8 +24155,10 @@ export default function LogoPaths() {
         C1068.128296,1197.745605 1071.411987,1198.191650 1074.672241,1198.334229 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -21964,8 +24168,10 @@ export default function LogoPaths() {
         C1612.907959,1205.082764 1609.693970,1205.464966 1606.010498,1205.704590 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -21975,8 +24181,10 @@ export default function LogoPaths() {
         C1625.122437,1204.720337 1623.821289,1204.821655 1622.047363,1204.772095 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -21987,8 +24195,10 @@ export default function LogoPaths() {
         C1521.960327,1133.694214 1529.166382,1133.851440 1536.799561,1134.146973 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -22020,8 +24230,10 @@ export default function LogoPaths() {
         C613.489258,867.723572 613.781738,867.632324 613.872803,867.278809 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -22035,8 +24247,10 @@ export default function LogoPaths() {
         C522.987610,1018.208008 522.987610,1024.838989 523.150513,1031.959229 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -22048,8 +24262,10 @@ export default function LogoPaths() {
         C539.984619,1110.017700 539.998108,1110.002197 540.005676,1109.995850 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -22059,8 +24275,10 @@ export default function LogoPaths() {
         C522.523682,1004.369568 522.458252,1004.763855 522.260132,1005.011963 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -22070,8 +24288,10 @@ export default function LogoPaths() {
         C542.264038,886.526794 541.890137,887.152039 541.199341,887.771729 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -22081,8 +24301,10 @@ export default function LogoPaths() {
         C597.576477,864.465698 601.457275,864.241943 605.807007,864.140625 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -22092,8 +24314,10 @@ export default function LogoPaths() {
         C584.976379,864.593323 588.283630,864.421692 591.947449,864.474670 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22104,8 +24328,10 @@ export default function LogoPaths() {
         C759.053894,857.574402 758.639038,857.047180 758.112122,856.260010 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -22115,8 +24341,10 @@ export default function LogoPaths() {
         C578.333191,864.316284 579.050415,864.310181 580.057556,864.533081 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -22126,8 +24354,10 @@ export default function LogoPaths() {
         C570.233948,864.214600 570.860107,864.140808 571.942810,864.200623 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -22145,8 +24375,10 @@ export default function LogoPaths() {
         C695.609009,1167.549683 696.156372,1168.050049 696.876160,1168.770752 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -22157,8 +24389,10 @@ export default function LogoPaths() {
         C665.255371,1161.648926 665.207397,1160.661987 665.453247,1159.571045 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -22170,8 +24404,10 @@ export default function LogoPaths() {
         C651.009888,1169.005981 650.999146,1169.000000 650.993774,1168.995117 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -22183,8 +24419,10 @@ export default function LogoPaths() {
         C657.013672,1170.993408 656.942688,1171.070068 656.942688,1171.070068 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -22196,8 +24434,10 @@ export default function LogoPaths() {
         C703.991394,1153.009155 704.000000,1153.000000 704.004822,1152.996826 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -22208,8 +24448,10 @@ export default function LogoPaths() {
         C656.942688,1171.070068 657.013672,1170.993408 657.052368,1170.958252 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -22218,8 +24460,10 @@ export default function LogoPaths() {
         C673.429260,1166.462891 673.482056,1166.552979 673.455688,1166.507935 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -22230,8 +24474,10 @@ export default function LogoPaths() {
         C704.996460,1155.004883 705.000000,1155.000000 705.002136,1154.998291 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -22241,8 +24487,10 @@ export default function LogoPaths() {
         C695.061707,1167.049438 695.008667,1167.001953 694.985107,1166.975342 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -22255,8 +24503,10 @@ export default function LogoPaths() {
         C676.966431,1164.158813 676.966431,1162.385986 677.187500,1160.375000 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -22270,8 +24520,10 @@ export default function LogoPaths() {
         C734.155945,1179.832397 734.014038,1179.988647 733.945435,1180.068848 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -22282,8 +24534,10 @@ export default function LogoPaths() {
         C723.825928,1159.773438 723.717896,1158.774780 723.725525,1157.460083 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -22294,8 +24548,10 @@ export default function LogoPaths() {
         C685.218262,1169.272583 684.927368,1169.584473 684.361084,1169.943359 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -22305,8 +24561,10 @@ export default function LogoPaths() {
         C721.857910,1157.567993 721.692078,1158.104004 721.311035,1158.825439 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -22316,8 +24574,10 @@ export default function LogoPaths() {
         C728.885193,1159.086548 728.451782,1159.057861 728.235352,1159.039673 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -22329,8 +24589,10 @@ export default function LogoPaths() {
         C629.991699,1153.992432 630.000000,1154.000000 630.003723,1154.004395 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -22341,8 +24603,10 @@ export default function LogoPaths() {
         C621.158447,1152.191406 620.805603,1152.186523 620.455566,1151.959473 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -22351,8 +24615,10 @@ export default function LogoPaths() {
         C547.510559,1138.421631 547.418152,1138.472778 547.464355,1138.447266 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -22366,8 +24632,10 @@ export default function LogoPaths() {
         C761.986084,1170.591309 760.079712,1170.100220 758.007690,1169.352783 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -22377,8 +24645,10 @@ export default function LogoPaths() {
         C745.859192,1168.587524 745.680725,1169.131714 745.263000,1169.843750 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -22388,8 +24658,10 @@ export default function LogoPaths() {
         C746.885986,1167.299561 746.712891,1167.563965 746.250610,1167.898071 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -22399,8 +24671,10 @@ export default function LogoPaths() {
         C734.206787,1178.605713 734.417725,1179.216797 734.392334,1179.830200 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -22451,8 +24725,10 @@ export default function LogoPaths() {
         C881.501404,1141.346680 882.064880,1141.257935 882.660339,1140.569580 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22471,8 +24747,10 @@ export default function LogoPaths() {
         C893.134155,1138.432861 894.005920,1140.423706 895.119934,1142.681396 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22490,8 +24768,10 @@ export default function LogoPaths() {
         C893.985901,1098.984009 894.000244,1099.000000 894.009033,1099.006348 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22504,8 +24784,10 @@ export default function LogoPaths() {
         C891.946960,1066.993774 892.004211,1067.003906 891.999817,1066.975098 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22519,8 +24801,10 @@ export default function LogoPaths() {
         C882.913269,1133.405151 883.620300,1134.992676 884.411499,1136.833008 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22536,8 +24820,10 @@ export default function LogoPaths() {
         C904.016052,1137.017212 904.008057,1137.005981 904.018433,1137.015869 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22551,8 +24837,10 @@ export default function LogoPaths() {
         C869.946838,1117.055054 869.980042,1117.022339 869.998413,1117.008179 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22564,8 +24852,10 @@ export default function LogoPaths() {
         C889.214722,1094.828125 889.055786,1094.958496 888.981079,1095.029053 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22580,8 +24870,10 @@ export default function LogoPaths() {
         C874.920715,1092.415649 875.364380,1092.601685 875.807983,1092.787720 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22594,8 +24886,10 @@ export default function LogoPaths() {
         C873.499939,1103.095337 871.833923,1100.556885 871.551636,1096.356934 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -22605,8 +24899,10 @@ export default function LogoPaths() {
         C876.345093,1096.607178 875.649597,1096.249268 874.851562,1095.593262 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22617,8 +24913,10 @@ export default function LogoPaths() {
         C885.387512,1076.681763 885.105896,1076.911377 884.966919,1077.028320 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -22628,8 +24926,10 @@ export default function LogoPaths() {
         C873.532654,1096.388916 873.821289,1096.861084 874.126831,1097.621094 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -22639,8 +24939,10 @@ export default function LogoPaths() {
         C898.527161,1088.555786 897.355469,1088.284424 895.934265,1087.835693 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -22661,8 +24963,10 @@ export default function LogoPaths() {
         C1145.913940,849.972046 1145.950073,850.622070 1145.991455,851.588989 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22679,8 +24983,10 @@ export default function LogoPaths() {
         C1130.993164,846.992432 1131.196167,847.236633 1131.196167,847.236633 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22693,8 +24999,10 @@ export default function LogoPaths() {
         C1130.936035,837.141724 1131.026611,836.987427 1131.076050,836.912903 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -22706,8 +25014,10 @@ export default function LogoPaths() {
         C1102.009155,856.013062 1101.934692,855.952881 1101.934692,855.952881 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -22719,8 +25029,10 @@ export default function LogoPaths() {
         C1111.000000,860.997620 1111.000000,861.000000 1111.000000,861.001099 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22733,8 +25045,10 @@ export default function LogoPaths() {
         C1132.978149,844.969360 1133.020264,845.006042 1133.044189,845.020386 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22745,8 +25059,10 @@ export default function LogoPaths() {
         C1109.089722,845.057922 1108.922363,844.297729 1108.878906,843.270874 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22757,8 +25073,10 @@ export default function LogoPaths() {
         C1139.683838,836.582275 1140.444580,837.038757 1140.973633,837.684082 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22771,8 +25089,10 @@ export default function LogoPaths() {
         C1121.339722,837.012939 1121.506104,836.984314 1121.921875,836.865845 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -22784,8 +25104,10 @@ export default function LogoPaths() {
         C1100.009521,859.006104 1100.000000,858.999634 1099.995117,858.994934 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22795,8 +25117,10 @@ export default function LogoPaths() {
         C1096.848755,847.887146 1096.700928,848.755005 1096.261719,849.791565 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22805,8 +25129,10 @@ export default function LogoPaths() {
         C1124.603638,833.523743 1124.524414,833.398499 1124.563965,833.461121 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -22818,8 +25144,10 @@ export default function LogoPaths() {
         C1080.476685,859.224304 1084.240112,855.240112 1083.571899,860.513428 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -22833,8 +25161,10 @@ export default function LogoPaths() {
         C1067.610107,856.020447 1068.289795,857.136658 1069.044556,858.596924 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22843,8 +25173,10 @@ export default function LogoPaths() {
         C1089.515747,854.490112 1089.452515,854.514343 1089.484131,854.502197 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22855,8 +25187,10 @@ export default function LogoPaths() {
         C1088.181641,856.028625 1088.422974,856.105286 1088.712646,856.475586 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -22871,8 +25205,10 @@ export default function LogoPaths() {
         C863.474670,1075.505371 862.124573,1075.992676 860.564697,1076.447266 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -22884,8 +25220,10 @@ export default function LogoPaths() {
         C868.088989,1088.762329 869.697571,1089.351318 871.653076,1089.970093 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -22897,8 +25235,10 @@ export default function LogoPaths() {
         C874.130554,1089.576050 874.978271,1090.846069 875.817017,1092.451904 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22909,8 +25249,10 @@ export default function LogoPaths() {
         C863.542480,1091.622681 858.826477,1088.654663 863.638245,1088.002075 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22921,8 +25263,10 @@ export default function LogoPaths() {
         C864.013489,1085.992920 863.941528,1086.057007 863.941528,1086.057007 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22932,8 +25276,10 @@ export default function LogoPaths() {
         C870.855286,1091.558105 869.736084,1092.580688 868.379517,1093.406982 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22944,8 +25290,10 @@ export default function LogoPaths() {
         C864.218872,1086.529297 864.345154,1087.127075 864.235718,1087.862427 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -22957,8 +25305,10 @@ export default function LogoPaths() {
         C858.917908,1059.984619 858.997437,1059.994263 858.990845,1059.954712 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -22967,8 +25317,10 @@ export default function LogoPaths() {
         C1018.602173,850.532349 1018.519348,850.406677 1018.560791,850.469482 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -22978,8 +25330,10 @@ export default function LogoPaths() {
         C1033.846313,831.850037 1033.683105,832.717285 1033.258301,833.795410 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -22989,8 +25343,10 @@ export default function LogoPaths() {
         C1058.678223,827.857178 1058.437378,827.675720 1058.137207,827.225830 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23137,8 +25493,10 @@ export default function LogoPaths() {
         C1338.288818,840.755615 1338.462158,840.371460 1338.797363,839.466003 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23169,8 +25527,10 @@ export default function LogoPaths() {
         C1397.798584,857.435730 1397.798584,856.725647 1397.429932,855.558167 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23198,8 +25558,10 @@ export default function LogoPaths() {
         C1460.520264,850.446106 1460.557861,850.520203 1460.520264,850.446106 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23216,8 +25578,10 @@ export default function LogoPaths() {
         C1566.944580,859.560730 1564.471069,859.718445 1561.997559,859.876160 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23231,8 +25595,10 @@ export default function LogoPaths() {
         C1512.734375,856.947815 1514.439697,856.974731 1516.570801,856.983398 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -23246,8 +25612,10 @@ export default function LogoPaths() {
         C1417.452271,859.484070 1412.418945,859.484070 1407.089722,859.156738 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23259,8 +25627,10 @@ export default function LogoPaths() {
         C1498.260010,856.077148 1504.525024,856.120911 1510.909546,856.542725 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23273,8 +25643,10 @@ export default function LogoPaths() {
         C1488.000000,845.000366 1488.008423,844.991211 1488.008423,844.991211 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23285,8 +25657,10 @@ export default function LogoPaths() {
         C1523.918457,825.710266 1522.611328,824.707764 1521.487915,823.386047 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23298,8 +25672,10 @@ export default function LogoPaths() {
         C1488.008423,844.991211 1488.000000,845.000366 1487.996094,845.005920 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23311,8 +25687,10 @@ export default function LogoPaths() {
         C1434.436890,855.976318 1434.883423,855.990601 1435.665039,856.007812 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23323,8 +25701,10 @@ export default function LogoPaths() {
         C1431.245239,856.634155 1432.375244,856.051758 1433.747803,855.715698 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23335,8 +25715,10 @@ export default function LogoPaths() {
         C1414.123901,856.165466 1414.429321,856.348267 1414.870117,856.763794 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23348,8 +25730,10 @@ export default function LogoPaths() {
         C1490.443359,856.005432 1490.886719,856.016052 1491.662598,856.030090 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23373,8 +25757,10 @@ export default function LogoPaths() {
         C1353.090088,859.339233 1353.087524,859.522705 1353.098389,859.981201 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23392,8 +25778,10 @@ export default function LogoPaths() {
         C1449.682861,859.069092 1446.204102,858.873657 1442.258179,858.691345 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23403,8 +25791,10 @@ export default function LogoPaths() {
         C1567.512695,860.077454 1565.024414,860.258484 1562.266846,860.157837 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -23434,8 +25824,10 @@ export default function LogoPaths() {
         C1494.734253,814.521973 1497.119629,814.349792 1499.764526,814.432251 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23450,8 +25842,10 @@ export default function LogoPaths() {
         C1465.705200,814.258972 1474.463501,813.556152 1483.664551,813.237244 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23461,8 +25855,10 @@ export default function LogoPaths() {
         C1412.622192,810.246216 1414.986694,813.972229 1417.781006,815.411743 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -23473,8 +25869,10 @@ export default function LogoPaths() {
         C1389.519409,814.877075 1391.082886,814.544495 1392.843018,814.522583 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23484,8 +25882,10 @@ export default function LogoPaths() {
         C1488.325073,811.626099 1490.648560,810.628967 1492.252441,814.333496 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -23496,8 +25896,10 @@ export default function LogoPaths() {
         C1399.146362,812.579834 1400.219604,813.304382 1401.654785,814.036255 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -23509,8 +25911,10 @@ export default function LogoPaths() {
         C1512.894653,813.822205 1512.994385,814.877869 1513.093994,815.933472 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23521,8 +25925,10 @@ export default function LogoPaths() {
         C1377.216797,812.490662 1376.858032,812.705444 1376.292236,812.678955 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -23532,8 +25938,10 @@ export default function LogoPaths() {
         C1506.107422,813.714111 1506.497437,813.614990 1506.969482,813.746643 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -23544,8 +25952,10 @@ export default function LogoPaths() {
         C1514.743652,814.624329 1514.210938,815.199646 1513.385986,815.854248 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23587,8 +25997,10 @@ export default function LogoPaths() {
         C1300.746338,903.466614 1300.850464,902.937561 1300.536133,902.528687 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -23608,8 +26020,10 @@ export default function LogoPaths() {
         C1320.800049,890.544739 1317.316528,893.823975 1313.469238,897.133545 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -23625,8 +26039,10 @@ export default function LogoPaths() {
         C1276.820679,910.368103 1277.635498,909.820618 1278.696289,909.069702 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -23639,8 +26055,10 @@ export default function LogoPaths() {
         C1302.519409,871.544922 1298.738037,870.868408 1294.600342,870.097229 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -23653,8 +26071,10 @@ export default function LogoPaths() {
         C1267.345093,892.338867 1268.532959,894.274231 1269.689209,896.196777 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23666,8 +26086,10 @@ export default function LogoPaths() {
         C1273.496460,884.384277 1272.393433,884.384277 1271.070068,884.172791 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -23679,8 +26101,10 @@ export default function LogoPaths() {
         C1310.458984,868.476379 1309.754272,865.870789 1309.158936,862.983154 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23692,8 +26116,10 @@ export default function LogoPaths() {
         C1258.020874,889.023743 1257.999268,888.998657 1257.987671,888.986572 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23705,8 +26131,10 @@ export default function LogoPaths() {
         C1317.890747,827.922729 1318.014648,828.019470 1318.074341,828.070435 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23718,8 +26146,10 @@ export default function LogoPaths() {
         C1320.972778,861.027100 1320.999268,861.001953 1321.013794,860.990967 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23731,8 +26161,10 @@ export default function LogoPaths() {
         C1343.094727,816.903503 1343.006226,816.988403 1342.959473,817.028015 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -23744,8 +26176,10 @@ export default function LogoPaths() {
         C1345.745239,815.606079 1345.873291,815.629944 1345.815186,815.594727 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23757,8 +26191,10 @@ export default function LogoPaths() {
         C1312.085205,848.914673 1312.005127,848.989990 1311.963135,849.025452 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23769,8 +26205,10 @@ export default function LogoPaths() {
         C1347.633301,842.341187 1347.776123,842.593018 1347.705078,842.893799 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23780,8 +26218,10 @@ export default function LogoPaths() {
         C1270.918945,875.567322 1271.118164,875.554626 1271.217529,875.646851 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23791,8 +26231,10 @@ export default function LogoPaths() {
         C1321.013550,833.416443 1320.932617,833.555847 1320.775635,833.575806 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -23802,8 +26244,10 @@ export default function LogoPaths() {
         C1328.962036,875.978333 1328.998535,876.006470 1329.012939,876.024536 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23812,8 +26256,10 @@ export default function LogoPaths() {
         C1321.528687,866.424255 1321.431763,866.480347 1321.480225,866.452271 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23823,8 +26269,10 @@ export default function LogoPaths() {
         C1339.933960,857.777283 1339.825928,857.493713 1339.880981,857.114990 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -23834,8 +26282,10 @@ export default function LogoPaths() {
         C1350.875244,842.899292 1350.981689,842.993896 1351.030518,843.045715 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -23868,8 +26318,10 @@ export default function LogoPaths() {
         C1268.084717,921.017822 1268.248779,920.964355 1268.659180,920.832214 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -23954,8 +26406,10 @@ export default function LogoPaths() {
         C1274.767456,1028.364380 1274.473022,1027.562256 1273.576294,1026.626587 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -24027,8 +26481,10 @@ export default function LogoPaths() {
         C1282.666870,980.846924 1281.460815,980.369385 1279.757324,980.269897 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -24040,8 +26496,10 @@ export default function LogoPaths() {
         C1266.451294,923.711914 1266.916626,922.545471 1267.651367,921.225159 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -24053,8 +26511,10 @@ export default function LogoPaths() {
         C1269.092896,1017.745911 1269.069336,1018.466858 1269.005615,1019.545471 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24067,8 +26527,10 @@ export default function LogoPaths() {
         C1263.783691,1000.163574 1263.988647,1000.002136 1263.988647,1000.002136 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -24080,8 +26542,10 @@ export default function LogoPaths() {
         C1261.409912,928.933167 1261.872437,928.894104 1262.681274,928.929321 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24092,8 +26556,10 @@ export default function LogoPaths() {
         C1256.139526,996.976929 1255.588867,997.479980 1255.038208,997.983032 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -24105,8 +26571,10 @@ export default function LogoPaths() {
         C1262.880737,1000.699341 1262.543213,1000.917664 1262.205566,1001.135986 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -24116,8 +26584,10 @@ export default function LogoPaths() {
         C1241.469604,964.977600 1241.625000,965.594727 1241.777588,966.534912 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -24129,8 +26599,10 @@ export default function LogoPaths() {
         C1240.340576,935.653503 1240.171387,935.580750 1240.002075,935.507935 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -24139,8 +26611,10 @@ export default function LogoPaths() {
         C1248.409302,908.529419 1248.490234,908.664307 1248.449707,908.596863 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24206,8 +26680,10 @@ export default function LogoPaths() {
         C1289.458130,1069.026245 1289.810913,1067.739990 1289.791016,1065.868286 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24254,8 +26730,10 @@ export default function LogoPaths() {
         C1298.946411,1151.339600 1298.811523,1151.403809 1298.833618,1151.718750 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24273,8 +26751,10 @@ export default function LogoPaths() {
         C1294.146484,1116.549316 1294.329834,1116.704590 1294.896973,1116.787720 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24290,8 +26770,10 @@ export default function LogoPaths() {
         C1263.996216,1050.003052 1264.000000,1050.000000 1264.001465,1049.998779 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24303,8 +26785,10 @@ export default function LogoPaths() {
         C1276.606812,1119.733032 1277.437012,1119.733032 1278.545654,1119.672852 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24318,8 +26802,10 @@ export default function LogoPaths() {
         C1247.936523,1027.088501 1248.003662,1026.994507 1248.035889,1026.946533 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24331,8 +26817,10 @@ export default function LogoPaths() {
         C1253.974365,1105.024414 1253.995605,1105.004517 1254.006836,1104.996338 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24343,8 +26831,10 @@ export default function LogoPaths() {
         C1256.202515,1060.194702 1255.833252,1060.189087 1255.467529,1059.951782 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -24355,8 +26845,10 @@ export default function LogoPaths() {
         C1248.494019,1077.445801 1248.018188,1077.736572 1247.260010,1078.027832 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24366,8 +26858,10 @@ export default function LogoPaths() {
         C1270.091553,1135.291260 1270.394653,1135.546875 1270.744873,1136.104980 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24379,8 +26873,10 @@ export default function LogoPaths() {
         C1251.703247,1003.537109 1256.683716,999.614746 1255.060059,998.291809 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -24394,8 +26890,10 @@ export default function LogoPaths() {
         C1261.440674,1003.077087 1261.685303,1002.360229 1262.067749,1001.389709 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24406,8 +26904,10 @@ export default function LogoPaths() {
         C1258.851562,1004.851990 1258.569702,1005.219238 1258.137817,1005.820557 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -24418,8 +26918,10 @@ export default function LogoPaths() {
         C1245.013794,1030.272827 1244.767822,1030.010010 1244.683716,1029.588867 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -24428,8 +26930,10 @@ export default function LogoPaths() {
         C1245.649902,1025.895874 1245.588257,1025.836304 1245.619141,1025.866089 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24440,8 +26944,10 @@ export default function LogoPaths() {
         C1265.779785,1003.993469 1265.567139,1003.992493 1265.041992,1003.926392 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24451,8 +26957,10 @@ export default function LogoPaths() {
         C1262.013184,1004.562500 1261.688232,1004.436340 1261.279785,1004.052063 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -24462,8 +26970,10 @@ export default function LogoPaths() {
         C1262.024414,1019.017761 1262.000000,1018.998962 1261.990234,1018.986877 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -24473,8 +26983,10 @@ export default function LogoPaths() {
         C1247.610718,1027.767944 1247.525513,1027.542480 1247.812744,1027.167236 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -24485,8 +26997,10 @@ export default function LogoPaths() {
         C1246.377197,1098.125977 1247.450928,1097.946289 1248.547607,1098.084717 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -24497,8 +27011,10 @@ export default function LogoPaths() {
         C1248.006104,1102.991577 1248.000000,1103.000000 1247.995850,1103.003174 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24508,8 +27024,10 @@ export default function LogoPaths() {
         C1240.709106,935.952698 1240.405762,935.947205 1240.052246,935.724854 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24519,8 +27037,10 @@ export default function LogoPaths() {
         C1243.894897,1010.033447 1243.842407,1010.329590 1243.536377,1010.776123 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -24563,8 +27083,10 @@ export default function LogoPaths() {
         C1041.109375,1192.256836 1042.586060,1192.726074 1041.109741,1194.817505 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -24583,8 +27105,10 @@ export default function LogoPaths() {
         C922.223816,1187.934692 919.736145,1186.390625 917.101685,1184.577637 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -24605,8 +27129,10 @@ export default function LogoPaths() {
         C942.481445,1197.068359 941.907837,1196.280273 941.087158,1195.293945 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -24621,8 +27147,10 @@ export default function LogoPaths() {
         C954.832825,1198.875977 955.461182,1198.464722 956.089478,1198.053589 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -24633,8 +27161,10 @@ export default function LogoPaths() {
         C947.595764,1200.630737 944.814026,1201.742065 942.927551,1198.153687 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -24646,8 +27176,10 @@ export default function LogoPaths() {
         C952.949402,1199.786255 951.996216,1199.805176 950.688843,1199.794434 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -24658,8 +27190,10 @@ export default function LogoPaths() {
         C989.542542,1198.864380 989.378784,1199.017944 988.890259,1199.260498 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -24670,8 +27204,10 @@ export default function LogoPaths() {
         C895.305969,1158.697144 895.497742,1157.601685 895.812378,1156.279297 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -24684,8 +27220,10 @@ export default function LogoPaths() {
         C997.857666,1200.827759 996.856567,1200.937256 995.526367,1201.036987 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -24695,8 +27233,10 @@ export default function LogoPaths() {
         C881.709839,1144.455200 881.431519,1144.027466 881.144897,1143.322266 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24710,8 +27250,10 @@ export default function LogoPaths() {
         C770.033569,1166.976929 770.171082,1166.886108 770.171082,1166.886108 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24723,8 +27265,10 @@ export default function LogoPaths() {
         C773.086914,1177.093994 773.026001,1177.028442 772.995483,1176.995850 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -24738,8 +27282,10 @@ export default function LogoPaths() {
         C765.586487,1170.922974 765.142090,1170.929199 764.365173,1170.950562 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24751,8 +27297,10 @@ export default function LogoPaths() {
         C770.171082,1166.886108 770.033569,1166.976929 769.965698,1167.023682 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -24762,8 +27310,10 @@ export default function LogoPaths() {
         C765.324890,1168.465210 765.649597,1168.930542 765.985962,1169.695679 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -24774,8 +27324,10 @@ export default function LogoPaths() {
         C759.032410,1148.028076 759.007629,1148.005371 758.997803,1147.992432 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -24785,8 +27337,10 @@ export default function LogoPaths() {
         C762.868591,1191.581909 765.329529,1190.846802 768.061768,1190.307739 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -24797,8 +27351,10 @@ export default function LogoPaths() {
         C771.861023,1182.880371 771.963379,1182.974609 772.010010,1183.026123 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -25091,8 +27647,10 @@ export default function LogoPaths() {
         C1465.201538,1173.433960 1465.430786,1173.710571 1466.141357,1173.833496 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25128,8 +27686,10 @@ export default function LogoPaths() {
         C1577.895264,1148.477783 1578.001831,1149.207153 1578.108276,1149.936646 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -25172,8 +27732,10 @@ export default function LogoPaths() {
         C1351.794067,1142.231934 1348.594116,1139.629028 1347.917358,1145.548218 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25195,8 +27757,10 @@ export default function LogoPaths() {
         C1528.490234,1144.184448 1527.749512,1144.821167 1527.002686,1145.168823 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -25211,8 +27775,10 @@ export default function LogoPaths() {
         C1508.570923,1139.216064 1475.723511,1139.487915 1442.404175,1139.851440 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -25226,8 +27792,10 @@ export default function LogoPaths() {
         C1481.159302,1140.866455 1492.150513,1140.999756 1503.613770,1141.089844 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25249,8 +27817,10 @@ export default function LogoPaths() {
         C1447.064453,1141.912231 1449.074463,1141.884033 1451.512817,1141.864746 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25275,8 +27845,10 @@ export default function LogoPaths() {
         C1598.301025,1169.976685 1598.620361,1170.223389 1598.939575,1170.470215 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25287,8 +27859,10 @@ export default function LogoPaths() {
         C1583.088379,1153.543335 1580.884644,1151.916748 1578.394531,1150.113403 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25300,8 +27874,10 @@ export default function LogoPaths() {
         C1618.829834,1192.203735 1619.844238,1193.257935 1620.994141,1194.599609 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -25311,8 +27887,10 @@ export default function LogoPaths() {
         C1539.045288,1141.092651 1544.085327,1141.014282 1549.596924,1140.987793 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25324,8 +27902,10 @@ export default function LogoPaths() {
         C1608.905396,1183.070068 1609.144531,1182.861816 1609.144531,1182.861816 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25337,8 +27917,10 @@ export default function LogoPaths() {
         C1589.573364,1159.821533 1591.247925,1161.577148 1592.966919,1163.668945 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -25348,8 +27930,10 @@ export default function LogoPaths() {
         C1527.016113,1141.145020 1529.068359,1141.103027 1531.554688,1141.124512 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25361,8 +27945,10 @@ export default function LogoPaths() {
         C1607.725098,1182.338135 1607.931030,1182.092407 1608.036499,1181.971680 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25372,8 +27958,10 @@ export default function LogoPaths() {
         C1594.276978,1165.174316 1594.581177,1165.336548 1594.928955,1165.767334 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25383,8 +27971,10 @@ export default function LogoPaths() {
         C1593.298828,1164.154053 1593.602417,1164.319336 1593.946655,1164.755737 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25394,8 +27984,10 @@ export default function LogoPaths() {
         C1587.238281,1157.220093 1587.543335,1157.379761 1587.886841,1157.808594 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25405,8 +27997,10 @@ export default function LogoPaths() {
         C1577.297974,1146.172485 1577.610107,1146.322998 1577.943848,1146.750244 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25416,8 +28010,10 @@ export default function LogoPaths() {
         C1598.176147,1169.373779 1598.493286,1169.615845 1598.875000,1170.164062 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25427,8 +28023,10 @@ export default function LogoPaths() {
         C1597.174683,1168.269775 1597.454834,1168.453491 1597.795044,1168.889526 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25438,8 +28036,10 @@ export default function LogoPaths() {
         C1576.249634,1144.864868 1576.566162,1145.129395 1576.930298,1145.702881 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25449,8 +28049,10 @@ export default function LogoPaths() {
         C1596.236572,1167.217407 1596.524414,1167.396973 1596.856445,1167.838135 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25460,8 +28062,10 @@ export default function LogoPaths() {
         C1595.266724,1166.188721 1595.570312,1166.350830 1595.915161,1166.780273 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -25471,8 +28075,10 @@ export default function LogoPaths() {
         C1586.143433,1155.975464 1586.474854,1156.212646 1586.873535,1156.752930 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25484,8 +28090,10 @@ export default function LogoPaths() {
         C1616.729126,1190.270386 1616.850708,1190.147461 1616.850708,1190.147461 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25497,8 +28105,10 @@ export default function LogoPaths() {
         C1615.739258,1189.262451 1615.866455,1189.131958 1615.866455,1189.131958 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25510,8 +28120,10 @@ export default function LogoPaths() {
         C1614.602539,1188.499878 1614.747192,1188.315674 1614.820312,1188.224243 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -25556,8 +28168,10 @@ export default function LogoPaths() {
         C1610.442627,1184.909546 1612.223511,1186.546143 1614.303467,1188.341309 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25610,8 +28224,10 @@ export default function LogoPaths() {
         C1373.499390,1177.416870 1373.552612,1177.514404 1373.499390,1177.416870 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -25636,8 +28252,10 @@ export default function LogoPaths() {
         C1437.489136,1195.886963 1436.785156,1195.260742 1436.043701,1194.576172 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25651,8 +28269,10 @@ export default function LogoPaths() {
         C1519.864502,1195.736694 1518.447388,1194.477661 1517.036377,1193.378418 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25668,8 +28288,10 @@ export default function LogoPaths() {
         C1308.119995,1177.114502 1305.678711,1173.864136 1303.121704,1170.353516 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -25685,8 +28307,10 @@ export default function LogoPaths() {
         C1417.031006,1197.345825 1413.244873,1196.924805 1409.186035,1196.321777 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -25698,8 +28322,10 @@ export default function LogoPaths() {
         C1425.968628,1193.280762 1425.227783,1192.008911 1424.258301,1190.497437 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25711,8 +28337,10 @@ export default function LogoPaths() {
         C1316.751709,1188.724854 1315.558594,1187.686401 1315.861816,1183.570557 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25723,8 +28351,10 @@ export default function LogoPaths() {
         C1295.797974,1163.586182 1295.016357,1163.063965 1294.145508,1162.255737 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25738,8 +28368,10 @@ export default function LogoPaths() {
         C1376.000000,1192.000000 1375.994385,1191.994751 1375.994385,1191.994751 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25750,8 +28382,10 @@ export default function LogoPaths() {
         C1511.744019,1193.597656 1512.694214,1193.065063 1513.764404,1192.218506 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25761,8 +28395,10 @@ export default function LogoPaths() {
         C1372.369263,1193.602173 1372.001709,1194.252686 1371.308716,1194.904541 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25772,8 +28408,10 @@ export default function LogoPaths() {
         C1385.342773,1195.529297 1384.664307,1195.134399 1383.891357,1194.429443 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25783,8 +28421,10 @@ export default function LogoPaths() {
         C1516.732666,1192.797729 1516.440430,1192.646851 1516.064697,1192.254639 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -25794,8 +28434,10 @@ export default function LogoPaths() {
         C1365.999023,1195.414917 1365.567627,1195.521484 1364.991943,1195.444336 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -25805,8 +28447,10 @@ export default function LogoPaths() {
         C1434.650269,1195.108643 1434.390503,1195.274292 1434.035645,1195.254272 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -25908,8 +28552,10 @@ export default function LogoPaths() {
         C966.586487,1160.383545 966.586487,1160.383545 964.108765,1164.144531 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -25936,8 +28582,10 @@ export default function LogoPaths() {
         C1043.471802,1151.618652 1043.381104,1151.481323 1043.471802,1151.618652 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -25953,8 +28601,10 @@ export default function LogoPaths() {
         C916.007629,1136.263916 915.809875,1139.809692 915.304321,1143.539062 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -25969,8 +28619,10 @@ export default function LogoPaths() {
         C959.506836,1178.956665 959.506836,1177.665039 959.222046,1176.172119 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -25988,8 +28640,10 @@ export default function LogoPaths() {
         C975.509460,1198.101196 977.380737,1197.966919 979.635254,1198.212769 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -26003,8 +28657,10 @@ export default function LogoPaths() {
         C949.476990,1156.183472 947.720154,1157.628174 945.663574,1159.194824 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -26018,8 +28674,10 @@ export default function LogoPaths() {
         C959.569641,1151.635132 958.384460,1156.701660 954.006287,1153.685181 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26038,8 +28696,10 @@ export default function LogoPaths() {
         C948.110779,1173.972412 948.361938,1174.961304 948.312744,1176.073730 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26053,8 +28713,10 @@ export default function LogoPaths() {
         C929.821533,1178.758301 929.033997,1176.877441 928.327637,1174.671875 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26067,8 +28729,10 @@ export default function LogoPaths() {
         C915.964294,1165.019043 915.916992,1165.050049 915.916992,1165.050049 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26083,8 +28747,10 @@ export default function LogoPaths() {
         C920.981079,1170.981689 920.946899,1171.032227 920.922241,1171.050049 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26097,8 +28763,10 @@ export default function LogoPaths() {
         C974.554199,1191.915161 975.136719,1190.795776 975.853516,1189.394043 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26114,8 +28782,10 @@ export default function LogoPaths() {
         C975.026550,1196.666870 972.904968,1196.248901 970.376221,1195.808105 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26130,8 +28800,10 @@ export default function LogoPaths() {
         C968.079590,1153.040527 968.019958,1153.093506 968.044556,1153.125000 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26142,8 +28814,10 @@ export default function LogoPaths() {
         C915.916992,1165.050049 915.964294,1165.019043 915.985291,1165.000244 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26154,8 +28828,10 @@ export default function LogoPaths() {
         C923.176880,1143.580078 922.565491,1144.568726 921.661255,1145.380615 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26166,8 +28842,10 @@ export default function LogoPaths() {
         C956.875244,1189.035767 958.118896,1191.554199 959.141724,1194.555420 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26179,8 +28857,10 @@ export default function LogoPaths() {
         C934.149536,1123.202271 933.865784,1124.064941 933.268372,1125.117188 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -26191,8 +28871,10 @@ export default function LogoPaths() {
         C964.471558,1154.195190 965.927979,1153.574585 967.731995,1152.997314 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26203,8 +28885,10 @@ export default function LogoPaths() {
         C924.577515,1139.995972 924.722046,1138.241943 925.195618,1136.381836 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -26216,8 +28900,10 @@ export default function LogoPaths() {
         C955.891479,1167.134155 955.375122,1166.781494 954.645874,1166.176636 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26229,8 +28915,10 @@ export default function LogoPaths() {
         C896.894409,1152.550171 896.558350,1152.738647 896.365723,1152.737915 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -26241,8 +28929,10 @@ export default function LogoPaths() {
         C961.973511,1146.427612 962.521729,1146.274414 963.288818,1146.342773 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26252,8 +28942,10 @@ export default function LogoPaths() {
         C903.249756,1136.174316 903.517944,1136.362549 903.901062,1136.783936 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26264,8 +28956,10 @@ export default function LogoPaths() {
         C897.782532,1153.671265 897.366638,1153.713623 897.335571,1153.572021 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -26335,8 +29029,10 @@ export default function LogoPaths() {
         C1064.243652,1162.324341 1064.350952,1161.979004 1064.047729,1161.710571 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -26400,8 +29096,10 @@ export default function LogoPaths() {
         C1176.875366,1191.403076 1176.492065,1191.267944 1175.808838,1191.473755 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26444,8 +29142,10 @@ export default function LogoPaths() {
         C1170.490479,1157.589355 1170.427979,1157.477783 1170.490479,1157.589355 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26470,8 +29170,10 @@ export default function LogoPaths() {
         C1124.507080,1144.454102 1124.776611,1146.187134 1125.143799,1147.482422 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -26485,8 +29187,10 @@ export default function LogoPaths() {
         C1091.598633,1141.204346 1092.817139,1142.438232 1094.102905,1143.538086 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26497,8 +29201,10 @@ export default function LogoPaths() {
         C1133.173218,1148.027222 1133.346802,1148.053955 1133.779663,1148.125488 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26509,8 +29215,10 @@ export default function LogoPaths() {
         C1130.521729,1144.853394 1130.757202,1145.524292 1131.035645,1146.543945 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26525,8 +29233,10 @@ export default function LogoPaths() {
         C1199.357544,1182.992432 1199.616821,1183.229980 1199.860596,1183.737427 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -26538,8 +29248,10 @@ export default function LogoPaths() {
         C783.996460,845.996826 784.000000,846.000000 784.002441,846.002441 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -26551,8 +29263,10 @@ export default function LogoPaths() {
         C802.964600,827.067566 803.006165,827.012756 802.974976,827.026489 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -26563,8 +29277,10 @@ export default function LogoPaths() {
         C1312.562744,899.597839 1312.145386,900.340271 1311.369873,901.137268 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -26574,8 +29290,10 @@ export default function LogoPaths() {
         C1324.930786,886.330688 1324.809448,886.637390 1324.485718,887.104797 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -26586,8 +29304,10 @@ export default function LogoPaths() {
         C1325.807129,886.043091 1325.402466,886.138733 1325.199341,886.094666 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -26614,8 +29334,10 @@ export default function LogoPaths() {
         C1109.857300,1196.399292 1114.989624,1194.575195 1120.543091,1194.058960 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -26630,8 +29352,10 @@ export default function LogoPaths() {
         C1075.561157,1199.104736 1075.302124,1198.908203 1074.857666,1198.522949 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -26643,8 +29367,10 @@ export default function LogoPaths() {
         C1081.204712,1198.454956 1078.904541,1199.011230 1076.212158,1199.434448 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -26654,8 +29380,10 @@ export default function LogoPaths() {
         C1095.223755,1198.069458 1092.501953,1198.191772 1089.464111,1198.116699 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F6DD82"
         opacity="1.000000"
         stroke="none"
@@ -26668,8 +29396,10 @@ export default function LogoPaths() {
         C1170.118652,1199.453491 1169.260864,1199.071289 1168.460449,1198.367310 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26680,8 +29410,10 @@ export default function LogoPaths() {
         C1178.601685,1194.813354 1178.201050,1194.920044 1177.489258,1195.066162 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -26693,8 +29425,10 @@ export default function LogoPaths() {
         C1083.999023,1196.985596 1084.205811,1196.776001 1084.205811,1196.776001 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26779,8 +29513,10 @@ export default function LogoPaths() {
         C1022.208801,1181.103027 1023.367859,1180.172974 1024.266724,1178.700928 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F8EBC9"
         opacity="1.000000"
         stroke="none"
@@ -26791,8 +29527,10 @@ export default function LogoPaths() {
         C613.273743,867.379395 613.573303,867.329102 613.974609,867.420288 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26804,8 +29542,10 @@ export default function LogoPaths() {
         C901.252747,1149.896729 901.593018,1149.783691 901.593018,1149.783691 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26816,8 +29556,10 @@ export default function LogoPaths() {
         C881.499207,1140.381348 882.079773,1140.475464 882.644287,1140.869385 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -26828,8 +29570,10 @@ export default function LogoPaths() {
         C901.593018,1149.783691 901.252747,1149.896729 901.091919,1149.976074 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -26842,8 +29586,10 @@ export default function LogoPaths() {
         C1131.727905,839.549255 1132.519897,841.956848 1133.145020,844.666870 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26863,8 +29609,10 @@ export default function LogoPaths() {
         C1346.431519,832.062439 1346.590332,832.112610 1346.745605,831.860474 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -26878,8 +29626,10 @@ export default function LogoPaths() {
         C1412.601807,832.059326 1410.393677,831.759705 1408.270508,831.026489 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26891,8 +29641,10 @@ export default function LogoPaths() {
         C1335.579956,839.616455 1337.194702,839.575684 1338.737549,839.796875 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26904,8 +29656,10 @@ export default function LogoPaths() {
         C1339.038086,849.961731 1339.013428,849.985901 1338.999390,849.994263 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26917,8 +29671,10 @@ export default function LogoPaths() {
         C1328.964844,829.035400 1328.999390,829.001404 1329.017090,828.984863 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26929,8 +29685,10 @@ export default function LogoPaths() {
         C1337.959961,822.976990 1338.014893,823.018372 1338.040283,823.041504 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26942,8 +29700,10 @@ export default function LogoPaths() {
         C1347.990112,835.011353 1348.000000,835.000000 1348.005371,834.995117 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26954,8 +29714,10 @@ export default function LogoPaths() {
         C1314.984253,855.022705 1315.000244,855.000488 1315.011475,854.992554 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -26966,8 +29728,10 @@ export default function LogoPaths() {
         C1335.004395,830.994202 1335.000000,831.000000 1334.997314,831.002075 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -26978,8 +29742,10 @@ export default function LogoPaths() {
         C1413.004883,850.004211 1413.000000,850.000000 1412.997559,849.997192 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -26991,8 +29757,10 @@ export default function LogoPaths() {
         C1393.009766,852.015015 1393.001221,852.001709 1392.997803,851.997070 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -27003,8 +29771,10 @@ export default function LogoPaths() {
         C1396.873779,857.076416 1397.151855,856.317322 1397.614258,855.786865 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -27013,8 +29783,10 @@ export default function LogoPaths() {
         C1460.557861,850.520203 1460.520264,850.446106 1460.539062,850.483154 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -27026,8 +29798,10 @@ export default function LogoPaths() {
         C1283.265137,914.228577 1287.473633,914.896484 1290.886230,918.633667 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27038,8 +29812,10 @@ export default function LogoPaths() {
         C1284.187866,905.714294 1283.716187,905.470398 1283.196289,904.957886 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27051,8 +29827,10 @@ export default function LogoPaths() {
         C1292.009766,900.992981 1292.000122,900.999512 1291.997192,901.001892 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27062,8 +29840,10 @@ export default function LogoPaths() {
         C1300.606689,903.506714 1300.571411,903.017700 1300.745361,902.468567 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27075,8 +29855,10 @@ export default function LogoPaths() {
         C1297.000000,901.000671 1297.000000,901.000000 1297.000000,900.999756 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27091,8 +29873,10 @@ export default function LogoPaths() {
         C1291.709229,1027.230713 1293.102295,1026.882690 1294.771729,1026.291016 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -27105,8 +29889,10 @@ export default function LogoPaths() {
         C1272.055542,1102.948120 1272.002197,1103.000366 1271.977173,1103.028076 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -27116,8 +29902,10 @@ export default function LogoPaths() {
         C1266.617310,1056.872192 1267.537231,1058.051514 1268.419678,1059.496338 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -27128,8 +29916,10 @@ export default function LogoPaths() {
         C1273.157227,1028.327881 1273.366699,1027.477173 1273.877441,1026.693359 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -27141,8 +29931,10 @@ export default function LogoPaths() {
         C1294.974731,1048.030518 1294.997559,1048.005005 1295.010986,1047.994751 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -27154,8 +29946,10 @@ export default function LogoPaths() {
         C1271.104492,1033.104370 1271.006592,1033.006470 1270.957764,1032.957520 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -27167,8 +29961,10 @@ export default function LogoPaths() {
         C1271.032227,1098.029663 1270.999878,1097.999146 1270.984375,1097.983154 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -27179,8 +29975,10 @@ export default function LogoPaths() {
         C1281.861572,982.077759 1280.809448,981.173828 1280.006104,980.080872 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#EC240D"
         opacity="1.000000"
         stroke="none"
@@ -27192,8 +29990,10 @@ export default function LogoPaths() {
         C1291.886841,979.879639 1291.963135,979.963562 1291.999512,980.006958 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27214,8 +30014,10 @@ export default function LogoPaths() {
         C1322.600586,1146.056885 1326.492676,1139.136475 1328.017334,1145.684082 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27226,8 +30028,10 @@ export default function LogoPaths() {
         C1288.008179,1067.781372 1288.899658,1066.824829 1289.977417,1066.160889 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27237,8 +30041,10 @@ export default function LogoPaths() {
         C1305.913696,1146.535889 1306.009399,1145.291016 1306.373047,1143.895752 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27249,8 +30055,10 @@ export default function LogoPaths() {
         C1298.035156,1138.343018 1297.700928,1139.470581 1297.133301,1140.446899 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -27260,8 +30068,10 @@ export default function LogoPaths() {
         C1298.998779,1151.423218 1298.916138,1151.570923 1298.755127,1151.593384 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27272,8 +30082,10 @@ export default function LogoPaths() {
         C1294.808716,1116.382568 1294.852783,1116.585083 1294.705078,1116.823730 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27286,8 +30098,10 @@ export default function LogoPaths() {
         C988.004333,1193.995728 987.993164,1194.014404 987.993164,1194.014404 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27298,8 +30112,10 @@ export default function LogoPaths() {
         C987.993164,1194.014404 988.004333,1193.995728 988.012390,1193.987061 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27309,8 +30125,10 @@ export default function LogoPaths() {
         C1020.640747,1187.928589 1020.332214,1187.814087 1019.932312,1187.434692 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27354,8 +30172,10 @@ export default function LogoPaths() {
         C1401.527344,1154.397583 1401.593506,1154.509277 1401.527344,1154.397583 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27388,8 +30208,10 @@ export default function LogoPaths() {
         C1454.310303,1147.859009 1454.128296,1147.180542 1453.946289,1146.502075 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27419,8 +30241,10 @@ export default function LogoPaths() {
         C1421.513672,1162.798096 1423.805176,1158.693481 1423.120117,1155.319458 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -27438,8 +30262,10 @@ export default function LogoPaths() {
         C1484.175049,1178.926392 1482.847046,1175.858154 1487.092285,1174.109253 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27455,8 +30281,10 @@ export default function LogoPaths() {
         C1384.247437,1158.144287 1383.139771,1154.451294 1382.056519,1150.343262 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27476,8 +30304,10 @@ export default function LogoPaths() {
         C1406.991699,1169.963501 1406.996826,1169.995483 1406.979248,1169.989502 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27494,8 +30324,10 @@ export default function LogoPaths() {
         C1447.771484,1150.423828 1447.992676,1149.990234 1448.258057,1149.915283 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27514,8 +30346,10 @@ export default function LogoPaths() {
         C1315.159790,1167.750000 1315.569824,1167.889526 1316.113159,1168.258301 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27529,8 +30363,10 @@ export default function LogoPaths() {
         C1479.225708,1174.289062 1478.336182,1174.677490 1477.135010,1175.173706 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27541,8 +30377,10 @@ export default function LogoPaths() {
         C1437.429932,1159.976685 1438.197754,1161.633301 1438.926025,1163.592529 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27555,8 +30393,10 @@ export default function LogoPaths() {
         C1305.001953,1160.998047 1305.000000,1161.000000 1304.999023,1161.001099 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27568,8 +30408,10 @@ export default function LogoPaths() {
         C1402.630371,1177.216553 1403.124146,1175.713989 1403.696045,1173.940308 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27581,8 +30423,10 @@ export default function LogoPaths() {
         C1343.048828,1171.924927 1342.957886,1172.084473 1342.920898,1172.168457 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27593,8 +30437,10 @@ export default function LogoPaths() {
         C1359.644043,1155.503174 1364.810913,1155.898315 1360.482422,1158.845947 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27606,8 +30452,10 @@ export default function LogoPaths() {
         C1462.004028,1158.953613 1462.004028,1156.871338 1462.035645,1154.362061 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27621,8 +30469,10 @@ export default function LogoPaths() {
         C1454.263184,1150.858276 1453.387085,1151.877686 1452.212769,1152.903809 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27635,8 +30485,10 @@ export default function LogoPaths() {
         C1383.996948,1191.008911 1383.911499,1190.932861 1383.911499,1190.932861 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -27648,8 +30500,10 @@ export default function LogoPaths() {
         C1419.007935,1192.070435 1419.672974,1193.345337 1420.604248,1194.854492 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27659,8 +30513,10 @@ export default function LogoPaths() {
         C1400.366089,1183.838745 1400.366089,1183.838745 1397.896851,1182.471069 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27671,8 +30527,10 @@ export default function LogoPaths() {
         C1525.693237,1155.790161 1525.108154,1154.514404 1524.718506,1152.993530 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27683,8 +30541,10 @@ export default function LogoPaths() {
         C1348.335327,1149.518066 1348.335327,1149.518066 1347.660645,1152.479004 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27695,8 +30555,10 @@ export default function LogoPaths() {
         C1403.400024,1160.719604 1404.184326,1160.485596 1404.968628,1160.251709 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27707,8 +30569,10 @@ export default function LogoPaths() {
         C1343.490601,1153.245972 1342.801270,1153.620361 1341.774414,1154.024292 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27720,8 +30584,10 @@ export default function LogoPaths() {
         C1456.637695,1156.731323 1456.292114,1155.314453 1455.952881,1153.539185 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27732,8 +30598,10 @@ export default function LogoPaths() {
         C1417.432007,1166.422974 1417.703857,1167.316650 1417.894165,1168.533936 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27745,8 +30613,10 @@ export default function LogoPaths() {
         C1375.994385,1191.994751 1376.000000,1192.000000 1376.002686,1192.002808 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27757,8 +30627,10 @@ export default function LogoPaths() {
         C1467.231323,1153.024170 1466.501709,1153.030029 1465.407104,1153.030396 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27769,8 +30641,10 @@ export default function LogoPaths() {
         C1376.131958,1160.539185 1375.585449,1160.915405 1374.840332,1161.106689 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27782,8 +30656,10 @@ export default function LogoPaths() {
         C1404.857422,1159.110718 1404.890503,1159.337769 1404.946167,1159.908203 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27794,8 +30670,10 @@ export default function LogoPaths() {
         C1527.449341,1160.359253 1527.122925,1159.877075 1526.947021,1159.162231 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#000000"
         opacity="1.000000"
         stroke="none"
@@ -27806,8 +30684,10 @@ export default function LogoPaths() {
         C1498.236938,1191.722290 1497.618042,1191.834473 1496.734985,1191.906616 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27819,8 +30699,10 @@ export default function LogoPaths() {
         C1412.113403,1167.847168 1411.929321,1168.789307 1411.477539,1169.806396 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27831,8 +30713,10 @@ export default function LogoPaths() {
         C1466.265137,1173.047729 1466.203247,1173.440674 1465.900635,1173.910278 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27843,8 +30727,10 @@ export default function LogoPaths() {
         C1374.493896,1183.298096 1374.533691,1182.813110 1374.786743,1182.164062 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27855,8 +30741,10 @@ export default function LogoPaths() {
         C1441.668823,1153.923096 1441.427612,1153.683716 1441.057373,1153.223145 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27867,8 +30755,10 @@ export default function LogoPaths() {
         C1411.707642,1166.019043 1411.878418,1166.260742 1412.173340,1166.703613 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27878,8 +30768,10 @@ export default function LogoPaths() {
         C1406.850708,1170.816895 1406.725830,1170.487305 1406.796387,1170.060547 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -27891,8 +30783,10 @@ export default function LogoPaths() {
         C1383.004272,1192.002808 1383.000000,1192.000000 1382.998535,1191.997803 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27905,8 +30799,10 @@ export default function LogoPaths() {
         C1534.390503,1146.985474 1530.966064,1146.086792 1527.281494,1145.414551 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -27920,8 +30816,10 @@ export default function LogoPaths() {
         C1388.954224,1142.082764 1390.476929,1143.328979 1392.112915,1144.389160 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27932,8 +30830,10 @@ export default function LogoPaths() {
         C1435.227905,1144.457275 1436.504395,1144.967163 1437.924805,1145.705322 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27944,8 +30844,10 @@ export default function LogoPaths() {
         C1430.643555,1145.519531 1431.493530,1146.286499 1432.678223,1147.051758 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27956,8 +30858,10 @@ export default function LogoPaths() {
         C1424.848877,1145.438843 1425.185059,1146.122437 1425.746460,1147.017090 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -27967,8 +30871,10 @@ export default function LogoPaths() {
         C1396.105957,1144.590942 1396.359009,1144.361206 1396.866577,1144.080078 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -27978,8 +30884,10 @@ export default function LogoPaths() {
         C1439.192139,1145.763306 1439.523193,1145.668335 1439.912598,1145.781494 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -27991,8 +30899,10 @@ export default function LogoPaths() {
         C1360.633545,1175.803345 1361.698486,1176.340088 1362.845947,1177.226929 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28003,8 +30913,10 @@ export default function LogoPaths() {
         C1329.985352,1186.009766 1330.000000,1186.000000 1330.006348,1185.994629 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28015,8 +30927,10 @@ export default function LogoPaths() {
         C1366.470825,1178.724243 1365.270508,1179.123535 1364.049072,1179.210449 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28027,8 +30941,10 @@ export default function LogoPaths() {
         C1356.918701,1181.448730 1357.487061,1181.141968 1358.262939,1181.047119 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28039,8 +30955,10 @@ export default function LogoPaths() {
         C1344.513306,1184.169312 1344.291260,1183.776245 1344.057617,1183.128418 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28049,8 +30967,10 @@ export default function LogoPaths() {
         C1373.552612,1177.514404 1373.499390,1177.416870 1373.526001,1177.465576 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28067,8 +30987,10 @@ export default function LogoPaths() {
         C1001.839722,1167.822998 1002.034302,1168.016968 1002.140503,1168.104004 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -28080,8 +31002,10 @@ export default function LogoPaths() {
         C964.771362,1168.010742 964.440063,1166.077637 964.109253,1163.792236 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28093,8 +31017,10 @@ export default function LogoPaths() {
         C1010.890686,1174.885010 1011.008179,1174.994873 1011.072998,1175.042480 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28106,8 +31032,10 @@ export default function LogoPaths() {
         C1004.038452,1161.947144 1003.993896,1162.003662 1003.970215,1162.030762 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -28118,8 +31046,10 @@ export default function LogoPaths() {
         C945.989624,1177.076660 946.347900,1177.477783 946.796753,1178.273438 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28130,8 +31060,10 @@ export default function LogoPaths() {
         C1020.005005,1150.015381 1019.906494,1149.924683 1019.906494,1149.924683 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28141,8 +31073,10 @@ export default function LogoPaths() {
         C1019.906494,1149.924683 1020.005005,1150.015381 1020.050049,1150.064941 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28153,8 +31087,10 @@ export default function LogoPaths() {
         C1046.140625,1150.868042 1046.000977,1150.991943 1045.928955,1151.051270 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28163,8 +31099,10 @@ export default function LogoPaths() {
         C1043.381104,1151.481323 1043.471802,1151.618652 1043.426514,1151.550049 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -28175,8 +31113,10 @@ export default function LogoPaths() {
         C962.994019,1196.006714 963.000000,1196.000000 963.002258,1195.998535 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#C01708"
         opacity="1.000000"
         stroke="none"
@@ -28188,8 +31128,10 @@ export default function LogoPaths() {
         C1092.967896,1192.033691 1092.994873,1192.006104 1093.009766,1191.994385 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28201,8 +31143,10 @@ export default function LogoPaths() {
         C1159.994629,1162.005493 1160.000000,1162.000000 1160.002686,1161.997314 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28213,8 +31157,10 @@ export default function LogoPaths() {
         C1084.971924,1174.218506 1084.714478,1173.948120 1084.624512,1173.523071 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28226,8 +31172,10 @@ export default function LogoPaths() {
         C1061.990234,1164.017090 1062.003540,1163.996460 1062.012695,1163.987183 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28237,8 +31185,10 @@ export default function LogoPaths() {
         C1064.106812,1162.350098 1064.077271,1162.030273 1064.252930,1161.672119 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28249,8 +31199,10 @@ export default function LogoPaths() {
         C1176.569336,1191.763550 1176.191406,1191.608887 1175.958740,1191.303223 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28261,8 +31213,10 @@ export default function LogoPaths() {
         C1180.964111,1184.046631 1181.005859,1183.999268 1181.029663,1183.978516 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#F9911C"
         opacity="1.000000"
         stroke="none"
@@ -28272,8 +31226,10 @@ export default function LogoPaths() {
         C1169.081665,1197.818726 1169.616821,1197.602051 1170.337891,1197.656982 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -28284,8 +31240,10 @@ export default function LogoPaths() {
         C1175.991577,1173.993652 1176.000000,1174.000000 1176.003174,1174.004150 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -28295,8 +31253,10 @@ export default function LogoPaths() {
         C1174.868896,1170.909790 1174.980957,1171.007812 1175.028931,1171.064697 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28305,8 +31265,10 @@ export default function LogoPaths() {
         C1170.427979,1157.477783 1170.490479,1157.589355 1170.459229,1157.533569 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#DD4016"
         opacity="1.000000"
         stroke="none"
@@ -28317,8 +31279,10 @@ export default function LogoPaths() {
         C1084.205811,1196.776001 1083.999023,1196.985596 1083.893311,1197.088013 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28332,8 +31296,10 @@ export default function LogoPaths() {
         C1058.003540,1171.006104 1057.949219,1170.960571 1057.949219,1170.960571 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -28344,8 +31310,10 @@ export default function LogoPaths() {
         C1021.482178,1179.768311 1022.874451,1179.234619 1024.396851,1178.971924 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28357,8 +31325,10 @@ export default function LogoPaths() {
         C1058.014648,1166.976562 1057.994751,1167.004517 1057.982666,1167.017212 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28370,8 +31340,10 @@ export default function LogoPaths() {
         C1057.949219,1170.960571 1058.003540,1171.006104 1058.029053,1171.030518 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#680705"
         opacity="1.000000"
         stroke="none"
@@ -28382,8 +31354,10 @@ export default function LogoPaths() {
         C1018.062805,1173.033325 1017.955078,1172.951904 1017.904175,1172.907471 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28393,8 +31367,10 @@ export default function LogoPaths() {
         C1346.430298,831.961670 1346.588013,831.911072 1346.747314,832.011597 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28404,8 +31380,10 @@ export default function LogoPaths() {
         C1340.918335,829.934875 1340.985840,829.993958 1341.016235,830.027039 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28417,8 +31395,10 @@ export default function LogoPaths() {
         C1319.982178,1155.027832 1320.009766,1154.990601 1320.025635,1154.973633 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28427,8 +31407,10 @@ export default function LogoPaths() {
         C1400.522583,1152.428345 1400.408813,1152.495483 1400.465698,1152.461914 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28439,8 +31421,10 @@ export default function LogoPaths() {
         C1408.010986,1159.006714 1408.000000,1159.000000 1407.997070,1158.994629 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#3F0707"
         opacity="1.000000"
         stroke="none"
@@ -28449,8 +31433,10 @@ export default function LogoPaths() {
         C1401.593506,1154.509277 1401.527344,1154.397583 1401.560425,1154.453369 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28460,8 +31446,10 @@ export default function LogoPaths() {
         C1455.032837,1148.953613 1455.008423,1148.991577 1455.028076,1148.980469 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28473,8 +31461,10 @@ export default function LogoPaths() {
         C1413.014893,1176.013794 1413.000366,1176.000122 1412.993408,1175.993652 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28484,8 +31474,10 @@ export default function LogoPaths() {
         C1448.000000,1150.000000 1448.008545,1150.006348 1448.008545,1150.006348 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28496,8 +31488,10 @@ export default function LogoPaths() {
         C1448.008545,1150.006348 1448.000000,1150.000000 1447.996338,1149.995117 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"
@@ -28508,8 +31502,10 @@ export default function LogoPaths() {
         C1316.001343,1168.000488 1315.979736,1168.028931 1315.979736,1168.028931 
     z"
       />
-      <path
-        className="logo-paths"
+      <motion.path
+        variants={logo}
+        initial="hidden"
+        animate="visible"
         fill="#210303"
         opacity="1.000000"
         stroke="none"

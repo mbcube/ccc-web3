@@ -10,7 +10,7 @@ export default function Team() {
       name: "Nissue",
       role: "Manager",
       imageUrl:
-        "https://pbs.twimg.com/profile_images/1823927764723924992/RETJ0jN8_400x400.jpg",
+        "https://pbs.twimg.com/profile_images/1839593252799791104/G7xMQhU2_400x400.jpg",
       link: "https://x.com/n1ssue",
       description: (
         <dl className="text-start">

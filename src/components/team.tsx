@@ -10,7 +10,7 @@ export default function Team() {
       name: "Nissue",
       role: "Manager",
       imageUrl:
-        "https://pbs.twimg.com/profile_images/1839593252799791104/G7xMQhU2_400x400.jpg",
+        "/img/team/G7xMQhU2_400x400.jpg",
       link: "https://x.com/n1ssue",
       description: (
         <dl className="text-start">
@@ -32,7 +32,7 @@ export default function Team() {
       name: "Can 24",
       role: "Manager",
       imageUrl:
-        "https://pbs.twimg.com/profile_images/1803051109759488000/6Fl6OxK5_400x400.jpg",
+        "/img/team/6Fl6OxK5_400x400.jpg",
       link: "https://x.com/0xCan24",
       description: (
         <dl className="text-start">
@@ -53,7 +53,7 @@ export default function Team() {
       name: "Polkaguy",
       role: "Manager",
       imageUrl:
-        "https://pbs.twimg.com/profile_images/1743727062995914752/Xj8-U8Jm_400x400.png",
+        "/img/team/Xj8-U8Jm_400x400.png",
       link: "https://x.com/polkaguy",
       description: (
         <dl className="text-start">
@@ -76,7 +76,7 @@ export default function Team() {
       name: "kvs.eth",
       role: "Manager",
       imageUrl:
-        "https://pbs.twimg.com/profile_images/1826940529663197184/3oerdAH4_400x400.jpg",
+        "/img/team/3oerdAH4_400x400.jpg",
       link: "https://x.com/kvs_eth",
       description: (
         <dl className="text-start">
@@ -99,7 +99,7 @@ export default function Team() {
       name: "Hoogie",
       role: "Manager",
       imageUrl:
-        "https://pbs.twimg.com/profile_images/1760265875125624832/8uA7DQOm_400x400.jpg",
+        "/img/team/8uA7DQOm_400x400.jpg",
       link: "https://x.com/H0ogie",
       description: (
         <dl className="text-start">

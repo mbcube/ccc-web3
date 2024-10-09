@@ -8,7 +8,7 @@ import Services from "@/components/services";
 import Team from "@/components/team";
 import Tweets from "@/components/tweets";
 
-export default async function Home() {
+export default async function Main() {
   return (
     <main>
       <Layout

@@ -2,6 +2,7 @@ import type { Metadata } from "next";
 
 import "./globals.css";
 import { FONT_ORBITRON } from "@/fonts/fonts";
+import { Toaster } from "react-hot-toast";
 
 export const metadata: Metadata = {
   title: "Content Creator Circle",
@@ -31,8 +32,11 @@ export default function RootLayout({
   children: React.ReactNode;
 }>) {
   return (
-    <html lang="en">
-      <body className={`${FONT_ORBITRON.className} dark`}>{children}</body>
+    <html lang="en" className="h-full">
+      <body className={`${FONT_ORBITRON.className} dark h-full`}>
+        <Toaster />
+        {children}
+      </body>
     </html>
   );
 }

@@ -3,7 +3,6 @@
 import { motion } from "framer-motion";
 import Image from "next/image";
 import { useState, useEffect } from "react";
-import LogoPaths from "./logo-paths";
 
 export default function AnimatedLogo() {
   const [showAnimation, setShowAnimation] = useState(false);

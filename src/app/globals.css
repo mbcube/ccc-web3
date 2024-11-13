@@ -49,9 +49,10 @@ body {
 } */
 
 .tweet-class .react-tweet-theme {
-    --tweet-bg-color: black;
-    --tweet-bg-color-hover: #0d0d0d;
-    
+  --tweet-bg-color: rgb(24 24 27);
+  --tweet-bg-color-hover:rgb(26, 26, 29);
+  --tweet-border: 1px solid rgba(236,182,59,.2);   /* tulip-400/20 */
+
   }
 
   /* @keyframes drawGrid {

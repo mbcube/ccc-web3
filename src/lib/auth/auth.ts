@@ -3,6 +3,7 @@ import Twitter from "next-auth/providers/twitter"
 import Discord from "next-auth/providers/discord"
 import { FirestoreAdapter } from "@auth/firebase-adapter";
 import { cert } from "firebase-admin/app";
+
 export const { handlers, signIn, signOut, auth } = NextAuth({
     providers: [Twitter, Discord],
     pages: {

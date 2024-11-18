@@ -62,14 +62,14 @@ const AdminFormBuilder: React.FC = () => {
     };
 
     return (
-        <div className="p-6 bg-gray-100 min-h-screen">
+        <div className="p-6 bg-gray-300 min-h-screen">
             <h2 className="text-2xl font-bold mb-4">Create New Form</h2>
             <input
                 type="text"
                 value={formTitle}
                 onChange={(e) => setFormTitle(e.target.value)}
                 placeholder="Form Title"
-                className="w-full p-2 border border-gray-300 rounded mb-4"
+                className="w-full p-2 border border-gray-500 rounded mb-4"
                 required
             />
 
@@ -77,7 +77,7 @@ const AdminFormBuilder: React.FC = () => {
             <textarea
                 value={formData.description}
                 onChange={(e) => handleChange('description', e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded mt-1"
+                className="w-full p-2 border border-gray-500 rounded mt-1"
             />
             {errors.description && <p className="text-red-500 text-sm">Description is required.</p>}
 
@@ -86,7 +86,7 @@ const AdminFormBuilder: React.FC = () => {
                 type="date"
                 value={formData.startDate}
                 onChange={(e) => handleChange('startDate', e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded mt-1"
+                className="w-full p-2 border border-gray-500 rounded mt-1"
             />
             {errors.startDate && <p className="text-red-500 text-sm">Start date is required.</p>}
 
@@ -95,7 +95,7 @@ const AdminFormBuilder: React.FC = () => {
                 type="date"
                 value={formData.endDate}
                 onChange={(e) => handleChange('endDate', e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded mt-1"
+                className="w-full p-2 border border-gray-500 rounded mt-1"
             />
             {errors.endDate && <p className="text-red-500 text-sm">End date is required.</p>}
 
@@ -104,7 +104,7 @@ const AdminFormBuilder: React.FC = () => {
                 type="url"
                 value={formData.twitterLink}
                 onChange={(e) => handleChange('twitterLink', e.target.value)}
-                className="w-full p-2 border border-gray-300 rounded mt-1"
+                className="w-full p-2 border border-gray-500 rounded mt-1"
                 placeholder="https://twitter.com/username/status/1234567890"
             />
             {errors.twitterLink && <p className="text-red-500 text-sm">Please enter a valid Twitter post URL.</p>}

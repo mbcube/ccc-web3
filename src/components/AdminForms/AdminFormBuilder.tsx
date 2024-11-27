@@ -1,3 +1,7 @@
+// updated - corrected typo: funtion => function
+// used function syntax instead of react.fc
+
+
 "use client";
 
 import React, { useState } from 'react';
@@ -14,7 +18,7 @@ interface FormTemplate {
     };
 }
 
-const AdminFormBuilder: React.FC = () => {
+export default function AdminFormBuilder() {
     const [formTitle, setFormTitle] = useState('');
     const [formData, setFormData] = useState<FormTemplate['fields']>({
         description: '',
@@ -112,6 +116,4 @@ const AdminFormBuilder: React.FC = () => {
             <button onClick={saveFormTemplate} className="mt-4 p-2 bg-blue-700 text-white rounded">Save Form</button>
         </div>
     );
-};
-
-export default AdminFormBuilder;
+}
